@@ -3,24 +3,10 @@ import { Observer } from 'astronomy-engine'
 import { computeTonightWindow, computeTonightsSky, type SkyObject } from './astronomy'
 import { searchPlace, type GeocodeCandidate } from './geocoding'
 import { timeZoneForLocation } from './timezone'
+import { formatDate, formatTime } from './format'
+import { IssPassesSection } from './IssPassesSection'
 import type { Location } from './location'
 import './App.css'
-
-function formatTime(date: Date | null, timeZone: string): string {
-  if (!date) return '—'
-  return new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit', timeZone }).format(
-    date,
-  )
-}
-
-function formatDate(date: Date, timeZone: string): string {
-  return new Intl.DateTimeFormat(undefined, {
-    weekday: 'long',
-    month: 'long',
-    day: 'numeric',
-    timeZone,
-  }).format(date)
-}
 
 const BODY_LABELS: Record<SkyObject['body'], string> = {
   Sun: 'Sun',
@@ -182,6 +168,8 @@ function App() {
           ))}
         </ul>
       )}
+
+      {location && timeZone && <IssPassesSection location={location} timeZone={timeZone} />}
     </div>
   )
 }
