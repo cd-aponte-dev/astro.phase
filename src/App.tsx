@@ -1,7 +1,8 @@
-import { useMemo } from 'react'
+import { useMemo, useState, type FormEvent } from 'react'
 import { Observer } from 'astronomy-engine'
 import { computeTonightWindow, computeTonightsSky, type SkyObject } from './astronomy'
-import { FIXED_LOCATION } from './location'
+import { searchPlace, type GeocodeCandidate } from './geocoding'
+import type { Location } from './location'
 import './App.css'
 
 const timeFormatter = new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit' })
@@ -28,11 +29,17 @@ const BODY_LABELS: Record<SkyObject['body'], string> = {
 const PLANETS = new Set<SkyObject['body']>(['Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn'])
 
 function App() {
+  const [location, setLocation] = useState<Location | null>(null)
+  const [query, setQuery] = useState('')
+  const [candidates, setCandidates] = useState<GeocodeCandidate[] | null>(null)
+  const [isSearching, setIsSearching] = useState(false)
+  const [searchError, setSearchError] = useState<string | null>(null)
+
   const { window, sky, error } = useMemo(() => {
+    if (!location) return { window: null, sky: [] as SkyObject[], error: null as string | null }
     try {
-      const observer = new Observer(FIXED_LOCATION.latitude, FIXED_LOCATION.longitude, 0)
-      const now = new Date()
-      const nightWindow = computeTonightWindow(observer, now)
+      const observer = new Observer(location.latitude, location.longitude, 0)
+      const nightWindow = computeTonightWindow(observer, new Date())
       const sky = computeTonightsSky(observer, nightWindow)
       return { window: nightWindow, sky, error: null as string | null }
     } catch (err) {
@@ -42,55 +49,129 @@ function App() {
         error: err instanceof Error ? err.message : String(err),
       }
     }
-  }, [])
+  }, [location])
+
+  function selectCandidate(candidate: GeocodeCandidate) {
+    setLocation({
+      name: candidate.displayName,
+      latitude: candidate.latitude,
+      longitude: candidate.longitude,
+    })
+    setCandidates(null)
+    setSearchError(null)
+  }
+
+  async function handleSearch(event: FormEvent) {
+    event.preventDefault()
+    const trimmed = query.trim()
+    if (!trimmed) return
+
+    setIsSearching(true)
+    setSearchError(null)
+    setCandidates(null)
+
+    try {
+      const results = await searchPlace(trimmed)
+      if (results.length === 0) {
+        setSearchError(`No matches found for “${trimmed}”.`)
+      } else if (results.length === 1) {
+        selectCandidate(results[0])
+      } else {
+        setCandidates(results)
+      }
+    } catch (err) {
+      setSearchError(err instanceof Error ? err.message : String(err))
+    } finally {
+      setIsSearching(false)
+    }
+  }
 
   return (
     <div className="page">
       <header>
         <h1>Tonight&rsquo;s Sky</h1>
-        <p className="location">{FIXED_LOCATION.name}</p>
-        {window && (
-          <p className="window">
-            {dateFormatter.format(window.start)} · {timeFormatter.format(window.start)} &ndash;{' '}
-            {timeFormatter.format(window.end)}
-          </p>
+
+        <form className="search" onSubmit={handleSearch}>
+          <input
+            type="text"
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            placeholder="Search a place…"
+            aria-label="Place name"
+          />
+          <button type="submit" disabled={isSearching}>
+            {isSearching ? 'Searching…' : 'Search'}
+          </button>
+        </form>
+
+        {searchError && <p className="error">{searchError}</p>}
+
+        {candidates && (
+          <ul className="candidates">
+            {candidates.map((candidate) => (
+              <li key={`${candidate.latitude},${candidate.longitude}`}>
+                <button type="button" onClick={() => selectCandidate(candidate)}>
+                  {candidate.displayName}
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+
+        {location && (
+          <>
+            <p className="location">{location.name}</p>
+            {window && (
+              <p className="window">
+                {dateFormatter.format(window.start)} · {timeFormatter.format(window.start)} &ndash;{' '}
+                {timeFormatter.format(window.end)}
+              </p>
+            )}
+          </>
+        )}
+
+        {!location && !candidates && !searchError && (
+          <p className="hint">Search for a place to see what&rsquo;s visible tonight.</p>
         )}
       </header>
 
       {error && <p className="error">{error}</p>}
 
-      <ul className="sky-list">
-        {sky.map((obj) => (
-          <li key={obj.body} className="sky-object">
-            <div className="sky-object-name">{BODY_LABELS[obj.body]}</div>
+      {location && (
+        <ul className="sky-list">
+          {sky.map((obj) => (
+            <li key={obj.body} className="sky-object">
+              <div className="sky-object-name">{BODY_LABELS[obj.body]}</div>
 
-            {!obj.isUpTonight ? (
-              <div className="sky-object-status not-up">Not up tonight</div>
-            ) : (
-              <div className="sky-object-times">
-                <span>
-                  <span className="label">Rise</span> {obj.rise ? formatTime(obj.rise) : 'already up'}
-                </span>
-                <span>
-                  <span className="label">Set</span>{' '}
-                  {obj.set ? formatTime(obj.set) : 'stays up till dawn'}
-                </span>
-                {PLANETS.has(obj.body) && (
+              {!obj.isUpTonight ? (
+                <div className="sky-object-status not-up">Not up tonight</div>
+              ) : (
+                <div className="sky-object-times">
                   <span>
-                    <span className="label">Transit</span> {formatTime(obj.transit)}
+                    <span className="label">Rise</span>{' '}
+                    {obj.rise ? formatTime(obj.rise) : 'already up'}
                   </span>
-                )}
-              </div>
-            )}
+                  <span>
+                    <span className="label">Set</span>{' '}
+                    {obj.set ? formatTime(obj.set) : 'stays up till dawn'}
+                  </span>
+                  {PLANETS.has(obj.body) && (
+                    <span>
+                      <span className="label">Transit</span> {formatTime(obj.transit)}
+                    </span>
+                  )}
+                </div>
+              )}
 
-            {obj.body === 'Moon' && obj.moonPhaseName && (
-              <div className="moon-detail">
-                {obj.moonPhaseName} · {Math.round(obj.moonIlluminationPercent ?? 0)}% illuminated
-              </div>
-            )}
-          </li>
-        ))}
-      </ul>
+              {obj.body === 'Moon' && obj.moonPhaseName && (
+                <div className="moon-detail">
+                  {obj.moonPhaseName} · {Math.round(obj.moonIlluminationPercent ?? 0)}% illuminated
+                </div>
+              )}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   )
 }

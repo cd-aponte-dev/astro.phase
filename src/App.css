@@ -30,6 +30,69 @@ h1 {
   text-align: center;
 }
 
+.search {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin: 20px 0 0;
+}
+
+.search input {
+  flex: 1;
+  max-width: 320px;
+  font: inherit;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--card-bg);
+  color: var(--text-h);
+}
+
+.search button {
+  font: inherit;
+  padding: 8px 16px;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+}
+
+.search button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.candidates {
+  list-style: none;
+  margin: 12px auto 0;
+  padding: 0;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.candidates button {
+  width: 100%;
+  font: inherit;
+  text-align: left;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--card-bg);
+  color: var(--text-h);
+  cursor: pointer;
+}
+
+.candidates button:hover {
+  border-color: var(--accent);
+}
+
+.hint {
+  margin-top: 16px;
+}
+
 .sky-list {
   list-style: none;
   margin: 0;
