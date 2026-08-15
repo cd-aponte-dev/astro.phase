@@ -1,121 +1,97 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import { useMemo } from 'react'
+import { Observer } from 'astronomy-engine'
+import { computeTonightWindow, computeTonightsSky, type SkyObject } from './astronomy'
+import { FIXED_LOCATION } from './location'
 import './App.css'
 
+const timeFormatter = new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit' })
+const dateFormatter = new Intl.DateTimeFormat(undefined, {
+  weekday: 'long',
+  month: 'long',
+  day: 'numeric',
+})
+
+function formatTime(date: Date | null): string {
+  return date ? timeFormatter.format(date) : '—'
+}
+
+const BODY_LABELS: Record<SkyObject['body'], string> = {
+  Sun: 'Sun',
+  Moon: 'Moon',
+  Mercury: 'Mercury',
+  Venus: 'Venus',
+  Mars: 'Mars',
+  Jupiter: 'Jupiter',
+  Saturn: 'Saturn',
+}
+
+const PLANETS = new Set<SkyObject['body']>(['Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn'])
+
 function App() {
-  const [count, setCount] = useState(0)
+  const { window, sky, error } = useMemo(() => {
+    try {
+      const observer = new Observer(FIXED_LOCATION.latitude, FIXED_LOCATION.longitude, 0)
+      const now = new Date()
+      const nightWindow = computeTonightWindow(observer, now)
+      const sky = computeTonightsSky(observer, nightWindow)
+      return { window: nightWindow, sky, error: null as string | null }
+    } catch (err) {
+      return {
+        window: null,
+        sky: [] as SkyObject[],
+        error: err instanceof Error ? err.message : String(err),
+      }
+    }
+  }, [])
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
+    <div className="page">
+      <header>
+        <h1>Tonight&rsquo;s Sky</h1>
+        <p className="location">{FIXED_LOCATION.name}</p>
+        {window && (
+          <p className="window">
+            {dateFormatter.format(window.start)} · {timeFormatter.format(window.start)} &ndash;{' '}
+            {timeFormatter.format(window.end)}
           </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+        )}
+      </header>
 
-      <div className="ticks"></div>
+      {error && <p className="error">{error}</p>}
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <ul className="sky-list">
+        {sky.map((obj) => (
+          <li key={obj.body} className="sky-object">
+            <div className="sky-object-name">{BODY_LABELS[obj.body]}</div>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
+            {!obj.isUpTonight ? (
+              <div className="sky-object-status not-up">Not up tonight</div>
+            ) : (
+              <div className="sky-object-times">
+                <span>
+                  <span className="label">Rise</span> {obj.rise ? formatTime(obj.rise) : 'already up'}
+                </span>
+                <span>
+                  <span className="label">Set</span>{' '}
+                  {obj.set ? formatTime(obj.set) : 'stays up till dawn'}
+                </span>
+                {PLANETS.has(obj.body) && (
+                  <span>
+                    <span className="label">Transit</span> {formatTime(obj.transit)}
+                  </span>
+                )}
+              </div>
+            )}
+
+            {obj.body === 'Moon' && obj.moonPhaseName && (
+              <div className="moon-detail">
+                {obj.moonPhaseName} · {Math.round(obj.moonIlluminationPercent ?? 0)}% illuminated
+              </div>
+            )}
+          </li>
+        ))}
+      </ul>
+    </div>
   )
 }
 
