@@ -2,18 +2,24 @@ import { useMemo, useState, type FormEvent } from 'react'
 import { Observer } from 'astronomy-engine'
 import { computeTonightWindow, computeTonightsSky, type SkyObject } from './astronomy'
 import { searchPlace, type GeocodeCandidate } from './geocoding'
+import { timeZoneForLocation } from './timezone'
 import type { Location } from './location'
 import './App.css'
 
-const timeFormatter = new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit' })
-const dateFormatter = new Intl.DateTimeFormat(undefined, {
-  weekday: 'long',
-  month: 'long',
-  day: 'numeric',
-})
+function formatTime(date: Date | null, timeZone: string): string {
+  if (!date) return '—'
+  return new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit', timeZone }).format(
+    date,
+  )
+}
 
-function formatTime(date: Date | null): string {
-  return date ? timeFormatter.format(date) : '—'
+function formatDate(date: Date, timeZone: string): string {
+  return new Intl.DateTimeFormat(undefined, {
+    weekday: 'long',
+    month: 'long',
+    day: 'numeric',
+    timeZone,
+  }).format(date)
 }
 
 const BODY_LABELS: Record<SkyObject['body'], string> = {
@@ -35,17 +41,21 @@ function App() {
   const [isSearching, setIsSearching] = useState(false)
   const [searchError, setSearchError] = useState<string | null>(null)
 
-  const { window, sky, error } = useMemo(() => {
-    if (!location) return { window: null, sky: [] as SkyObject[], error: null as string | null }
+  const { window, sky, timeZone, error } = useMemo(() => {
+    if (!location) {
+      return { window: null, sky: [] as SkyObject[], timeZone: null, error: null as string | null }
+    }
     try {
       const observer = new Observer(location.latitude, location.longitude, 0)
       const nightWindow = computeTonightWindow(observer, new Date())
       const sky = computeTonightsSky(observer, nightWindow)
-      return { window: nightWindow, sky, error: null as string | null }
+      const timeZone = timeZoneForLocation(location.latitude, location.longitude)
+      return { window: nightWindow, sky, timeZone, error: null as string | null }
     } catch (err) {
       return {
         window: null,
         sky: [] as SkyObject[],
+        timeZone: null,
         error: err instanceof Error ? err.message : String(err),
       }
     }
@@ -121,10 +131,10 @@ function App() {
         {location && (
           <>
             <p className="location">{location.name}</p>
-            {window && (
+            {window && timeZone && (
               <p className="window">
-                {dateFormatter.format(window.start)} · {timeFormatter.format(window.start)} &ndash;{' '}
-                {timeFormatter.format(window.end)}
+                {formatDate(window.start, timeZone)} · {formatTime(window.start, timeZone)} &ndash;{' '}
+                {formatTime(window.end, timeZone)}
               </p>
             )}
           </>
@@ -137,7 +147,7 @@ function App() {
 
       {error && <p className="error">{error}</p>}
 
-      {location && (
+      {location && timeZone && (
         <ul className="sky-list">
           {sky.map((obj) => (
             <li key={obj.body} className="sky-object">
@@ -149,15 +159,15 @@ function App() {
                 <div className="sky-object-times">
                   <span>
                     <span className="label">Rise</span>{' '}
-                    {obj.rise ? formatTime(obj.rise) : 'already up'}
+                    {obj.rise ? formatTime(obj.rise, timeZone) : 'already up'}
                   </span>
                   <span>
                     <span className="label">Set</span>{' '}
-                    {obj.set ? formatTime(obj.set) : 'stays up till dawn'}
+                    {obj.set ? formatTime(obj.set, timeZone) : 'stays up till dawn'}
                   </span>
                   {PLANETS.has(obj.body) && (
                     <span>
-                      <span className="label">Transit</span> {formatTime(obj.transit)}
+                      <span className="label">Transit</span> {formatTime(obj.transit, timeZone)}
                     </span>
                   )}
                 </div>
