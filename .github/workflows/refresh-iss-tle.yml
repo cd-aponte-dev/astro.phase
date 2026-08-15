@@ -1,0 +1,40 @@
+name: Refresh ISS TLE
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-iss-tle
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch latest TLE
+        run: node scripts/fetch-iss-tle.mjs
+
+      - name: Commit snapshot if changed
+        run: |
+          if git diff --quiet -- src/data/iss-tle.json; then
+            echo "No TLE change, skipping commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/iss-tle.json
+          git commit -m "chore: refresh ISS TLE snapshot"
+          git push

@@ -143,3 +143,62 @@ h1 {
   width: 100%;
   font-size: 14px;
 }
+
+.iss-passes {
+  margin-top: 40px;
+}
+
+.iss-passes h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.iss-pass-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.iss-pass {
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  border-radius: 10px;
+  padding: 16px 20px;
+}
+
+.iss-pass-date {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.iss-pass-times {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 15px;
+  margin-top: 6px;
+}
+
+.iss-pass-times .label {
+  color: var(--accent);
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.iss-pass-status {
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.iss-pass.visible .iss-pass-status {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.iss-pass.not-visible .iss-pass-status {
+  font-style: italic;
+}
