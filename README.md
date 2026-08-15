@@ -1,2 +1,2 @@
-# astro.fase
+# astro.phase
 
