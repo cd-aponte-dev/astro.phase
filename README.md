@@ -9,7 +9,7 @@ times, the Moon's phase and illumination, and an explicit "not up tonight" state
 for anything that never clears the horizon. Everything is shown in the searched
 location's own local time, not your browser's.
 
-**Live demo:** https://tagboy9803.github.io/astro.phase/
+**Live demo:** https://cd-aponte-dev.github.io/astro.phase/
 
 ![Screenshot of astro.phase showing tonight's sky for New York, New York, USA](screenshot.png)
 
