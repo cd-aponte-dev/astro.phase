@@ -5,6 +5,7 @@ import { searchPlace, type GeocodeCandidate } from './geocoding'
 import { timeZoneForLocation } from './timezone'
 import { formatDate, formatTime } from './format'
 import { IssPassesSection } from './IssPassesSection'
+import { EventsSection } from './EventsSection'
 import type { Location } from './location'
 import './App.css'
 
@@ -168,6 +169,8 @@ function App() {
           ))}
         </ul>
       )}
+
+      {location && timeZone && <EventsSection location={location} timeZone={timeZone} />}
 
       {location && timeZone && <IssPassesSection location={location} timeZone={timeZone} />}
     </div>

@@ -68,6 +68,11 @@ export function sunAltitudeDegrees(observer: Observer, date: Date): number {
   return altitudeAt(Body.Sun, observer, date)
 }
 
+/** Moon's altitude in degrees above the observer's horizon at the given moment. */
+export function moonAltitudeDegrees(observer: Observer, date: Date): number {
+  return altitudeAt(Body.Moon, observer, date)
+}
+
 function moonPhaseName(eclipticLongitude: number): string {
   const lon = ((eclipticLongitude % 360) + 360) % 360
   if (lon < 1 || lon > 359) return 'New Moon'
