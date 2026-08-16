@@ -93,6 +93,29 @@ h1 {
   margin-top: 16px;
 }
 
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.tabs button {
+  font: inherit;
+  padding: 8px 16px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--card-bg);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.tabs button[aria-selected='true'] {
+  border-color: var(--accent);
+  color: var(--text-h);
+  font-weight: 600;
+}
+
 .sky-list {
   list-style: none;
   margin: 0;
@@ -144,116 +167,219 @@ h1 {
   font-size: 14px;
 }
 
-.iss-passes {
-  margin-top: 40px;
+/* Events Calendar tab — deliberately scoped to its own dark, "space" theme
+ * (distinct from the light theme used everywhere else on the page). */
+
+.events-calendar {
+  --space-bg: #06060c;
+  --space-surface: #12121c;
+  --space-surface-raised: #1a1a28;
+  --space-border: rgba(255, 255, 255, 0.09);
+  --space-text: #f2f0fa;
+  --space-text-dim: #a9a6bd;
+  --space-accent: #c084fc;
+
+  margin: 32px 0 0;
+  padding: 28px 24px 36px;
+  border-radius: 24px;
+  border: 3px solid rgba(192, 132, 252, 0.4);
+  box-shadow: 0 0 48px rgba(192, 132, 252, 0.18);
+  background-color: var(--space-bg);
+  color: var(--space-text);
 }
 
-.iss-passes h2 {
-  font-size: 22px;
-  margin-bottom: 12px;
-}
-
-.iss-pass-list {
-  list-style: none;
+.events-calendar h3 {
+  color: var(--space-text);
+  font-weight: 500;
   margin: 0;
-  padding: 0;
+}
+
+.events-calendar .hint {
+  color: var(--space-text-dim);
+}
+
+.events-calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.events-calendar-header button {
+  background: var(--space-surface-raised);
+  border: 1px solid var(--space-border);
+  color: var(--space-text);
+  border-radius: 6px;
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.events-calendar-header button:hover {
+  border-color: var(--space-accent);
+}
+
+.events-calendar-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-size: 12px;
+  color: var(--space-text-dim);
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.events-calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+
+.events-calendar-cell {
+  aspect-ratio: 1;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  background: var(--space-surface);
+  border: 1px solid var(--space-border);
+  border-radius: 8px;
+  color: var(--space-text);
+  cursor: pointer;
+  padding: 4px;
 }
 
-.iss-pass {
-  border: 1px solid var(--border);
-  background: var(--card-bg);
-  border-radius: 10px;
-  padding: 16px 20px;
+.events-calendar-cell:hover {
+  border-color: var(--space-accent);
 }
 
-.iss-pass-date {
-  font-size: 15px;
-  font-weight: 600;
-  color: var(--text-h);
+.events-calendar-cell.outside {
+  color: var(--space-text-dim);
+  opacity: 0.4;
 }
 
-.iss-pass-times {
+.events-calendar-cell.today .events-calendar-cell-day {
+  color: var(--space-accent);
+  font-weight: 700;
+}
+
+.events-calendar-cell.selected {
+  border-color: var(--space-accent);
+  background: var(--space-surface-raised);
+}
+
+.events-calendar-cell-day {
+  font-size: 14px;
+}
+
+.events-calendar-cell-dots {
   display: flex;
-  gap: 20px;
+  gap: 3px;
   flex-wrap: wrap;
-  font-size: 15px;
-  margin-top: 6px;
+  justify-content: center;
+  max-width: 100%;
 }
 
-.iss-pass-times .label {
-  color: var(--accent);
-  font-weight: 600;
-  margin-right: 4px;
+.event-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: var(--dot-color);
+  flex-shrink: 0;
 }
 
-.iss-pass-status {
-  margin-top: 6px;
-  font-size: 14px;
+.event-dot-circle {
+  border-radius: 50%;
 }
 
-.iss-pass.visible .iss-pass-status {
-  color: var(--accent);
-  font-weight: 600;
+.event-dot-diamond {
+  border-radius: 2px;
+  transform: rotate(45deg);
 }
 
-.iss-pass.not-visible .iss-pass-status {
-  font-style: italic;
-}
-
-.events {
-  margin-top: 40px;
-}
-
-.events h2 {
-  font-size: 22px;
-  margin-bottom: 12px;
-}
-
-.event-list {
+.events-calendar-legend {
   list-style: none;
-  margin: 0;
+  margin: 16px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  font-size: 13px;
+  color: var(--space-text-dim);
+}
+
+.events-calendar-legend li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.events-calendar-day-panel {
+  margin-top: 20px;
+  border: 1px solid var(--space-border);
+  background: var(--space-surface-raised);
+  border-radius: 10px;
+  padding: 16px 20px;
+}
+
+.events-calendar-day-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.events-calendar-day-panel-header button {
+  background: none;
+  border: none;
+  color: var(--space-text-dim);
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.events-calendar-day-panel-list {
+  list-style: none;
+  margin: 12px 0 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
-.event-card {
-  border: 1px solid var(--border);
-  background: var(--card-bg);
-  border-radius: 10px;
-  padding: 16px 20px;
+.events-calendar-day-panel-list li {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
 }
 
-.event-card-date {
-  font-size: 15px;
-  font-weight: 600;
-  color: var(--text-h);
-}
-
-.event-card-title {
+.events-calendar-day-panel-list .event-dot {
   margin-top: 6px;
+}
+
+.events-calendar-day-panel-title {
+  font-weight: 600;
   font-size: 15px;
 }
 
-.event-card-description {
+.events-calendar-day-panel-desc {
+  font-size: 14px;
+  color: var(--space-text-dim);
   margin-top: 2px;
-  font-size: 14px;
 }
 
-.event-card-status {
-  margin-top: 6px;
-  font-size: 14px;
+.events-calendar-day-panel-status {
+  font-size: 13px;
+  margin-top: 4px;
 }
 
-.event-card.visible .event-card-status {
-  color: var(--accent);
+.events-calendar-day-panel-list li.visible .events-calendar-day-panel-status {
+  color: var(--space-accent);
   font-weight: 600;
 }
 
-.event-card.not-visible .event-card-status {
+.events-calendar-day-panel-list li.not-visible .events-calendar-day-panel-status {
   font-style: italic;
+  color: var(--space-text-dim);
 }

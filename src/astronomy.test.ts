@@ -39,19 +39,8 @@ describe('computeTonightsSky', () => {
     const window = computeTonightWindow(greenwich, new Date('2026-03-20T22:00:00Z'))
     const sky = computeTonightsSky(greenwich, window)
 
-    expect(sky.map((obj) => obj.body)).toEqual([
-      'Sun',
-      'Moon',
-      'Mercury',
-      'Venus',
-      'Mars',
-      'Jupiter',
-      'Saturn',
-    ])
-    // The Sun's own "set" is definitionally the window's start (the sunset
-    // that opened the night), so its rise/set pair is naturally out of order.
+    expect(sky.map((obj) => obj.body)).toEqual(['Moon', 'Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn'])
     for (const obj of sky) {
-      if (obj.body === 'Sun') continue
       if (obj.rise && obj.set) {
         expect(obj.rise.getTime()).toBeLessThan(obj.set.getTime())
       }
