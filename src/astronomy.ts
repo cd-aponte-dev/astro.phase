@@ -14,7 +14,7 @@ export interface NightWindow {
   end: Date
 }
 
-export type BodyKey = 'Sun' | 'Moon' | 'Mercury' | 'Venus' | 'Mars' | 'Jupiter' | 'Saturn'
+export type BodyKey = 'Moon' | 'Mercury' | 'Venus' | 'Mars' | 'Jupiter' | 'Saturn'
 
 export interface SkyObject {
   body: BodyKey
@@ -22,7 +22,7 @@ export interface SkyObject {
   rise: Date | null
   /** null when the object stays up past dawn (no set event tonight) */
   set: Date | null
-  /** planets only; null for Sun/Moon or when culmination falls outside the window */
+  /** planets only; null for Moon or when culmination falls outside the window */
   transit: Date | null
   isUpTonight: boolean
   /** Moon only */
@@ -115,7 +115,6 @@ function computeRiseSetTransit(
 
 export function computeTonightsSky(observer: Observer, window: NightWindow): SkyObject[] {
   const bodies: { key: BodyKey; enum: Body }[] = [
-    { key: 'Sun', enum: Body.Sun },
     { key: 'Moon', enum: Body.Moon },
     { key: 'Mercury', enum: Body.Mercury },
     { key: 'Venus', enum: Body.Venus },

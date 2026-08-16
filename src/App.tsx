@@ -4,13 +4,13 @@ import { computeTonightWindow, computeTonightsSky, type SkyObject } from './astr
 import { searchPlace, type GeocodeCandidate } from './geocoding'
 import { timeZoneForLocation } from './timezone'
 import { formatDate, formatTime } from './format'
-import { IssPassesSection } from './IssPassesSection'
-import { EventsSection } from './EventsSection'
+import { EventsCalendar } from './EventsCalendar'
 import type { Location } from './location'
 import './App.css'
 
+type Tab = 'sky' | 'events'
+
 const BODY_LABELS: Record<SkyObject['body'], string> = {
-  Sun: 'Sun',
   Moon: 'Moon',
   Mercury: 'Mercury',
   Venus: 'Venus',
@@ -22,6 +22,7 @@ const BODY_LABELS: Record<SkyObject['body'], string> = {
 const PLANETS = new Set<SkyObject['body']>(['Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn'])
 
 function App() {
+  const [tab, setTab] = useState<Tab>('sky')
   const [location, setLocation] = useState<Location | null>(null)
   const [query, setQuery] = useState('')
   const [candidates, setCandidates] = useState<GeocodeCandidate[] | null>(null)
@@ -130,11 +131,27 @@ function App() {
         {!location && !candidates && !searchError && (
           <p className="hint">Search for a place to see what&rsquo;s visible tonight.</p>
         )}
+
+        {location && timeZone && (
+          <div className="tabs" role="tablist">
+            <button type="button" role="tab" aria-selected={tab === 'sky'} onClick={() => setTab('sky')}>
+              Sky Tonight
+            </button>
+            <button
+              type="button"
+              role="tab"
+              aria-selected={tab === 'events'}
+              onClick={() => setTab('events')}
+            >
+              Events Calendar
+            </button>
+          </div>
+        )}
       </header>
 
       {error && <p className="error">{error}</p>}
 
-      {location && timeZone && (
+      {location && timeZone && tab === 'sky' && (
         <ul className="sky-list">
           {sky.map((obj) => (
             <li key={obj.body} className="sky-object">
@@ -170,9 +187,9 @@ function App() {
         </ul>
       )}
 
-      {location && timeZone && <EventsSection location={location} timeZone={timeZone} />}
-
-      {location && timeZone && <IssPassesSection location={location} timeZone={timeZone} />}
+      {location && timeZone && tab === 'events' && (
+        <EventsCalendar location={location} timeZone={timeZone} />
+      )}
     </div>
   )
 }
