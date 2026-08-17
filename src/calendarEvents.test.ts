@@ -8,6 +8,7 @@ import {
   type CalendarEvent,
 } from './calendarEvents'
 import type { TleSnapshot } from './issPasses'
+import type { RocketLaunchSnapshot } from './rocketLaunches'
 
 describe('dayKeyInTimeZone', () => {
   it('formats a date as YYYY-MM-DD in the given time zone', () => {
@@ -83,10 +84,11 @@ const tle: TleSnapshot = {
 
 const nyc = { name: 'New York, NY', latitude: 40.7128, longitude: -74.006 }
 const from = new Date('2026-08-15T00:00:00Z')
+const noLaunches: RocketLaunchSnapshot = { fetchedAt: from.toISOString(), launches: [] }
 
 describe('computeCalendarEvents', () => {
   it('only includes ISS passes that are actually visible', () => {
-    const events = computeCalendarEvents(nyc, tle, 'UTC', from, 5)
+    const events = computeCalendarEvents(nyc, tle, noLaunches, 'UTC', from, 5)
     const issEvents = events.filter((event) => event.type === 'iss')
 
     expect(issEvents.length).toBeGreaterThan(0)

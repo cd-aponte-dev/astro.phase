@@ -299,6 +299,26 @@ h1 {
   transform: rotate(45deg);
 }
 
+.event-dot-ring {
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    transparent 0,
+    transparent 45%,
+    var(--dot-color) 45%,
+    var(--dot-color) 100%
+  );
+}
+
+.event-dot-triangle {
+  width: 0;
+  height: 0;
+  background: transparent;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 8px solid var(--dot-color);
+}
+
 .events-calendar-legend {
   list-style: none;
   margin: 16px 0 0;

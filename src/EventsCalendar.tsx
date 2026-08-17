@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import tleSnapshot from './data/iss-tle.json'
+import rocketLaunchesSnapshot from './data/rocket-launches.json'
 import {
   computeCalendarEvents,
   dayKeyInTimeZone,
@@ -22,7 +23,15 @@ interface EventsCalendarProps {
 
 export function EventsCalendar({ location, timeZone }: EventsCalendarProps) {
   const events = useMemo(
-    () => computeCalendarEvents(location, tleSnapshot, timeZone, new Date(), WINDOW_DAYS),
+    () =>
+      computeCalendarEvents(
+        location,
+        tleSnapshot,
+        rocketLaunchesSnapshot,
+        timeZone,
+        new Date(),
+        WINDOW_DAYS,
+      ),
     [location, timeZone],
   )
 
