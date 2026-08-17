@@ -2,11 +2,19 @@ import { Observer } from 'astronomy-engine'
 import { computeUpcomingIssPasses, type TleSnapshot } from './issPasses'
 import { computeUpcomingSupermoons } from './supermoons'
 import { computeUpcomingLunarEclipses } from './lunarEclipses'
+import { computeUpcomingSolarEclipses } from './solarEclipses'
 import { computeUpcomingMeteorShowers } from './meteorShowers'
+import { computeUpcomingRocketLaunches, type RocketLaunchSnapshot } from './rocketLaunches'
 import { formatTime } from './format'
 import type { Location } from './location'
 
-export type CalendarEventType = 'iss' | 'supermoon' | 'lunar-eclipse' | 'meteor-shower'
+export type CalendarEventType =
+  | 'iss'
+  | 'supermoon'
+  | 'lunar-eclipse'
+  | 'solar-eclipse'
+  | 'meteor-shower'
+  | 'rocket-launch'
 
 export interface CalendarEvent {
   id: string
@@ -20,18 +28,24 @@ export interface CalendarEvent {
 }
 
 // Colors validated with the dataviz skill's palette checker (all-pairs, dark
-// surface #1f2028): blue/orange/aqua clear every check together. The ISS
-// marker reuses the app's existing accent purple but as a DIAMOND, not a
-// dot — on its own that hue isn't reliably distinguishable from blue for
-// colorblind readers, so shape carries the distinction instead of a 4th hue.
+// surface #1f2028): blue/orange/aqua clear every check together — those are
+// the only three that can, per the skill's own reference palette: past three
+// slots, no hue ordering clears the all-pairs floors, so every slot after
+// that leans on shape rather than hue for CVD safety. The ISS marker reuses
+// the app's existing accent purple but as a DIAMOND. Solar eclipse takes the
+// palette's next documented hue (yellow) as a RING (an annular eclipse's
+// namesake shape). Rocket launch takes the following documented hue (red) as
+// a TRIANGLE (a nose cone).
 export const EVENT_TYPE_META: Record<
   CalendarEventType,
-  { label: string; color: string; shape: 'circle' | 'diamond' }
+  { label: string; color: string; shape: 'circle' | 'diamond' | 'ring' | 'triangle' }
 > = {
   supermoon: { label: 'Supermoon', color: '#3987e5', shape: 'circle' },
   'lunar-eclipse': { label: 'Lunar eclipse', color: '#d95926', shape: 'circle' },
   'meteor-shower': { label: 'Meteor shower', color: '#199e70', shape: 'circle' },
   iss: { label: 'ISS pass', color: '#c084fc', shape: 'diamond' },
+  'solar-eclipse': { label: 'Solar eclipse', color: '#c98500', shape: 'ring' },
+  'rocket-launch': { label: 'Rocket launch', color: '#e66767', shape: 'triangle' },
 }
 
 function capitalize(word: string): string {
@@ -57,6 +71,7 @@ const ISS_RELIABLE_DAYS = 5
 export function computeCalendarEvents(
   location: Location,
   tle: TleSnapshot,
+  rocketLaunches: RocketLaunchSnapshot,
   timeZone: string,
   from: Date,
   days: number,
@@ -114,6 +129,19 @@ export function computeCalendarEvents(
     })
   }
 
+  for (const eclipse of computeUpcomingSolarEclipses(observer, from, days)) {
+    events.push({
+      id: `solar-eclipse-${eclipse.peak.toISOString()}`,
+      type: 'solar-eclipse',
+      date: eclipse.peak,
+      dayKey: dayKeyInTimeZone(eclipse.peak, timeZone),
+      timeLabel: formatTime(eclipse.peak, timeZone),
+      title: `${capitalize(eclipse.kind)} solar eclipse`,
+      description: `${capitalize(eclipse.kind)} eclipse, ${Math.round(eclipse.obscuration * 100)}% obscuration at peak`,
+      visibility: { visible: eclipse.visible, reason: eclipse.reason },
+    })
+  }
+
   for (const shower of computeUpcomingMeteorShowers(from, days)) {
     events.push({
       id: `meteor-shower-${shower.name}-${shower.peak.toISOString()}`,
@@ -123,6 +151,21 @@ export function computeCalendarEvents(
       timeLabel: '',
       title: `${shower.name} meteor shower`,
       description: `Peak activity, ZHR ~${shower.zhr}`,
+      visibility: null,
+    })
+  }
+
+  // Global schedule, no location filtering — a launch is only visible in
+  // person very close to the pad, so unlike ISS passes this is informational.
+  for (const launch of computeUpcomingRocketLaunches(rocketLaunches, from, days)) {
+    events.push({
+      id: `rocket-launch-${launch.id}`,
+      type: 'rocket-launch',
+      date: launch.date,
+      dayKey: dayKeyInTimeZone(launch.date, timeZone),
+      timeLabel: formatTime(launch.date, timeZone),
+      title: launch.name,
+      description: `${launch.provider} · ${launch.site}`,
       visibility: null,
     })
   }
