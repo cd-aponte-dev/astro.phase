@@ -50,7 +50,7 @@ describe('getMonthGrid', () => {
 function makeEvent(id: string, dayKey: string): CalendarEvent {
   return {
     id,
-    type: 'notable-full-moon',
+    type: 'full-moon',
     date: new Date(`${dayKey}T00:00:00Z`),
     dayKey,
     timeLabel: '',
