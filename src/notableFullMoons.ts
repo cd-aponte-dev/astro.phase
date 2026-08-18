@@ -11,7 +11,7 @@ import {
   type Apsis,
 } from 'astronomy-engine'
 
-export interface NotableFullMoon {
+export interface FullMoon {
   date: Date
   distanceKm: number
   perigeeDistanceKm: number
@@ -132,15 +132,12 @@ function isHarvestMoon(fullMoon: FullMoonInstance, allFullMoons: FullMoonInstanc
 }
 
 /**
- * Full moons in the next `days` days that qualify as at least one of:
- * supermoon (near perigee), blue moon (second full moon in its calendar
- * month), or harvest moon (nearest full moon to the Northern Hemisphere
- * autumnal equinox). A full moon with none of these facts is omitted.
+ * Every full moon in the next `days` days, each tagged with which of these
+ * facts apply: supermoon (near perigee), blue moon (second full moon in its
+ * calendar month), or harvest moon (nearest full moon to the Northern
+ * Hemisphere autumnal equinox). A full moon may have none of these facts.
  */
-export function computeUpcomingNotableFullMoons(
-  from: Date,
-  days: number = WINDOW_DAYS,
-): NotableFullMoon[] {
+export function computeUpcomingFullMoons(from: Date, days: number = WINDOW_DAYS): FullMoon[] {
   const end = new Date(from.getTime() + days * 86_400_000)
   const marginMs = FULL_MOON_SEARCH_MARGIN_DAYS * 86_400_000
   const searchFrom = new Date(from.getTime() - marginMs)
@@ -152,24 +149,21 @@ export function computeUpcomingNotableFullMoons(
 
   const fullMoons = collectFullMoons(searchFrom, searchTo, perigees, apogees)
 
-  const notable: NotableFullMoon[] = []
+  const result: FullMoon[] = []
   for (const fullMoon of fullMoons) {
     if (fullMoon.date < from || fullMoon.date > end) continue
 
-    const facts = {
-      supermoon: isSupermoon(fullMoon),
-      blueMoon: isBlueMoon(fullMoon, fullMoons),
-      harvestMoon: isHarvestMoon(fullMoon, fullMoons),
-    }
-    if (!facts.supermoon && !facts.blueMoon && !facts.harvestMoon) continue
-
-    notable.push({
+    result.push({
       date: fullMoon.date,
       distanceKm: fullMoon.distanceKm,
       perigeeDistanceKm: fullMoon.perigeeDistanceKm,
-      facts,
+      facts: {
+        supermoon: isSupermoon(fullMoon),
+        blueMoon: isBlueMoon(fullMoon, fullMoons),
+        harvestMoon: isHarvestMoon(fullMoon, fullMoons),
+      },
     })
   }
 
-  return notable
+  return result
 }

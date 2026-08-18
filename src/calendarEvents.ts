@@ -1,6 +1,6 @@
 import { Observer } from 'astronomy-engine'
 import { computeUpcomingIssPasses, type TleSnapshot } from './issPasses'
-import { computeUpcomingNotableFullMoons } from './notableFullMoons'
+import { computeUpcomingFullMoons } from './notableFullMoons'
 import { computeUpcomingLunarEclipses } from './lunarEclipses'
 import { computeUpcomingSolarEclipses } from './solarEclipses'
 import { computeUpcomingMeteorShowers } from './meteorShowers'
@@ -10,7 +10,7 @@ import type { Location } from './location'
 
 export type CalendarEventType =
   | 'iss'
-  | 'notable-full-moon'
+  | 'full-moon'
   | 'lunar-eclipse'
   | 'solar-eclipse'
   | 'meteor-shower'
@@ -42,7 +42,7 @@ export const EVENT_TYPE_META: Record<
   CalendarEventType,
   { label: string; color: string; shape: 'circle' | 'diamond' | 'ring' | 'triangle' }
 > = {
-  'notable-full-moon': { label: 'Notable full moon', color: '#3987e5', shape: 'circle' },
+  'full-moon': { label: 'Full moon', color: '#3987e5', shape: 'circle' },
   'lunar-eclipse': { label: 'Lunar eclipse', color: '#d95926', shape: 'circle' },
   'meteor-shower': { label: 'Meteor shower', color: '#199e70', shape: 'circle' },
   iss: { label: 'ISS pass', color: '#c084fc', shape: 'diamond' },
@@ -105,7 +105,7 @@ export function computeCalendarEvents(
     })
   }
 
-  for (const moon of computeUpcomingNotableFullMoons(from, days)) {
+  for (const moon of computeUpcomingFullMoons(from, days)) {
     const facts: string[] = []
     if (moon.facts.supermoon) facts.push('Supermoon')
     if (moon.facts.blueMoon) facts.push('Blue moon')
@@ -119,12 +119,12 @@ export function computeCalendarEvents(
     if (moon.facts.harvestMoon) description.push('nearest full moon to the autumnal equinox')
 
     events.push({
-      id: `notable-full-moon-${moon.date.toISOString()}`,
-      type: 'notable-full-moon',
+      id: `full-moon-${moon.date.toISOString()}`,
+      type: 'full-moon',
       date: moon.date,
       dayKey: dayKeyInTimeZone(moon.date, timeZone),
       timeLabel: formatTime(moon.date, timeZone),
-      title: facts.join(' · '),
+      title: facts.length > 0 ? facts.join(' · ') : 'Full moon',
       description: description.join(' — '),
       visibility: null,
     })

@@ -69,6 +69,11 @@ export function EventsCalendar({ location, timeZone }: EventsCalendarProps) {
     })
   }
 
+  function clearFilters() {
+    setActiveTypes(new Set(ALL_TYPES))
+    setActiveProviders(new Set(ALL_PROVIDERS))
+  }
+
   const visibleEvents = useMemo(
     () =>
       events.filter(
@@ -169,6 +174,12 @@ export function EventsCalendar({ location, timeZone }: EventsCalendarProps) {
           onClose={() => setSelectedKey(null)}
         />
       )}
+
+      <div className="events-calendar-footer">
+        <button type="button" className="clear-filters" onClick={clearFilters}>
+          Clear filters
+        </button>
+      </div>
     </section>
   )
 }
