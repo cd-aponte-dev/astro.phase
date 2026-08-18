@@ -1,6 +1,6 @@
 import { Observer } from 'astronomy-engine'
 import { computeUpcomingIssPasses, type TleSnapshot } from './issPasses'
-import { computeUpcomingSupermoons } from './supermoons'
+import { computeUpcomingNotableFullMoons } from './notableFullMoons'
 import { computeUpcomingLunarEclipses } from './lunarEclipses'
 import { computeUpcomingSolarEclipses } from './solarEclipses'
 import { computeUpcomingMeteorShowers } from './meteorShowers'
@@ -10,7 +10,7 @@ import type { Location } from './location'
 
 export type CalendarEventType =
   | 'iss'
-  | 'supermoon'
+  | 'notable-full-moon'
   | 'lunar-eclipse'
   | 'solar-eclipse'
   | 'meteor-shower'
@@ -25,6 +25,8 @@ export interface CalendarEvent {
   title: string
   description: string
   visibility: { visible: boolean; reason: string | null } | null
+  /** rocket-launch entries only — the launch provider, for provider filtering */
+  provider?: string
 }
 
 // Colors validated with the dataviz skill's palette checker (all-pairs, dark
@@ -40,7 +42,7 @@ export const EVENT_TYPE_META: Record<
   CalendarEventType,
   { label: string; color: string; shape: 'circle' | 'diamond' | 'ring' | 'triangle' }
 > = {
-  supermoon: { label: 'Supermoon', color: '#3987e5', shape: 'circle' },
+  'notable-full-moon': { label: 'Notable full moon', color: '#3987e5', shape: 'circle' },
   'lunar-eclipse': { label: 'Lunar eclipse', color: '#d95926', shape: 'circle' },
   'meteor-shower': { label: 'Meteor shower', color: '#199e70', shape: 'circle' },
   iss: { label: 'ISS pass', color: '#c084fc', shape: 'diamond' },
@@ -82,7 +84,7 @@ export function computeCalendarEvents(
   // Only visible passes are shown here — the ISS clears the horizon several
   // times a day, and most of those passes are invisible (daylight or
   // Earth's shadow). Including them buried the rare stuff (eclipses,
-  // supermoons, showers) under a wall of "not visible" ISS entries.
+  // notable full moons, showers) under a wall of "not visible" ISS entries.
   const visibleIssPasses = computeUpcomingIssPasses(
     tle,
     location,
@@ -103,15 +105,27 @@ export function computeCalendarEvents(
     })
   }
 
-  for (const supermoon of computeUpcomingSupermoons(from, days)) {
+  for (const moon of computeUpcomingNotableFullMoons(from, days)) {
+    const facts: string[] = []
+    if (moon.facts.supermoon) facts.push('Supermoon')
+    if (moon.facts.blueMoon) facts.push('Blue moon')
+    if (moon.facts.harvestMoon) facts.push('Harvest moon')
+
+    const description = [`Full moon at ${Math.round(moon.distanceKm).toLocaleString()} km`]
+    if (moon.facts.supermoon) {
+      description.push(`near this month's perigee of ${Math.round(moon.perigeeDistanceKm).toLocaleString()} km`)
+    }
+    if (moon.facts.blueMoon) description.push('second full moon this month')
+    if (moon.facts.harvestMoon) description.push('nearest full moon to the autumnal equinox')
+
     events.push({
-      id: `supermoon-${supermoon.date.toISOString()}`,
-      type: 'supermoon',
-      date: supermoon.date,
-      dayKey: dayKeyInTimeZone(supermoon.date, timeZone),
-      timeLabel: formatTime(supermoon.date, timeZone),
-      title: 'Supermoon',
-      description: `Full moon at ${Math.round(supermoon.distanceKm).toLocaleString()} km — near this month's perigee of ${Math.round(supermoon.perigeeDistanceKm).toLocaleString()} km`,
+      id: `notable-full-moon-${moon.date.toISOString()}`,
+      type: 'notable-full-moon',
+      date: moon.date,
+      dayKey: dayKeyInTimeZone(moon.date, timeZone),
+      timeLabel: formatTime(moon.date, timeZone),
+      title: facts.join(' · '),
+      description: description.join(' — '),
       visibility: null,
     })
   }
@@ -167,6 +181,7 @@ export function computeCalendarEvents(
       title: launch.name,
       description: `${launch.provider} · ${launch.site}`,
       visibility: null,
+      provider: launch.provider,
     })
   }
 

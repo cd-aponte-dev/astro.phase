@@ -5,6 +5,7 @@ import { searchPlace, type GeocodeCandidate } from './geocoding'
 import { timeZoneForLocation } from './timezone'
 import { formatDate, formatTime } from './format'
 import { EventsCalendar } from './EventsCalendar'
+import { CelestialDisc } from './CelestialDisc'
 import type { Location } from './location'
 import './App.css'
 
@@ -87,7 +88,10 @@ function App() {
   return (
     <div className="page">
       <header>
-        <h1>Tonight&rsquo;s Sky</h1>
+        <div className="hero">
+          <h1>Tonight&rsquo;s Sky</h1>
+          <p className="hero-tagline">Moon phases, planets, and sky events for wherever you are.</p>
+        </div>
 
         <form className="search" onSubmit={handleSearch}>
           <input
@@ -152,39 +156,55 @@ function App() {
       {error && <p className="error">{error}</p>}
 
       {location && timeZone && tab === 'sky' && (
-        <ul className="sky-list">
-          {sky.map((obj) => (
-            <li key={obj.body} className="sky-object">
-              <div className="sky-object-name">{BODY_LABELS[obj.body]}</div>
+        <>
+          <ul className="sky-list">
+            {sky.map((obj) => (
+              <li key={obj.body} className="sky-object">
+                <div className="sky-object-row">
+                  <div className="sky-object-head">
+                    <CelestialDisc
+                      body={obj.body}
+                      moonIlluminationPercent={obj.moonIlluminationPercent}
+                      moonPhaseName={obj.moonPhaseName}
+                    />
+                    <div className="sky-object-name">{BODY_LABELS[obj.body]}</div>
+                  </div>
 
-              {!obj.isUpTonight ? (
-                <div className="sky-object-status not-up">Not up tonight</div>
-              ) : (
-                <div className="sky-object-times">
-                  <span>
-                    <span className="label">Rise</span>{' '}
-                    {obj.rise ? formatTime(obj.rise, timeZone) : 'already up'}
-                  </span>
-                  <span>
-                    <span className="label">Set</span>{' '}
-                    {obj.set ? formatTime(obj.set, timeZone) : 'stays up till dawn'}
-                  </span>
-                  {PLANETS.has(obj.body) && (
-                    <span>
-                      <span className="label">Transit</span> {formatTime(obj.transit, timeZone)}
-                    </span>
+                  {!obj.isUpTonight ? (
+                    <div className="sky-object-status not-up">Not up tonight</div>
+                  ) : (
+                    <div className="sky-object-times">
+                      <span>
+                        <span className="label">Rise</span>{' '}
+                        {obj.rise ? formatTime(obj.rise, timeZone) : 'already up'}
+                      </span>
+                      <span>
+                        <span className="label">Set</span>{' '}
+                        {obj.set ? formatTime(obj.set, timeZone) : 'stays up till dawn'}
+                      </span>
+                      {PLANETS.has(obj.body) && (
+                        <span>
+                          <span className="label">Transit</span> {formatTime(obj.transit, timeZone)}
+                        </span>
+                      )}
+                    </div>
                   )}
                 </div>
-              )}
 
-              {obj.body === 'Moon' && obj.moonPhaseName && (
-                <div className="moon-detail">
-                  {obj.moonPhaseName} · {Math.round(obj.moonIlluminationPercent ?? 0)}% illuminated
-                </div>
-              )}
-            </li>
-          ))}
-        </ul>
+                {obj.body === 'Moon' && obj.moonPhaseName && (
+                  <div className="moon-detail">
+                    {obj.moonPhaseName} · {Math.round(obj.moonIlluminationPercent ?? 0)}% illuminated
+                  </div>
+                )}
+              </li>
+            ))}
+          </ul>
+
+          <p className="transit-note">
+            <strong>Transit</strong> is the moment a planet crosses the highest point in its path across
+            the sky for this location.
+          </p>
+        </>
       )}
 
       {location && timeZone && tab === 'events' && (
