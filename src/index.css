@@ -6,6 +6,17 @@
   --card-bg: #f8f7fb;
   --accent: #aa3bff;
 
+  /* Fixed "outer-space" palette, deliberately independent of the light/dark
+   * toggle above — used by the Events Calendar tab and the header hero band,
+   * both of which are always dark regardless of the page's own theme. */
+  --space-bg: #06060c;
+  --space-surface: #12121c;
+  --space-surface-raised: #1a1a28;
+  --space-border: rgba(255, 255, 255, 0.09);
+  --space-text: #f2f0fa;
+  --space-text-dim: #a9a6bd;
+  --space-accent: #c084fc;
+
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 

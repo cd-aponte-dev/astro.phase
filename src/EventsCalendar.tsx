@@ -7,11 +7,18 @@ import {
   formatDayKeyLabel,
   getMonthGrid,
   groupEventsByDay,
+  EVENT_TYPE_META,
+  type CalendarEventType,
 } from './calendarEvents'
 import { EventDot } from './EventDot'
 import { CalendarLegend } from './CalendarLegend'
 import { CalendarDayPanel } from './CalendarDayPanel'
 import type { Location } from './location'
+
+const ALL_TYPES = Object.keys(EVENT_TYPE_META) as CalendarEventType[]
+const ALL_PROVIDERS = Array.from(
+  new Set(rocketLaunchesSnapshot.launches.map((launch) => launch.provider)),
+).sort()
 
 const WEEKDAY_LABELS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 const WINDOW_DAYS = 90
@@ -40,8 +47,40 @@ export function EventsCalendar({ location, timeZone }: EventsCalendarProps) {
   const [month, setMonth] = useState(Number(todayKey.slice(5, 7)))
   const [selectedKey, setSelectedKey] = useState<string | null>(null)
 
+  // All types/providers active by default (opt-out model); session-only.
+  const [activeTypes, setActiveTypes] = useState<Set<CalendarEventType>>(() => new Set(ALL_TYPES))
+  const [activeProviders, setActiveProviders] = useState<Set<string>>(() => new Set(ALL_PROVIDERS))
+
+  function toggleType(type: CalendarEventType) {
+    setActiveTypes((prev) => {
+      const next = new Set(prev)
+      if (next.has(type)) next.delete(type)
+      else next.add(type)
+      return next
+    })
+  }
+
+  function toggleProvider(provider: string) {
+    setActiveProviders((prev) => {
+      const next = new Set(prev)
+      if (next.has(provider)) next.delete(provider)
+      else next.add(provider)
+      return next
+    })
+  }
+
+  const visibleEvents = useMemo(
+    () =>
+      events.filter(
+        (event) =>
+          activeTypes.has(event.type) &&
+          (event.type !== 'rocket-launch' || activeProviders.has(event.provider!)),
+      ),
+    [events, activeTypes, activeProviders],
+  )
+
   const grid = useMemo(() => getMonthGrid(year, month, todayKey), [year, month, todayKey])
-  const byDay = useMemo(() => groupEventsByDay(events), [events])
+  const byDay = useMemo(() => groupEventsByDay(visibleEvents), [visibleEvents])
 
   function goToMonth(delta: number) {
     let m = month + delta
@@ -115,7 +154,13 @@ export function EventsCalendar({ location, timeZone }: EventsCalendarProps) {
         })}
       </div>
 
-      <CalendarLegend />
+      <CalendarLegend
+        activeTypes={activeTypes}
+        onToggleType={toggleType}
+        providers={ALL_PROVIDERS}
+        activeProviders={activeProviders}
+        onToggleProvider={toggleProvider}
+      />
 
       {selectedKey && (
         <CalendarDayPanel
