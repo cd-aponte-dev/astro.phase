@@ -1,13 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T18:39:46.308Z",
+  "fetchedAt": "2026-08-19T01:18:42.862Z",
   "launches": [
     {
       "id": "ef02e2cf-e617-4b38-a526-951ac9204b0a",
-      "name": "Zhuque-3 | Flight 2",
+      "name": "Zhuque-3 | Honghu-03",
       "provider": "LandSpace",
       "providerType": "Commercial",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-08-18T23:35:00Z",
+      "net": "2026-08-18T23:35:20Z",
       "dayPrecision": true
     },
     {
