@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-19T12:49:46.524Z",
+  "fetchedAt": "2026-08-19T18:36:59.417Z",
   "launches": [
     {
       "id": "ef02e2cf-e617-4b38-a526-951ac9204b0a",
@@ -335,6 +335,15 @@
       "dayPrecision": true
     },
     {
+      "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
+      "name": "H3-24 | Martian Moon eXplorer (MMX)",
+      "provider": "Mitsubishi Heavy Industries",
+      "providerType": "Commercial",
+      "site": "Tanegashima Space Center, Japan",
+      "net": "2026-10-20T00:00:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "f4c720ce-0cfd-43e6-b8dd-00273073bc01",
       "name": "Electron | StriX Launch 12",
       "provider": "Rocket Lab",
@@ -358,15 +367,6 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
-      "name": "H3-24 | Martian Moon eXplorer (MMX)",
-      "provider": "Mitsubishi Heavy Industries",
-      "providerType": "Commercial",
-      "site": "Tanegashima Space Center, Japan",
       "net": "2026-10-31T00:00:00Z",
       "dayPrecision": false
     },
