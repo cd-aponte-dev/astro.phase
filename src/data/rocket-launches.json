@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-20T12:51:52.266Z",
+  "fetchedAt": "2026-08-20T18:40:26.141Z",
   "launches": [
     {
       "id": "57280454-470e-4c5d-8de1-1bbd0ea41b49",
@@ -16,7 +16,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-08-20T15:38:44Z",
+      "net": "2026-08-21T14:57:00Z",
       "dayPrecision": true
     },
     {
