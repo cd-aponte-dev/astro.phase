@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-08-19T18:36:59.417Z",
+  "fetchedAt": "2026-08-20T01:17:55.705Z",
   "launches": [
-    {
-      "id": "ef02e2cf-e617-4b38-a526-951ac9204b0a",
-      "name": "Zhuque-3 | Honghu-03",
-      "provider": "LandSpace",
-      "providerType": "Commercial",
-      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-08-18T23:35:20Z",
-      "dayPrecision": true
-    },
     {
       "id": "f6958a77-37bb-4559-a108-40ba0ff9e34a",
       "name": "Falcon 9 Block 5 | Starlink Group 17-50",
@@ -20,12 +11,21 @@
       "dayPrecision": true
     },
     {
+      "id": "57280454-470e-4c5d-8de1-1bbd0ea41b49",
+      "name": "Electron | The Lightning God Defends (iQPS Launch 8)",
+      "provider": "Rocket Lab",
+      "providerType": "Commercial",
+      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+      "net": "2026-08-20T13:00:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "bbdc4d47-1de3-428e-9fe1-bbf45d9b1e04",
       "name": "Falcon 9 Block 5 | Starlink Group 10-39",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-08-20T15:19:00Z",
+      "net": "2026-08-20T15:38:44Z",
       "dayPrecision": true
     },
     {
@@ -103,15 +103,6 @@
     {
       "id": "9f5a4cb6-63f9-47e1-9512-b468bae2a8e6",
       "name": "Electron | StriX Launch 11",
-      "provider": "Rocket Lab",
-      "providerType": "Commercial",
-      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-08-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "57280454-470e-4c5d-8de1-1bbd0ea41b49",
-      "name": "Electron | The Lightning God Defends (iQPS Launch 8)",
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
