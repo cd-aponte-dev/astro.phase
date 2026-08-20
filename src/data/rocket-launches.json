@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-08-20T01:17:55.705Z",
+  "fetchedAt": "2026-08-20T06:47:55.380Z",
   "launches": [
-    {
-      "id": "f6958a77-37bb-4559-a108-40ba0ff9e34a",
-      "name": "Falcon 9 Block 5 | Starlink Group 17-50",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-08-19T04:01:07Z",
-      "dayPrecision": true
-    },
     {
       "id": "57280454-470e-4c5d-8de1-1bbd0ea41b49",
       "name": "Electron | The Lightning God Defends (iQPS Launch 8)",
@@ -331,7 +322,7 @@
       "provider": "Mitsubishi Heavy Industries",
       "providerType": "Commercial",
       "site": "Tanegashima Space Center, Japan",
-      "net": "2026-10-20T00:00:00Z",
+      "net": "2026-10-19T19:41:03Z",
       "dayPrecision": true
     },
     {
