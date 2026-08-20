@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-20T06:47:55.380Z",
+  "fetchedAt": "2026-08-20T12:51:52.266Z",
   "launches": [
     {
       "id": "57280454-470e-4c5d-8de1-1bbd0ea41b49",
@@ -7,7 +7,7 @@
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-08-20T13:00:00Z",
+      "net": "2026-08-20T13:04:45Z",
       "dayPrecision": true
     },
     {
@@ -34,7 +34,16 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Wenchang Space Launch Site, People's Republic of China",
-      "net": "2026-08-24T00:00:00Z",
+      "net": "2026-08-24T00:05:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "48c449c2-3c09-4d36-9c2a-d853b3a39289",
+      "name": "Long March 6C | Unknown Payload",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Taiyuan Satellite Launch Center, People's Republic of China",
+      "net": "2026-08-25T03:20:00Z",
       "dayPrecision": true
     },
     {
