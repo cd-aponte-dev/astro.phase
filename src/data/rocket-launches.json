@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-08-22T12:40:43.568Z",
+  "fetchedAt": "2026-08-22T18:32:02.718Z",
   "launches": [
-    {
-      "id": "bbdc4d47-1de3-428e-9fe1-bbf45d9b1e04",
-      "name": "Falcon 9 Block 5 | Starlink Group 10-39",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-08-21T15:14:22Z",
-      "dayPrecision": true
-    },
     {
       "id": "6208f972-18ec-490f-bbe5-6f5c6cfcd48c",
       "name": "Falcon 9 Block 5 | Starlink Group 15-20",
@@ -25,7 +16,7 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Wenchang Space Launch Site, People's Republic of China",
-      "net": "2026-08-24T00:05:00Z",
+      "net": "2026-08-25T00:30:00Z",
       "dayPrecision": true
     },
     {
