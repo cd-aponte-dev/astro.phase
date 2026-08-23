@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-08-23T06:42:02.197Z",
+  "fetchedAt": "2026-08-23T12:41:48.073Z",
   "launches": [
-    {
-      "id": "6208f972-18ec-490f-bbe5-6f5c6cfcd48c",
-      "name": "Falcon 9 Block 5 | Starlink Group 15-20",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-08-22T07:25:16Z",
-      "dayPrecision": true
-    },
     {
       "id": "9d402fb6-9115-424d-b6f0-bd3b13ee310e",
       "name": "Long March 5 | Chang'e 7",
