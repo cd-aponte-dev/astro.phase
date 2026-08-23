@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-08-23T12:41:48.073Z",
+  "fetchedAt": "2026-08-23T18:31:28.050Z",
   "launches": [
-    {
-      "id": "9d402fb6-9115-424d-b6f0-bd3b13ee310e",
-      "name": "Long March 5 | Chang'e 7",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Wenchang Space Launch Site, People's Republic of China",
-      "net": "2026-08-25T00:30:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "48c449c2-3c09-4d36-9c2a-d853b3a39289",
       "name": "Long March 6C | Unknown Payload",
@@ -196,6 +187,15 @@
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
+      "net": "2026-09-30T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "9d402fb6-9115-424d-b6f0-bd3b13ee310e",
+      "name": "Long March 5 | Chang'e 7",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Wenchang Space Launch Site, People's Republic of China",
       "net": "2026-09-30T00:00:00Z",
       "dayPrecision": false
     },
