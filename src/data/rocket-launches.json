@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-24T01:22:07.839Z",
+  "fetchedAt": "2026-08-24T07:00:49.239Z",
   "launches": [
     {
       "id": "48c449c2-3c09-4d36-9c2a-d853b3a39289",
@@ -56,24 +56,6 @@
       "dayPrecision": false
     },
     {
-      "id": "599ba2df-7483-4b2f-a083-2b5ddc06e069",
-      "name": "Electron | LOXSAT 1",
-      "provider": "Rocket Lab",
-      "providerType": "Commercial",
-      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-08-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "9f5a4cb6-63f9-47e1-9512-b468bae2a8e6",
-      "name": "Electron | StriX Launch 11",
-      "provider": "Rocket Lab",
-      "providerType": "Commercial",
-      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-08-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
       "id": "dc570565-4dcf-4ab9-8174-bf88efef477f",
       "name": "Long March 12A | Flight 2",
       "provider": "China Aerospace Science and Technology Corporation",
@@ -119,6 +101,15 @@
       "dayPrecision": false
     },
     {
+      "id": "9f5a4cb6-63f9-47e1-9512-b468bae2a8e6",
+      "name": "Electron | Owl Around The World (StriX Launch 11)",
+      "provider": "Rocket Lab",
+      "providerType": "Commercial",
+      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+      "net": "2026-08-31T12:00:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "63181269-b125-4c36-951c-c9bd9bbc4b55",
       "name": "Falcon 9 Block 5 | Starlink Group 15-23",
       "provider": "SpaceX",
@@ -162,6 +153,15 @@
       "site": "Guiana Space Centre, French Guiana",
       "net": "2026-09-15T01:21:07Z",
       "dayPrecision": true
+    },
+    {
+      "id": "599ba2df-7483-4b2f-a083-2b5ddc06e069",
+      "name": "Electron | LOXSAT 1",
+      "provider": "Rocket Lab",
+      "providerType": "Commercial",
+      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+      "net": "2026-09-30T00:00:00Z",
+      "dayPrecision": false
     },
     {
       "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
