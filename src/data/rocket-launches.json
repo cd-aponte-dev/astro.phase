@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-24T12:52:54.913Z",
+  "fetchedAt": "2026-08-24T18:41:16.385Z",
   "launches": [
     {
       "id": "458e2e52-87b0-4707-96d8-6899f92e53ee",
@@ -25,7 +25,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-08-25T09:33:17Z",
+      "net": "2026-08-25T09:33:38Z",
       "dayPrecision": true
     },
     {
@@ -88,15 +88,6 @@
       "provider": "Galactic Energy",
       "providerType": "Commercial",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-08-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "1b23eb18-e06e-4058-9b42-e95ca0980511",
-      "name": "Spectrum | Onward and Upward",
-      "provider": "Isar Aerospace",
-      "providerType": "Private",
-      "site": "Andøya Spaceport",
       "net": "2026-08-31T00:00:00Z",
       "dayPrecision": false
     },
@@ -196,6 +187,15 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Wenchang Space Launch Site, People's Republic of China",
+      "net": "2026-09-30T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "1b23eb18-e06e-4058-9b42-e95ca0980511",
+      "name": "Spectrum | Onward and Upward",
+      "provider": "Isar Aerospace",
+      "providerType": "Private",
+      "site": "Andøya Spaceport",
       "net": "2026-09-30T00:00:00Z",
       "dayPrecision": false
     },
