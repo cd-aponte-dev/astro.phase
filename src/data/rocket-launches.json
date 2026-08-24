@@ -1,6 +1,15 @@
 {
-  "fetchedAt": "2026-08-24T07:00:49.239Z",
+  "fetchedAt": "2026-08-24T12:52:54.913Z",
   "launches": [
+    {
+      "id": "458e2e52-87b0-4707-96d8-6899f92e53ee",
+      "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19",
+      "provider": "Russian Space Forces",
+      "providerType": "Government",
+      "site": "Plesetsk Cosmodrome, Russian Federation",
+      "net": "2026-08-24T02:40:00Z",
+      "dayPrecision": true
+    },
     {
       "id": "48c449c2-3c09-4d36-9c2a-d853b3a39289",
       "name": "Long March 6C | Unknown Payload",
@@ -16,7 +25,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-08-25T05:49:00Z",
+      "net": "2026-08-25T09:33:17Z",
       "dayPrecision": true
     },
     {
@@ -79,15 +88,6 @@
       "provider": "Galactic Energy",
       "providerType": "Commercial",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-08-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "458e2e52-87b0-4707-96d8-6899f92e53ee",
-      "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19",
-      "provider": "Russian Space Forces",
-      "providerType": "Government",
-      "site": "Plesetsk Cosmodrome, Russian Federation",
       "net": "2026-08-31T00:00:00Z",
       "dayPrecision": false
     },
