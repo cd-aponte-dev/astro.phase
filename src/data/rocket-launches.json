@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-25T06:51:02.697Z",
+  "fetchedAt": "2026-08-25T12:49:40.477Z",
   "launches": [
     {
       "id": "48c449c2-3c09-4d36-9c2a-d853b3a39289",
@@ -25,7 +25,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-08-26T09:27:00Z",
+      "net": "2026-08-26T09:27:09Z",
       "dayPrecision": true
     },
     {
@@ -169,15 +169,6 @@
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-09-30T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "9d402fb6-9115-424d-b6f0-bd3b13ee310e",
-      "name": "Long March 5 | Chang'e 7",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Wenchang Space Launch Site, People's Republic of China",
       "net": "2026-09-30T00:00:00Z",
       "dayPrecision": false
     },
