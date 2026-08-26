@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-08-26T06:51:53.805Z",
+  "fetchedAt": "2026-08-26T12:54:24.600Z",
   "launches": [
-    {
-      "id": "ad501ebd-a357-4305-90c1-c46c6feb2ecf",
-      "name": "Falcon 9 Block 5 | Starlink Group 10-49",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-08-25T09:33:38Z",
-      "dayPrecision": true
-    },
     {
       "id": "95653d52-bb77-4860-a815-dd7141778d17",
       "name": "Falcon 9 Block 5 | Starlink Group 15-22",
@@ -52,15 +43,6 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-08-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
-      "name": "Mir | Demo Flight",
-      "provider": "Agency for Defense Development",
-      "providerType": "Government",
-      "site": "Sea Launch",
       "net": "2026-08-31T00:00:00Z",
       "dayPrecision": false
     },
