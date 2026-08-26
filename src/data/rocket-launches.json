@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-08-26T01:22:51.048Z",
+  "fetchedAt": "2026-08-26T06:51:53.805Z",
   "launches": [
-    {
-      "id": "48c449c2-3c09-4d36-9c2a-d853b3a39289",
-      "name": "Long March 6C | 7 satellites",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Taiyuan Satellite Launch Center, People's Republic of China",
-      "net": "2026-08-25T03:21:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "ad501ebd-a357-4305-90c1-c46c6feb2ecf",
       "name": "Falcon 9 Block 5 | Starlink Group 10-49",
