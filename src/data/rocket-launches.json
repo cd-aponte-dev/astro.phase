@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-26T19:50:00.536Z",
+  "fetchedAt": "2026-08-27T08:03:18.827Z",
   "launches": [
     {
       "id": "95653d52-bb77-4860-a815-dd7141778d17",
@@ -38,15 +38,6 @@
       "dayPrecision": false
     },
     {
-      "id": "dc570565-4dcf-4ab9-8174-bf88efef477f",
-      "name": "Long March 12A | Flight 2",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-08-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
       "id": "a927b2f9-f9a5-4196-9abb-2e275e4a6b96",
       "name": "Pallas-1 | Demo Flight",
       "provider": "Galactic Energy",
@@ -70,7 +61,16 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-09-01T08:01:00Z",
+      "net": "2026-09-02T07:46:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "17d0ec68-f466-4916-9dc5-16123eda6484",
+      "name": "GSLV Mk II | GISAT-1A (EOS-05)",
+      "provider": "Indian Space Research Organization",
+      "providerType": "Government",
+      "site": "Satish Dhawan Space Centre, India",
+      "net": "2026-09-03T21:00:00Z",
       "dayPrecision": true
     },
     {
@@ -79,7 +79,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-09-04T11:28:00Z",
+      "net": "2026-09-05T11:13:00Z",
       "dayPrecision": true
     },
     {
@@ -128,8 +128,8 @@
       "dayPrecision": false
     },
     {
-      "id": "17d0ec68-f466-4916-9dc5-16123eda6484",
-      "name": "GSLV Mk II | GISAT-1A (EOS-05)",
+      "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
+      "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
@@ -137,11 +137,11 @@
       "dayPrecision": false
     },
     {
-      "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
-      "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
-      "provider": "Indian Space Research Organization",
+      "id": "dc570565-4dcf-4ab9-8174-bf88efef477f",
+      "name": "Long March 12A | Flight 2",
+      "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
-      "site": "Satish Dhawan Space Centre, India",
+      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
       "net": "2026-09-30T00:00:00Z",
       "dayPrecision": false
     },
@@ -272,6 +272,15 @@
       "dayPrecision": true
     },
     {
+      "id": "e0741415-6c63-4236-9736-24a6c04485bc",
+      "name": "Nuri | NeonSat-2 to 6",
+      "provider": "Korea Aerospace Research Institute",
+      "providerType": "Government",
+      "site": "Naro Space Center, South Korea",
+      "net": "2026-10-07T03:23:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
       "name": "H3-24 | Martian Moon eXplorer (MMX)",
       "provider": "Mitsubishi Heavy Industries",
@@ -313,15 +322,6 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "e0741415-6c63-4236-9736-24a6c04485bc",
-      "name": "Nuri | NeonSat-2 to 6",
-      "provider": "Korea Aerospace Research Institute",
-      "providerType": "Government",
-      "site": "Naro Space Center, South Korea",
       "net": "2026-10-31T00:00:00Z",
       "dayPrecision": false
     },
