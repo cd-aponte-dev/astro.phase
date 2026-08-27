@@ -1,22 +1,13 @@
 {
-  "fetchedAt": "2026-08-27T08:03:18.827Z",
+  "fetchedAt": "2026-08-27T21:55:02.139Z",
   "launches": [
-    {
-      "id": "95653d52-bb77-4860-a815-dd7141778d17",
-      "name": "Falcon 9 Block 5 | Starlink Group 15-22",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-08-26T09:35:11Z",
-      "dayPrecision": true
-    },
     {
       "id": "a57aed97-b94f-42e1-905e-9421dbd96ac8",
       "name": "Ariane 62 | MTG-I2",
       "provider": "Arianespace",
       "providerType": "Commercial",
       "site": "Guiana Space Centre, French Guiana",
-      "net": "2026-08-27T20:10:00Z",
+      "net": "2026-08-27T20:11:00Z",
       "dayPrecision": true
     },
     {
@@ -38,21 +29,21 @@
       "dayPrecision": false
     },
     {
-      "id": "a927b2f9-f9a5-4196-9abb-2e275e4a6b96",
-      "name": "Pallas-1 | Demo Flight",
-      "provider": "Galactic Energy",
-      "providerType": "Commercial",
-      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-08-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
       "id": "9f5a4cb6-63f9-47e1-9512-b468bae2a8e6",
       "name": "Electron | Owl Around The World (StriX Launch 11)",
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
       "net": "2026-08-31T12:05:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "a927b2f9-f9a5-4196-9abb-2e275e4a6b96",
+      "name": "Pallas-1 | Demo Flight",
+      "provider": "Galactic Energy",
+      "providerType": "Commercial",
+      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "net": "2026-09-01T02:00:00Z",
       "dayPrecision": true
     },
     {
@@ -71,6 +62,15 @@
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
       "net": "2026-09-03T21:00:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "1b23eb18-e06e-4058-9b42-e95ca0980511",
+      "name": "Spectrum | Onward and Upward",
+      "provider": "Isar Aerospace",
+      "providerType": "Private",
+      "site": "Andøya Spaceport",
+      "net": "2026-09-04T20:00:00Z",
       "dayPrecision": true
     },
     {
@@ -128,6 +128,15 @@
       "dayPrecision": false
     },
     {
+      "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
+      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-09-30T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
       "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
       "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
       "provider": "Indian Space Research Organization",
@@ -142,15 +151,6 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-09-30T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "1b23eb18-e06e-4058-9b42-e95ca0980511",
-      "name": "Spectrum | Onward and Upward",
-      "provider": "Isar Aerospace",
-      "providerType": "Private",
-      "site": "Andøya Spaceport",
       "net": "2026-09-30T00:00:00Z",
       "dayPrecision": false
     },
@@ -196,60 +196,6 @@
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-09-30T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "2d0472b9-463d-49c8-afb1-7925e49a3368",
-      "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer A",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-09-30T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "dca8749f-1552-485a-8061-f1ad79055b8d",
-      "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer C",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-09-30T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "fcbc4550-e69e-4458-a9e6-4a5b6b6b15a5",
-      "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer E",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-09-30T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
-      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-09-30T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "4541ce85-0e38-42ac-a9a0-20474bb5f2cd",
-      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer D",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-09-30T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "c5783e2b-d458-4b99-9936-4043c236190b",
-      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer F",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
       "net": "2026-09-30T00:00:00Z",
       "dayPrecision": false
     },
