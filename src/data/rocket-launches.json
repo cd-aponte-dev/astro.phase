@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-08-28T10:06:15.152Z",
+  "fetchedAt": "2026-08-28T21:47:22.371Z",
   "launches": [
-    {
-      "id": "a57aed97-b94f-42e1-905e-9421dbd96ac8",
-      "name": "Ariane 62 | MTG-I2",
-      "provider": "Arianespace",
-      "providerType": "Commercial",
-      "site": "Guiana Space Centre, French Guiana",
-      "net": "2026-08-27T20:11:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "521f3a1c-f977-4306-9b7f-495858719adf",
       "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
@@ -18,15 +9,6 @@
       "site": "Kennedy Space Center, FL, USA",
       "net": "2026-08-30T11:26:00Z",
       "dayPrecision": true
-    },
-    {
-      "id": "ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
-      "name": "Angara 1.2 | Kosmos (Unknown Payload)",
-      "provider": "Russian Space Forces",
-      "providerType": "Government",
-      "site": "Plesetsk Cosmodrome, Russian Federation",
-      "net": "2026-08-31T00:00:00Z",
-      "dayPrecision": false
     },
     {
       "id": "9f5a4cb6-63f9-47e1-9512-b468bae2a8e6",
@@ -79,7 +61,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-09-05T11:13:00Z",
+      "net": "2026-09-06T10:59:00Z",
       "dayPrecision": true
     },
     {
