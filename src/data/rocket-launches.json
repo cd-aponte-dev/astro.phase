@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-29T20:33:24.420Z",
+  "fetchedAt": "2026-08-30T04:12:03.401Z",
   "launches": [
     {
       "id": "521f3a1c-f977-4306-9b7f-495858719adf",
@@ -74,15 +74,6 @@
       "dayPrecision": true
     },
     {
-      "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
-      "name": "Falcon 9 Block 5 | Crew-13",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-09-12T22:34:00Z",
-      "dayPrecision": true
-    },
-    {
       "id": "8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
       "name": "Vega-C | Sentinel-3C & FLEX",
       "provider": "Avio S.p.A",
@@ -97,6 +88,15 @@
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+      "net": "2026-09-30T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
+      "name": "Falcon 9 Block 5 | Crew-13",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-09-30T00:00:00Z",
       "dayPrecision": false
     },
