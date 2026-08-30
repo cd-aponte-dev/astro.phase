@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-30T04:12:03.401Z",
+  "fetchedAt": "2026-08-30T11:28:22.272Z",
   "launches": [
     {
       "id": "521f3a1c-f977-4306-9b7f-495858719adf",
@@ -7,7 +7,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Kennedy Space Center, FL, USA",
-      "net": "2026-08-30T11:25:49Z",
+      "net": "2026-08-30T11:26:04Z",
       "dayPrecision": true
     },
     {
