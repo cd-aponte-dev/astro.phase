@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-01T11:16:07.144Z",
+  "fetchedAt": "2026-09-01T16:13:10.342Z",
   "launches": [
     {
       "id": "a927b2f9-f9a5-4196-9abb-2e275e4a6b96",
@@ -25,7 +25,7 @@
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-09-02T11:00:00Z",
+      "net": "2026-09-02T11:11:00Z",
       "dayPrecision": true
     },
     {
@@ -62,6 +62,15 @@
       "providerType": "Government",
       "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
       "net": "2026-09-09T16:15:03Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "3e0456da-14b1-4ac3-b59e-35fefb1d1530",
+      "name": "Falcon 9 Block 5 | USSF-xxx (\"R-2\")",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-09-10T15:37:00Z",
       "dayPrecision": true
     },
     {
