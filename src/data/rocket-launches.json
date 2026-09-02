@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-02T10:50:12.448Z",
+  "fetchedAt": "2026-09-02T16:08:36.047Z",
   "launches": [
     {
       "id": "63181269-b125-4c36-951c-c9bd9bbc4b55",
@@ -16,7 +16,7 @@
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-09-02T11:12:00Z",
+      "net": "2026-09-02T12:01:00Z",
       "dayPrecision": true
     },
     {
@@ -44,6 +44,15 @@
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
       "net": "2026-09-06T10:59:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "95eb9265-bdbe-43ad-b08c-6be7eb4e58f4",
+      "name": "Long March 2D/YZ-3 | Unknown Payload",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "net": "2026-09-09T09:00:00Z",
       "dayPrecision": true
     },
     {
@@ -886,15 +895,6 @@
     {
       "id": "ac02da00-6e8b-45a0-b829-09d614891e6a",
       "name": "H3-22 | ETS-9",
-      "provider": "Mitsubishi Heavy Industries",
-      "providerType": "Commercial",
-      "site": "Tanegashima Space Center, Japan",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "a2234679-5efe-4a00-9aff-cf82dbac22b0",
-      "name": "H3-24 | HTV-X2",
       "provider": "Mitsubishi Heavy Industries",
       "providerType": "Commercial",
       "site": "Tanegashima Space Center, Japan",
