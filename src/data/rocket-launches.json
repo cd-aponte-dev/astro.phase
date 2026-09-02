@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-02T16:08:36.047Z",
+  "fetchedAt": "2026-09-02T20:39:50.195Z",
   "launches": [
     {
       "id": "63181269-b125-4c36-951c-c9bd9bbc4b55",
@@ -66,7 +66,7 @@
     },
     {
       "id": "3e0456da-14b1-4ac3-b59e-35fefb1d1530",
-      "name": "Falcon 9 Block 5 | USSF-xxx (\"R-2\")",
+      "name": "Falcon 9 Block 5 | USSF-153",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
