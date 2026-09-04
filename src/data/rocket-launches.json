@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-03T20:38:46.464Z",
+  "fetchedAt": "2026-09-04T03:24:24.805Z",
   "launches": [
     {
       "id": "17d0ec68-f466-4916-9dc5-16123eda6484",
@@ -840,7 +840,7 @@
     },
     {
       "id": "c101b9da-2165-4d7b-aa9e-12a965ef8cd2",
-      "name": "GSLV | IDRSS-1",
+      "name": "GSLV Mk II | IDRSS-1",
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
@@ -849,16 +849,7 @@
     },
     {
       "id": "220e6d9f-33dc-4533-8a48-535ba4c559e2",
-      "name": "GSLV | IDRSS-2",
-      "provider": "Indian Space Research Organization",
-      "providerType": "Government",
-      "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "0cf92611-82a8-4095-a0b4-dda2e74b1fff",
-      "name": "GSLV Mk II | GSAT-32",
+      "name": "GSLV Mk II | IDRSS-2",
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
@@ -895,6 +886,15 @@
     {
       "id": "be50d3a3-1385-4371-a4dd-d7ab4969be59",
       "name": "H3-24 | HTV-X3",
+      "provider": "Mitsubishi Heavy Industries",
+      "providerType": "Commercial",
+      "site": "Tanegashima Space Center, Japan",
+      "net": "2026-12-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "3a4dc969-d264-48a1-b113-bf69a798a5c4",
+      "name": "H3-24 | Lunar Polar Exploration Mission (LUPEX)",
       "provider": "Mitsubishi Heavy Industries",
       "providerType": "Commercial",
       "site": "Tanegashima Space Center, Japan",
