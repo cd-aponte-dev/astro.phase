@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-04T10:49:06.179Z",
+  "fetchedAt": "2026-09-04T15:55:33.995Z",
   "launches": [
     {
       "id": "17d0ec68-f466-4916-9dc5-16123eda6484",
@@ -16,7 +16,7 @@
       "provider": "Isar Aerospace",
       "providerType": "Private",
       "site": "Andøya Spaceport",
-      "net": "2026-09-04T20:00:00Z",
+      "net": "2026-09-05T20:00:00Z",
       "dayPrecision": true
     },
     {
