@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-04T20:25:05.927Z",
+  "fetchedAt": "2026-09-05T03:26:25.342Z",
   "launches": [
-    {
-      "id": "17d0ec68-f466-4916-9dc5-16123eda6484",
-      "name": "GSLV Mk II | GISAT-1A (EOS-05)",
-      "provider": "Indian Space Research Organization",
-      "providerType": "Government",
-      "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-09-03T21:25:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "1b23eb18-e06e-4058-9b42-e95ca0980511",
       "name": "Spectrum | Onward and Upward",
@@ -898,6 +889,15 @@
       "provider": "Mitsubishi Heavy Industries",
       "providerType": "Commercial",
       "site": "Tanegashima Space Center, Japan",
+      "net": "2026-12-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "04522dea-1450-48f5-bc9d-2d7f1e637f9b",
+      "name": "HASTE | Leidos-3",
+      "provider": "Rocket Lab",
+      "providerType": "Commercial",
+      "site": "Wallops Flight Facility, Virginia, USA",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     }
