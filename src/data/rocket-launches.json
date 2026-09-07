@@ -1,13 +1,13 @@
 {
-  "fetchedAt": "2026-09-07T11:50:07.315Z",
+  "fetchedAt": "2026-09-07T17:26:56.624Z",
   "launches": [
     {
-      "id": "153ef8ef-b12b-43f4-a4bf-05b225c0cd37",
-      "name": "Falcon 9 Block 5 | Starlink Group 15-24",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-09-06T14:26:54Z",
+      "id": "d793ba47-faf5-4bab-a386-39a9ccc49c90",
+      "name": "Soyuz 2.1b | Progress MS-35 (96P)",
+      "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+      "providerType": "Government",
+      "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
+      "net": "2026-09-09T16:15:03Z",
       "dayPrecision": true
     },
     {
@@ -16,16 +16,7 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-09-09T09:00:00Z",
-      "dayPrecision": true
-    },
-    {
-      "id": "d793ba47-faf5-4bab-a386-39a9ccc49c90",
-      "name": "Soyuz 2.1b | Progress MS-35 (96P)",
-      "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-      "providerType": "Government",
-      "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
-      "net": "2026-09-09T16:15:03Z",
+      "net": "2026-09-10T09:00:00Z",
       "dayPrecision": true
     },
     {
@@ -895,6 +886,15 @@
     {
       "id": "0196fba7-dd6c-4ba0-bf71-e1460930ffde",
       "name": "HASTE | Leidos-4",
+      "provider": "Rocket Lab",
+      "providerType": "Commercial",
+      "site": "Wallops Flight Facility, Virginia, USA",
+      "net": "2026-12-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "71489c66-8ecd-4610-9847-3620a543fd75",
+      "name": "HASTE | Leidos-5",
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Wallops Flight Facility, Virginia, USA",
