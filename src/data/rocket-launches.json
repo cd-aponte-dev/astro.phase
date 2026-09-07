@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-06T20:07:01.078Z",
+  "fetchedAt": "2026-09-07T03:26:04.048Z",
   "launches": [
-    {
-      "id": "1b23eb18-e06e-4058-9b42-e95ca0980511",
-      "name": "Spectrum | Onward and Upward",
-      "provider": "Isar Aerospace",
-      "providerType": "Private",
-      "site": "Andøya Spaceport",
-      "net": "2026-09-05T20:12:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "153ef8ef-b12b-43f4-a4bf-05b225c0cd37",
       "name": "Falcon 9 Block 5 | Starlink Group 15-24",
@@ -895,6 +886,15 @@
     {
       "id": "04522dea-1450-48f5-bc9d-2d7f1e637f9b",
       "name": "HASTE | Leidos-3",
+      "provider": "Rocket Lab",
+      "providerType": "Commercial",
+      "site": "Wallops Flight Facility, Virginia, USA",
+      "net": "2026-12-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "0196fba7-dd6c-4ba0-bf71-e1460930ffde",
+      "name": "HASTE | Leidos-4",
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Wallops Flight Facility, Virginia, USA",
