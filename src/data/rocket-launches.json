@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-08T16:11:31.778Z",
+  "fetchedAt": "2026-09-08T20:50:26.659Z",
   "launches": [
-    {
-      "id": "d793ba47-faf5-4bab-a386-39a9ccc49c90",
-      "name": "Soyuz 2.1b | Progress MS-35 (96P)",
-      "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-      "providerType": "Government",
-      "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
-      "net": "2026-09-09T16:15:03Z",
-      "dayPrecision": true
-    },
     {
       "id": "95eb9265-bdbe-43ad-b08c-6be7eb4e58f4",
       "name": "Long March 2D/YZ-3 | Unknown Payload",
@@ -62,6 +53,24 @@
       "providerType": "Commercial",
       "site": "Guiana Space Centre, French Guiana",
       "net": "2026-09-15T01:21:07Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "d793ba47-faf5-4bab-a386-39a9ccc49c90",
+      "name": "Soyuz 2.1b | Progress MS-35 (96P)",
+      "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+      "providerType": "Government",
+      "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
+      "net": "2026-09-16T00:00:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "898f7df0-b6ce-4a5c-80b4-67e81842124e",
+      "name": "Long March 12 | Unknown Payload",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Wenchang Space Launch Site, People's Republic of China",
+      "net": "2026-09-17T00:00:00Z",
       "dayPrecision": true
     },
     {
@@ -889,15 +898,6 @@
       "provider": "Mitsubishi Heavy Industries",
       "providerType": "Commercial",
       "site": "Tanegashima Space Center, Japan",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "04522dea-1450-48f5-bc9d-2d7f1e637f9b",
-      "name": "HASTE | Leidos-3",
-      "provider": "Rocket Lab",
-      "providerType": "Commercial",
-      "site": "Wallops Flight Facility, Virginia, USA",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     }
