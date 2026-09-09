@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-09T16:05:42.229Z",
+  "fetchedAt": "2026-09-09T20:36:31.133Z",
   "launches": [
     {
       "id": "95eb9265-bdbe-43ad-b08c-6be7eb4e58f4",
@@ -53,6 +53,15 @@
       "providerType": "Commercial",
       "site": "Haiyang Oriental Spaceport",
       "net": "2026-09-15T21:55:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "17c71937-dd80-406f-bb47-0c9ee9a24276",
+      "name": "Falcon 9 Block 5 | USSF-259",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-09-16T01:00:00Z",
       "dayPrecision": true
     },
     {
@@ -886,15 +895,6 @@
     {
       "id": "a2234679-5efe-4a00-9aff-cf82dbac22b0",
       "name": "H3-24 | HTV-X2",
-      "provider": "Mitsubishi Heavy Industries",
-      "providerType": "Commercial",
-      "site": "Tanegashima Space Center, Japan",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "be50d3a3-1385-4371-a4dd-d7ab4969be59",
-      "name": "H3-24 | HTV-X3",
       "provider": "Mitsubishi Heavy Industries",
       "providerType": "Commercial",
       "site": "Tanegashima Space Center, Japan",
