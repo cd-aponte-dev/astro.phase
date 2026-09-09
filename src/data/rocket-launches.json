@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-09T10:54:16.875Z",
+  "fetchedAt": "2026-09-09T16:05:42.229Z",
   "launches": [
     {
       "id": "95eb9265-bdbe-43ad-b08c-6be7eb4e58f4",
@@ -20,21 +20,12 @@
       "dayPrecision": true
     },
     {
-      "id": "63063b9d-ade9-4448-8717-6f910aa81188",
-      "name": "Long March 8A | Unknown Payload",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Wenchang Space Launch Site, People's Republic of China",
-      "net": "2026-09-11T16:00:00Z",
-      "dayPrecision": true
-    },
-    {
       "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
       "name": "Falcon 9 Block 5 | O3b mPower 11-13",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-09-13T18:50:00Z",
+      "net": "2026-09-13T18:49:00Z",
       "dayPrecision": true
     },
     {
@@ -56,12 +47,21 @@
       "dayPrecision": true
     },
     {
+      "id": "767f7827-53d8-4621-803b-f456a1e6b512",
+      "name": "Gravity-1 | Unknown Payload",
+      "provider": "Orienspace Technology",
+      "providerType": "Commercial",
+      "site": "Haiyang Oriental Spaceport",
+      "net": "2026-09-15T21:55:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "d793ba47-faf5-4bab-a386-39a9ccc49c90",
       "name": "Soyuz 2.1b | Progress MS-35 (96P)",
       "provider": "Russian Federal Space Agency (ROSCOSMOS)",
       "providerType": "Government",
       "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
-      "net": "2026-09-16T00:00:00Z",
+      "net": "2026-09-16T13:33:53Z",
       "dayPrecision": true
     },
     {
@@ -70,7 +70,7 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Wenchang Space Launch Site, People's Republic of China",
-      "net": "2026-09-17T00:00:00Z",
+      "net": "2026-09-17T00:30:00Z",
       "dayPrecision": true
     },
     {
@@ -115,6 +115,15 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "net": "2026-09-30T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "63063b9d-ade9-4448-8717-6f910aa81188",
+      "name": "Long March 8A | Unknown Payload",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Wenchang Space Launch Site, People's Republic of China",
       "net": "2026-09-30T00:00:00Z",
       "dayPrecision": false
     },
@@ -886,15 +895,6 @@
     {
       "id": "be50d3a3-1385-4371-a4dd-d7ab4969be59",
       "name": "H3-24 | HTV-X3",
-      "provider": "Mitsubishi Heavy Industries",
-      "providerType": "Commercial",
-      "site": "Tanegashima Space Center, Japan",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "3a4dc969-d264-48a1-b113-bf69a798a5c4",
-      "name": "H3-24 | Lunar Polar Exploration Mission (LUPEX)",
       "provider": "Mitsubishi Heavy Industries",
       "providerType": "Commercial",
       "site": "Tanegashima Space Center, Japan",
