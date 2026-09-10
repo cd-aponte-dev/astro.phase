@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-09-10T03:33:47.322Z",
+  "fetchedAt": "2026-09-10T10:50:38.945Z",
   "launches": [
     {
       "id": "95eb9265-bdbe-43ad-b08c-6be7eb4e58f4",
-      "name": "Long March 2D/YZ-3 | Unknown Payload",
+      "name": "Long March 4B | Yaogan 53-01 to 03/56-01 to 03",
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
@@ -44,6 +44,15 @@
       "providerType": "Commercial",
       "site": "Guiana Space Centre, French Guiana",
       "net": "2026-09-15T01:21:07Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "de446468-057f-4c9d-a6a1-af99c93b541e",
+      "name": "Zhuque-2E Block 2 | Unknown Payload",
+      "provider": "LandSpace",
+      "providerType": "Commercial",
+      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "net": "2026-09-15T06:25:00Z",
       "dayPrecision": true
     },
     {
@@ -886,15 +895,6 @@
     {
       "id": "ac02da00-6e8b-45a0-b829-09d614891e6a",
       "name": "H3-22 | ETS-9",
-      "provider": "Mitsubishi Heavy Industries",
-      "providerType": "Commercial",
-      "site": "Tanegashima Space Center, Japan",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "a2234679-5efe-4a00-9aff-cf82dbac22b0",
-      "name": "H3-24 | HTV-X2",
       "provider": "Mitsubishi Heavy Industries",
       "providerType": "Commercial",
       "site": "Tanegashima Space Center, Japan",
