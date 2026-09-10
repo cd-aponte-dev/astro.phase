@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-10T15:59:14.001Z",
+  "fetchedAt": "2026-09-10T20:31:37.664Z",
   "launches": [
     {
       "id": "95eb9265-bdbe-43ad-b08c-6be7eb4e58f4",
@@ -26,15 +26,6 @@
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-09-13T18:49:00Z",
-      "dayPrecision": true
-    },
-    {
-      "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
-      "name": "Starship | Flight 14",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "SpaceX Starbase, TX, USA",
-      "net": "2026-09-15T00:00:00Z",
       "dayPrecision": true
     },
     {
@@ -89,6 +80,15 @@
       "providerType": "Government",
       "site": "Wenchang Space Launch Site, People's Republic of China",
       "net": "2026-09-17T00:30:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
+      "name": "Starship | Flight 14",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "SpaceX Starbase, TX, USA",
+      "net": "2026-09-18T00:00:00Z",
       "dayPrecision": true
     },
     {
@@ -605,6 +605,15 @@
       "dayPrecision": false
     },
     {
+      "id": "9bfa0324-db74-444f-8dc3-1c7d373ca659",
+      "name": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Cape Canaveral SFS, FL, USA",
+      "net": "2026-12-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
       "id": "4d3943e9-c894-46c4-a318-84d526d0ef40",
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-22",
       "provider": "SpaceX",
@@ -889,15 +898,6 @@
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "ac02da00-6e8b-45a0-b829-09d614891e6a",
-      "name": "H3-22 | ETS-9",
-      "provider": "Mitsubishi Heavy Industries",
-      "providerType": "Commercial",
-      "site": "Tanegashima Space Center, Japan",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     }
