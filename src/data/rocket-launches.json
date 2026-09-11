@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-11T10:46:48.936Z",
+  "fetchedAt": "2026-09-11T16:02:38.162Z",
   "launches": [
-    {
-      "id": "3e0456da-14b1-4ac3-b59e-35fefb1d1530",
-      "name": "Falcon 9 Block 5 | USSF-153",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-09-10T15:42:30Z",
-      "dayPrecision": true
-    },
     {
       "id": "b81156da-c0b8-46c8-aebd-8af8d2be83cd",
       "name": "Electron | Happily Ever Faster (BlackSky Gen-3 5)",
@@ -895,6 +886,15 @@
     {
       "id": "220e6d9f-33dc-4533-8a48-535ba4c559e2",
       "name": "GSLV Mk II | IDRSS-2",
+      "provider": "Indian Space Research Organization",
+      "providerType": "Government",
+      "site": "Satish Dhawan Space Centre, India",
+      "net": "2026-12-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
+      "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
