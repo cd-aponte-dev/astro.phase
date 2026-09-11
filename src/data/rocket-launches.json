@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-11T03:32:08.329Z",
+  "fetchedAt": "2026-09-11T10:46:48.936Z",
   "launches": [
-    {
-      "id": "95eb9265-bdbe-43ad-b08c-6be7eb4e58f4",
-      "name": "Long March 4B | Yaogan 53-01 to 03/56-01 to 03",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-09-10T09:00:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "3e0456da-14b1-4ac3-b59e-35fefb1d1530",
       "name": "Falcon 9 Block 5 | USSF-153",
@@ -17,6 +8,15 @@
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
       "net": "2026-09-10T15:42:30Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "b81156da-c0b8-46c8-aebd-8af8d2be83cd",
+      "name": "Electron | Happily Ever Faster (BlackSky Gen-3 5)",
+      "provider": "Rocket Lab",
+      "providerType": "Commercial",
+      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+      "net": "2026-09-11T03:28:00Z",
       "dayPrecision": true
     },
     {
@@ -83,12 +83,30 @@
       "dayPrecision": true
     },
     {
+      "id": "71aa4d56-0ce9-4c7d-a808-cc22f2ac5a84",
+      "name": "Kuaizhou 11 | Unknown Payload",
+      "provider": "ExPace",
+      "providerType": "Commercial",
+      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "net": "2026-09-17T02:35:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
       "name": "Starship | Flight 14",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "SpaceX Starbase, TX, USA",
       "net": "2026-09-18T00:00:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "a527b585-f01f-4ecc-9230-711dcef72ef1",
+      "name": "Long March 2D | Unknown Payload",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Taiyuan Satellite Launch Center, People's Republic of China",
+      "net": "2026-09-19T10:50:00Z",
       "dayPrecision": true
     },
     {
@@ -157,15 +175,6 @@
     {
       "id": "7766f3bb-674c-4c71-b986-963bd633fcfe",
       "name": "Electron | 6x HawkEye 360",
-      "provider": "Rocket Lab",
-      "providerType": "Commercial",
-      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-09-30T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "b81156da-c0b8-46c8-aebd-8af8d2be83cd",
-      "name": "Electron | BlackSky Gen-3 5",
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -886,15 +895,6 @@
     {
       "id": "220e6d9f-33dc-4533-8a48-535ba4c559e2",
       "name": "GSLV Mk II | IDRSS-2",
-      "provider": "Indian Space Research Organization",
-      "providerType": "Government",
-      "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
-      "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
