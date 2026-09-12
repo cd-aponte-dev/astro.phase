@@ -1,7 +1,7 @@
-import { useMemo, useState, type FormEvent } from 'react'
+import { useEffect, useMemo, useState, type FormEvent } from 'react'
 import { Observer } from 'astronomy-engine'
 import { computeTonightWindow, computeTonightsSky, type SkyObject } from './astronomy'
-import { searchPlace, type GeocodeCandidate } from './geocoding'
+import { GeocodeRateLimitError, searchPlace, type GeocodeCandidate } from './geocoding'
 import { timeZoneForLocation } from './timezone'
 import { formatDate, formatTime } from './format'
 import { EventsCalendar } from './EventsCalendar'
@@ -21,6 +21,16 @@ const BODY_LABELS: Record<SkyObject['body'], string> = {
 }
 
 const PLANETS = new Set<SkyObject['body']>(['Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn'])
+
+// Shorter than this and the matches are noise — and every keystroke costs a
+// request against LocationIQ's rate limit.
+const MIN_QUERY_LENGTH = 3
+
+// Long enough to skip the requests for the letters someone types on the way
+// to a word, short enough that the list feels like it's keeping up. Also
+// keeps a fast typist under LocationIQ's ~2-per-second limit, which returns
+// 429 after about three requests in quick succession.
+const SEARCH_DEBOUNCE_MS = 500
 
 function App() {
   const [tab, setTab] = useState<Tab>('sky')
@@ -60,26 +70,75 @@ function App() {
     setSearchError(null)
   }
 
+  // Search as the user types, rather than waiting for them to submit. Nothing
+  // is auto-selected here however few matches come back: the list is only an
+  // offer, since the typing isn't necessarily finished.
+  useEffect(() => {
+    const trimmed = query.trim()
+    if (trimmed.length < MIN_QUERY_LENGTH) {
+      setCandidates(null)
+      setSearchError(null)
+      setIsSearching(false)
+      return
+    }
+
+    const controller = new AbortController()
+    const timer = setTimeout(async () => {
+      setIsSearching(true)
+      try {
+        const results = await searchPlace(trimmed, controller.signal)
+        setCandidates(results.length > 0 ? results : null)
+        setSearchError(results.length === 0 ? `No matches found for “${trimmed}”.` : null)
+      } catch (err) {
+        if (controller.signal.aborted) return
+        // Brushing the rate limit is a normal consequence of typing quickly.
+        // Keep the options already on screen and stay quiet — the next
+        // keystroke asks again.
+        if (err instanceof GeocodeRateLimitError) return
+        setCandidates(null)
+        setSearchError(err instanceof Error ? err.message : String(err))
+      } finally {
+        if (!controller.signal.aborted) setIsSearching(false)
+      }
+    }, SEARCH_DEBOUNCE_MS)
+
+    return () => {
+      clearTimeout(timer)
+      controller.abort()
+    }
+  }, [query])
+
+  // Submitting takes the top match — the shortcut for someone who typed the
+  // place in full and doesn't want to reach for the mouse.
   async function handleSearch(event: FormEvent) {
     event.preventDefault()
     const trimmed = query.trim()
     if (!trimmed) return
 
+    if (candidates && candidates.length > 0) {
+      selectCandidate(candidates[0])
+      return
+    }
+
+    // Submitted before the debounce elapsed, or below the length the live
+    // search bothers with — look it up now.
     setIsSearching(true)
     setSearchError(null)
-    setCandidates(null)
-
     try {
       const results = await searchPlace(trimmed)
       if (results.length === 0) {
         setSearchError(`No matches found for “${trimmed}”.`)
-      } else if (results.length === 1) {
-        selectCandidate(results[0])
       } else {
-        setCandidates(results)
+        selectCandidate(results[0])
       }
     } catch (err) {
-      setSearchError(err instanceof Error ? err.message : String(err))
+      setSearchError(
+        err instanceof GeocodeRateLimitError
+          ? 'Too many searches just now — try again in a moment.'
+          : err instanceof Error
+            ? err.message
+            : String(err),
+      )
     } finally {
       setIsSearching(false)
     }
@@ -101,9 +160,10 @@ function App() {
             placeholder="Search a place…"
             aria-label="Place name"
           />
-          <button type="submit" disabled={isSearching}>
-            {isSearching ? 'Searching…' : 'Search'}
-          </button>
+          {/* Not disabled while searching: a disabled submit button also
+              stops Enter from submitting, and the live search means one is
+              often in flight. */}
+          <button type="submit">{isSearching ? 'Searching…' : 'Search'}</button>
         </form>
 
         {searchError && <p className="error">{searchError}</p>}

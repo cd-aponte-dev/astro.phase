@@ -6,24 +6,48 @@ export interface GeocodeCandidate {
 
 const LOCATIONIQ_SEARCH_URL = 'https://us1.locationiq.com/v1/search'
 
+/**
+ * The geocoder refused because requests came too fast — its free tier allows
+ * about two a second. Distinct from a real failure because searching on every
+ * pause in typing can legitimately brush the limit, and the fix is simply to
+ * ask again in a moment rather than to tell the user something is broken.
+ */
+export class GeocodeRateLimitError extends Error {
+  constructor() {
+    super('Too many searches at once.')
+    this.name = 'GeocodeRateLimitError'
+  }
+}
+
 interface LocationIqResult {
   display_name: string
   lat: string
   lon: string
 }
 
-export async function searchPlace(query: string): Promise<GeocodeCandidate[]> {
+/**
+ * Places matching `query`. Pass a `signal` to abandon a request that's been
+ * superseded — the search runs on every pause in typing, so without it a slow
+ * early response can land after a later one and overwrite better results.
+ */
+export async function searchPlace(
+  query: string,
+  signal?: AbortSignal,
+): Promise<GeocodeCandidate[]> {
   const url = new URL(LOCATIONIQ_SEARCH_URL)
   url.searchParams.set('key', import.meta.env.VITE_LOCATIONIQ_API_KEY)
   url.searchParams.set('q', query)
   url.searchParams.set('format', 'json')
   url.searchParams.set('limit', '5')
 
-  const response = await fetch(url.toString())
+  const response = await fetch(url.toString(), { signal })
 
   if (response.status === 404) {
     // LocationIQ's "no results" response, not a real error.
     return []
+  }
+  if (response.status === 429) {
+    throw new GeocodeRateLimitError()
   }
   if (!response.ok) {
     throw new Error(`Location search failed (${response.status})`)
