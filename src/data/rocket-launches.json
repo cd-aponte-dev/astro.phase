@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-11T20:37:33.285Z",
+  "fetchedAt": "2026-09-12T03:36:54.006Z",
   "launches": [
-    {
-      "id": "b81156da-c0b8-46c8-aebd-8af8d2be83cd",
-      "name": "Electron | Happily Ever Faster (BlackSky Gen-3 5)",
-      "provider": "Rocket Lab",
-      "providerType": "Commercial",
-      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-09-11T03:28:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
       "name": "Falcon 9 Block 5 | O3b mPower 11-13",
@@ -88,7 +79,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "SpaceX Starbase, TX, USA",
-      "net": "2026-09-18T00:00:00Z",
+      "net": "2026-09-18T12:15:00Z",
       "dayPrecision": true
     },
     {
@@ -839,15 +830,6 @@
       "dayPrecision": false
     },
     {
-      "id": "d1a3807e-f304-467c-a095-e08b86924347",
-      "name": "Firefly Alpha Block 2 | QuickSounder",
-      "provider": "Firefly Aerospace",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
       "id": "b94b49fc-5784-4dfd-92e7-07e57f50edcd",
       "name": "Firefly Alpha Block 2 | TacSat",
       "provider": "Firefly Aerospace",
@@ -898,6 +880,24 @@
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
+      "net": "2026-12-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "ac02da00-6e8b-45a0-b829-09d614891e6a",
+      "name": "H3-22 | ETS-9",
+      "provider": "Mitsubishi Heavy Industries",
+      "providerType": "Commercial",
+      "site": "Tanegashima Space Center, Japan",
+      "net": "2026-12-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "a2234679-5efe-4a00-9aff-cf82dbac22b0",
+      "name": "H3-24 | HTV-X2",
+      "provider": "Mitsubishi Heavy Industries",
+      "providerType": "Commercial",
+      "site": "Tanegashima Space Center, Japan",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     }
