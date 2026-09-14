@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-14T17:20:25.727Z",
+  "fetchedAt": "2026-09-14T21:14:17.103Z",
   "launches": [
-    {
-      "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
-      "name": "Falcon 9 Block 5 | O3b mPower 11-13",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-09-13T18:49:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
       "name": "Vega-C | Sentinel-3C & FLEX",
