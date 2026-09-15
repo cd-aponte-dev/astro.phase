@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-15T02:45:11.448Z",
+  "fetchedAt": "2026-09-15T10:46:24.005Z",
   "launches": [
     {
       "id": "8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
@@ -12,11 +12,11 @@
     },
     {
       "id": "de446468-057f-4c9d-a6a1-af99c93b541e",
-      "name": "Zhuque-2E Block 2 | Unknown Payload",
+      "name": "Zhuque-2E Block 2 | SpaceSail Polar Group #15",
       "provider": "LandSpace",
       "providerType": "Commercial",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-09-15T06:25:00Z",
+      "net": "2026-09-15T06:26:00Z",
       "dayPrecision": true
     },
     {
