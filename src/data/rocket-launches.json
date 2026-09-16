@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-16T02:40:07.443Z",
+  "fetchedAt": "2026-09-16T10:34:47.914Z",
   "launches": [
-    {
-      "id": "de446468-057f-4c9d-a6a1-af99c93b541e",
-      "name": "Zhuque-2E Block 2 | SpaceSail Polar Group #15",
-      "provider": "LandSpace",
-      "providerType": "Commercial",
-      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-09-15T06:26:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "767f7827-53d8-4621-803b-f456a1e6b512",
       "name": "Gravity-1 | SpaceSail Polar Group #16",
@@ -80,6 +71,15 @@
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
       "net": "2026-09-20T01:47:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "5af31461-bce5-4cfb-a0ee-b527cf285d90",
+      "name": "Kinetica 1 | Unknown Payload",
+      "provider": "CAS Space",
+      "providerType": "Commercial",
+      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "net": "2026-09-20T04:00:00Z",
       "dayPrecision": true
     },
     {
