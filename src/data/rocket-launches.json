@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-15T20:42:41.735Z",
+  "fetchedAt": "2026-09-16T02:40:07.443Z",
   "launches": [
-    {
-      "id": "8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
-      "name": "Vega-C | Sentinel-3C & FLEX",
-      "provider": "Avio S.p.A",
-      "providerType": "Commercial",
-      "site": "Guiana Space Centre, French Guiana",
-      "net": "2026-09-15T01:21:07Z",
-      "dayPrecision": true
-    },
     {
       "id": "de446468-057f-4c9d-a6a1-af99c93b541e",
       "name": "Zhuque-2E Block 2 | SpaceSail Polar Group #15",
@@ -21,20 +12,11 @@
     },
     {
       "id": "767f7827-53d8-4621-803b-f456a1e6b512",
-      "name": "Gravity-1 | Unknown Payload",
+      "name": "Gravity-1 | SpaceSail Polar Group #16",
       "provider": "Orienspace Technology",
       "providerType": "Commercial",
       "site": "Haiyang Oriental Spaceport",
-      "net": "2026-09-15T21:55:00Z",
-      "dayPrecision": true
-    },
-    {
-      "id": "17c71937-dd80-406f-bb47-0c9ee9a24276",
-      "name": "Falcon 9 Block 5 | USSF-259",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-09-16T01:29:18Z",
+      "net": "2026-09-15T22:00:00Z",
       "dayPrecision": true
     },
     {
@@ -56,12 +38,30 @@
       "dayPrecision": true
     },
     {
+      "id": "17c71937-dd80-406f-bb47-0c9ee9a24276",
+      "name": "Falcon 9 Block 5 | USSF-259",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-09-17T01:00:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "71aa4d56-0ce9-4c7d-a808-cc22f2ac5a84",
       "name": "Kuaizhou 11 | Unknown Payload",
       "provider": "ExPace",
       "providerType": "Commercial",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
       "net": "2026-09-17T02:35:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "f4c720ce-0cfd-43e6-b8dd-00273073bc01",
+      "name": "Electron | Owl By The Dozen (StriX Launch 12)",
+      "provider": "Rocket Lab",
+      "providerType": "Commercial",
+      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+      "net": "2026-09-19T03:15:00Z",
       "dayPrecision": true
     },
     {
@@ -207,15 +207,6 @@
       "site": "Tanegashima Space Center, Japan",
       "net": "2026-10-19T19:41:03Z",
       "dayPrecision": true
-    },
-    {
-      "id": "f4c720ce-0cfd-43e6-b8dd-00273073bc01",
-      "name": "Electron | StriX Launch 12",
-      "provider": "Rocket Lab",
-      "providerType": "Commercial",
-      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-10-31T00:00:00Z",
-      "dayPrecision": false
     },
     {
       "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
