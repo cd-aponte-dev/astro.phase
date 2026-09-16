@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-16T15:52:15.014Z",
+  "fetchedAt": "2026-09-16T20:43:18.242Z",
   "launches": [
     {
       "id": "767f7827-53d8-4621-803b-f456a1e6b512",
@@ -34,7 +34,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-09-17T01:00:00Z",
+      "net": "2026-09-17T01:07:56Z",
       "dayPrecision": true
     },
     {
@@ -84,7 +84,7 @@
     },
     {
       "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
-      "name": "Starship | Flight 14",
+      "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "SpaceX Starbase, TX, USA",
@@ -93,7 +93,7 @@
     },
     {
       "id": "7330d83b-c478-426c-8859-f9e3a335876d",
-      "name": "Falcon 9 Block 5 | USSF-xxx (\"R-3\")",
+      "name": "Falcon 9 Block 5 | USSF-385",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
