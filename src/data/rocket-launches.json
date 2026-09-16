@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-16T10:34:47.914Z",
+  "fetchedAt": "2026-09-16T15:52:15.014Z",
   "launches": [
     {
       "id": "767f7827-53d8-4621-803b-f456a1e6b512",
@@ -16,7 +16,7 @@
       "provider": "Russian Federal Space Agency (ROSCOSMOS)",
       "providerType": "Government",
       "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
-      "net": "2026-09-16T13:33:53Z",
+      "net": "2026-09-16T13:33:54Z",
       "dayPrecision": true
     },
     {
@@ -97,7 +97,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-09-27T11:42:00Z",
+      "net": "2026-09-26T11:56:00Z",
       "dayPrecision": true
     },
     {
@@ -106,15 +106,6 @@
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-09-30T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
-      "name": "Falcon 9 Block 5 | Crew-13",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-09-30T00:00:00Z",
       "dayPrecision": false
     },
@@ -211,6 +202,15 @@
     {
       "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
       "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Cape Canaveral SFS, FL, USA",
+      "net": "2026-10-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
+      "name": "Falcon 9 Block 5 | Crew-13",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
@@ -502,15 +502,6 @@
       "provider": "Arianespace",
       "providerType": "Commercial",
       "site": "Guiana Space Centre, French Guiana",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "3ac1bd74-bf9a-4afe-ae00-3e1d180142dd",
-      "name": "Astra Rocket 4 | Maiden Flight",
-      "provider": "Astra Space",
-      "providerType": "Commercial",
-      "site": "Kennedy Space Center, FL, USA",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
