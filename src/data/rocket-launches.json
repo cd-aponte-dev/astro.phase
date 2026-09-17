@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-17T02:44:37.620Z",
+  "fetchedAt": "2026-09-17T10:44:41.172Z",
   "launches": [
     {
       "id": "d793ba47-faf5-4bab-a386-39a9ccc49c90",
@@ -30,11 +30,11 @@
     },
     {
       "id": "71aa4d56-0ce9-4c7d-a808-cc22f2ac5a84",
-      "name": "Kuaizhou 11 | Unknown Payload",
+      "name": "Kuaizhou 11 | SpaceTY-51 & 52",
       "provider": "ExPace",
       "providerType": "Commercial",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-09-17T02:35:00Z",
+      "net": "2026-09-17T02:40:00Z",
       "dayPrecision": true
     },
     {
