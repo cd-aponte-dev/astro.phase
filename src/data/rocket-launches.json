@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-17T10:44:41.172Z",
+  "fetchedAt": "2026-09-17T15:58:08.263Z",
   "launches": [
-    {
-      "id": "d793ba47-faf5-4bab-a386-39a9ccc49c90",
-      "name": "Soyuz 2.1b | Progress MS-35 (96P)",
-      "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-      "providerType": "Government",
-      "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
-      "net": "2026-09-16T13:33:54Z",
-      "dayPrecision": true
-    },
     {
       "id": "898f7df0-b6ce-4a5c-80b4-67e81842124e",
       "name": "Long March 12 | SatNet LEO Group 25",
