@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-16T20:43:18.242Z",
+  "fetchedAt": "2026-09-17T02:44:37.620Z",
   "launches": [
-    {
-      "id": "767f7827-53d8-4621-803b-f456a1e6b512",
-      "name": "Gravity-1 | SpaceSail Polar Group #16",
-      "provider": "Orienspace Technology",
-      "providerType": "Commercial",
-      "site": "Haiyang Oriental Spaceport",
-      "net": "2026-09-15T22:00:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "d793ba47-faf5-4bab-a386-39a9ccc49c90",
       "name": "Soyuz 2.1b | Progress MS-35 (96P)",
@@ -21,11 +12,11 @@
     },
     {
       "id": "898f7df0-b6ce-4a5c-80b4-67e81842124e",
-      "name": "Long March 12 | Unknown Payload",
+      "name": "Long March 12 | SatNet LEO Group 25",
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Wenchang Space Launch Site, People's Republic of China",
-      "net": "2026-09-17T00:30:00Z",
+      "net": "2026-09-17T00:32:00Z",
       "dayPrecision": true
     },
     {
@@ -133,6 +124,15 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Wenchang Space Launch Site, People's Republic of China",
+      "net": "2026-09-30T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
+      "name": "Soyuz 2.1b/Fregat | Kosmos (Unknown Payload)",
+      "provider": "Russian Space Forces",
+      "providerType": "Government",
+      "site": "Plesetsk Cosmodrome, Russian Federation",
       "net": "2026-09-30T00:00:00Z",
       "dayPrecision": false
     },
@@ -484,15 +484,6 @@
       "provider": "Isar Aerospace",
       "providerType": "Private",
       "site": "Andøya Spaceport",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
-      "name": "Angara 1.2 | Kosmos (Unknown Payload)",
-      "provider": "Russian Space Forces",
-      "providerType": "Government",
-      "site": "Plesetsk Cosmodrome, Russian Federation",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
