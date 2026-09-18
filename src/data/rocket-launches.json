@@ -1,13 +1,13 @@
 {
-  "fetchedAt": "2026-09-18T02:31:12.859Z",
+  "fetchedAt": "2026-09-18T10:19:53.246Z",
   "launches": [
     {
-      "id": "71aa4d56-0ce9-4c7d-a808-cc22f2ac5a84",
-      "name": "Kuaizhou 11 | SpaceTY-51 & 52",
-      "provider": "ExPace",
-      "providerType": "Commercial",
-      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-09-17T02:40:00Z",
+      "id": "ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
+      "name": "Soyuz 2.1b/Fregat | Kosmos (Unknown Payload)",
+      "provider": "Russian Space Forces",
+      "providerType": "Government",
+      "site": "Plesetsk Cosmodrome, Russian Federation",
+      "net": "2026-09-17T16:50:00Z",
       "dayPrecision": true
     },
     {
@@ -74,15 +74,6 @@
       "dayPrecision": false
     },
     {
-      "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
-      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-09-30T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
       "id": "dc570565-4dcf-4ab9-8174-bf88efef477f",
       "name": "Long March 12A | Flight 2",
       "provider": "China Aerospace Science and Technology Corporation",
@@ -97,15 +88,6 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Wenchang Space Launch Site, People's Republic of China",
-      "net": "2026-09-30T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
-      "name": "Soyuz 2.1b/Fregat | Kosmos (Unknown Payload)",
-      "provider": "Russian Space Forces",
-      "providerType": "Government",
-      "site": "Plesetsk Cosmodrome, Russian Federation",
       "net": "2026-09-30T00:00:00Z",
       "dayPrecision": false
     },
@@ -137,13 +119,13 @@
       "dayPrecision": false
     },
     {
-      "id": "3b94ad50-3505-496e-8a95-b0bc4c0dadc6",
-      "name": "Themis Demonstrator | T1H-1",
-      "provider": "European Space Agency",
-      "providerType": "Multinational",
-      "site": "Esrange Space Center",
-      "net": "2026-09-30T00:00:00Z",
-      "dayPrecision": false
+      "id": "6b89cfc8-8880-4b5b-856c-0e547d45b639",
+      "name": "SR75 | Flight 2",
+      "provider": "HyImpulse",
+      "providerType": "Private",
+      "site": "SaxaVord Spaceport",
+      "net": "2026-10-05T00:00:00Z",
+      "dayPrecision": true
     },
     {
       "id": "7bdc412b-c965-4517-a131-f57a01189803",
@@ -196,6 +178,15 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
+      "net": "2026-10-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
+      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
       "net": "2026-10-31T00:00:00Z",
       "dayPrecision": false
     },
@@ -1033,6 +1024,15 @@
       "provider": "Relativity Space",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
+      "net": "2026-12-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "3b94ad50-3505-496e-8a95-b0bc4c0dadc6",
+      "name": "Themis Demonstrator | T1H-1",
+      "provider": "European Space Agency",
+      "providerType": "Multinational",
+      "site": "Esrange Space Center",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
