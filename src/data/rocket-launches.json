@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-18T15:33:13.321Z",
+  "fetchedAt": "2026-09-18T20:13:11.631Z",
   "launches": [
-    {
-      "id": "ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
-      "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 20 (?)",
-      "provider": "Russian Space Forces",
-      "providerType": "Government",
-      "site": "Plesetsk Cosmodrome, Russian Federation",
-      "net": "2026-09-17T16:50:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "f4c720ce-0cfd-43e6-b8dd-00273073bc01",
       "name": "Electron | Owl By The Dozen (StriX Launch 12)",
@@ -128,6 +119,15 @@
       "dayPrecision": false
     },
     {
+      "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
+      "name": "Falcon 9 Block 5 | Crew-13",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Cape Canaveral SFS, FL, USA",
+      "net": "2026-10-01T15:10:06Z",
+      "dayPrecision": true
+    },
+    {
       "id": "6b89cfc8-8880-4b5b-856c-0e547d45b639",
       "name": "SR75 | Flight 2",
       "provider": "HyImpulse",
@@ -166,15 +166,6 @@
     {
       "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
       "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-10-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
-      "name": "Falcon 9 Block 5 | Crew-13",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
