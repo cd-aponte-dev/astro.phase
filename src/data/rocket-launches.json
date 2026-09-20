@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-20T10:22:25.911Z",
+  "fetchedAt": "2026-09-20T15:11:14.266Z",
   "launches": [
-    {
-      "id": "a527b585-f01f-4ecc-9230-711dcef72ef1",
-      "name": "Long March 2D | PIESAT-2 13-16",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Taiyuan Satellite Launch Center, People's Republic of China",
-      "net": "2026-09-19T10:50:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "d1471f9d-e9d0-4146-8e97-90863e48bfc8",
       "name": "Falcon 9 Block 5 | Starlink Group 15-27",
