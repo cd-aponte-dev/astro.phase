@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-20T02:41:27.568Z",
+  "fetchedAt": "2026-09-20T10:22:25.911Z",
   "launches": [
-    {
-      "id": "f4c720ce-0cfd-43e6-b8dd-00273073bc01",
-      "name": "Electron | Owl By The Dozen (StriX Launch 12)",
-      "provider": "Rocket Lab",
-      "providerType": "Commercial",
-      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-09-19T03:22:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "a527b585-f01f-4ecc-9230-711dcef72ef1",
       "name": "Long March 2D | PIESAT-2 13-16",
@@ -30,11 +21,11 @@
     },
     {
       "id": "5af31461-bce5-4cfb-a0ee-b527cf285d90",
-      "name": "Kinetica 1 | Unknown Payload",
+      "name": "Kinetica 1 | 9 satellites",
       "provider": "CAS Space",
       "providerType": "Commercial",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-09-20T04:00:00Z",
+      "net": "2026-09-20T04:03:00Z",
       "dayPrecision": true
     },
     {
@@ -81,24 +72,6 @@
       "site": "SpaceX Starbase, TX, USA",
       "net": "2026-09-28T12:15:00Z",
       "dayPrecision": true
-    },
-    {
-      "id": "dc570565-4dcf-4ab9-8174-bf88efef477f",
-      "name": "Long March 12A | Flight 2",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-09-30T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-09-30T00:00:00Z",
-      "dayPrecision": false
     },
     {
       "id": "97c6f5e1-299e-4652-b72d-9618ac047076",
@@ -187,6 +160,24 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-10-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "dc570565-4dcf-4ab9-8174-bf88efef477f",
+      "name": "Long March 12A | Flight 2",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "net": "2026-10-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+      "provider": "United Launch Alliance",
+      "providerType": "Commercial",
+      "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-10-31T00:00:00Z",
       "dayPrecision": false
     },
