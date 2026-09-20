@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-19T19:50:08.521Z",
+  "fetchedAt": "2026-09-20T02:41:27.568Z",
   "launches": [
     {
       "id": "f4c720ce-0cfd-43e6-b8dd-00273073bc01",
@@ -99,6 +99,15 @@
       "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-09-30T00:00:00Z",
       "dayPrecision": false
+    },
+    {
+      "id": "97c6f5e1-299e-4652-b72d-9618ac047076",
+      "name": "Falcon 9 Block 5 | Starlink Group 15-25",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-09-30T14:00:00Z",
+      "dayPrecision": true
     },
     {
       "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
@@ -529,15 +538,6 @@
       "provider": "Japan Aerospace Exploration Agency",
       "providerType": "Government",
       "site": "Uchinoura Space Center, Japan",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "9bfa0324-db74-444f-8dc3-1c7d373ca659",
-      "name": "Falcon 9 Block 5 | 5x Astranis MicroGEO",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
