@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-21T17:33:52.183Z",
+  "fetchedAt": "2026-09-21T21:30:11.800Z",
   "launches": [
     {
       "id": "63063b9d-ade9-4448-8717-6f910aa81188",
@@ -65,6 +65,15 @@
       "dayPrecision": true
     },
     {
+      "id": "67213393-7983-4c06-8b44-b8c785a5ed79",
+      "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-10-01T18:08:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "6b89cfc8-8880-4b5b-856c-0e547d45b639",
       "name": "SR75 | Flight 2",
       "provider": "HyImpulse",
@@ -121,15 +130,6 @@
     {
       "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
       "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "67213393-7983-4c06-8b44-b8c785a5ed79",
-      "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
