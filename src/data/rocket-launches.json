@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-21T02:38:37.210Z",
+  "fetchedAt": "2026-09-21T11:36:12.616Z",
   "launches": [
-    {
-      "id": "5af31461-bce5-4cfb-a0ee-b527cf285d90",
-      "name": "Kinetica 1 | 9 satellites",
-      "provider": "CAS Space",
-      "providerType": "Commercial",
-      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-09-20T04:03:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "63063b9d-ade9-4448-8717-6f910aa81188",
       "name": "Long March 8A | Unknown Payload",
