@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-21T21:30:11.800Z",
+  "fetchedAt": "2026-09-22T02:40:22.262Z",
   "launches": [
     {
       "id": "63063b9d-ade9-4448-8717-6f910aa81188",
@@ -47,15 +47,6 @@
       "dayPrecision": true
     },
     {
-      "id": "97c6f5e1-299e-4652-b72d-9618ac047076",
-      "name": "Falcon 9 Block 5 | Starlink Group 15-25",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-09-30T16:00:00Z",
-      "dayPrecision": true
-    },
-    {
       "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
       "name": "Falcon 9 Block 5 | Crew-13",
       "provider": "SpaceX",
@@ -98,6 +89,15 @@
       "providerType": "Government",
       "site": "Naro Space Center, South Korea",
       "net": "2026-10-07T03:23:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "97c6f5e1-299e-4652-b72d-9618ac047076",
+      "name": "Falcon 9 Block 5 | Starlink Group 15-25",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-10-10T16:00:00Z",
       "dayPrecision": true
     },
     {
