@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-22T20:42:33.157Z",
+  "fetchedAt": "2026-09-23T02:40:58.036Z",
   "launches": [
     {
       "id": "63063b9d-ade9-4448-8717-6f910aa81188",
@@ -98,6 +98,15 @@
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
       "net": "2026-10-10T16:00:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
+      "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
+      "provider": "Indian Space Research Organization",
+      "providerType": "Government",
+      "site": "Satish Dhawan Space Centre, India",
+      "net": "2026-10-15T00:00:00Z",
       "dayPrecision": true
     },
     {
@@ -769,15 +778,6 @@
     {
       "id": "220e6d9f-33dc-4533-8a48-535ba4c559e2",
       "name": "GSLV Mk II | IDRSS-2",
-      "provider": "Indian Space Research Organization",
-      "providerType": "Government",
-      "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
-      "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
