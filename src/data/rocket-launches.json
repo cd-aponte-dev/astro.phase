@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-24T02:30:16.805Z",
+  "fetchedAt": "2026-09-24T10:51:18.973Z",
   "launches": [
     {
       "id": "63063b9d-ade9-4448-8717-6f910aa81188",
@@ -12,11 +12,11 @@
     },
     {
       "id": "aed67837-b567-43e0-8071-c3ccc24aa496",
-      "name": "Long March 6A | Unknown Payload",
+      "name": "Long March 6A | Yaogan 40 Group 04",
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Taiyuan Satellite Launch Center, People's Republic of China",
-      "net": "2026-09-24T08:45:00Z",
+      "net": "2026-09-24T08:46:00Z",
       "dayPrecision": true
     },
     {
