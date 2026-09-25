@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-24T20:59:16.218Z",
+  "fetchedAt": "2026-09-25T02:47:10.313Z",
   "launches": [
     {
       "id": "aed67837-b567-43e0-8071-c3ccc24aa496",
@@ -16,7 +16,7 @@
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-09-26T00:15:00Z",
+      "net": "2026-09-26T00:26:00Z",
       "dayPrecision": true
     },
     {
@@ -52,7 +52,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-01T18:08:00Z",
+      "net": "2026-10-01T18:18:00Z",
       "dayPrecision": true
     },
     {
