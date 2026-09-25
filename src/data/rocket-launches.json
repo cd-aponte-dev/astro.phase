@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-09-25T02:47:10.313Z",
+  "fetchedAt": "2026-09-25T10:54:24.743Z",
   "launches": [
-    {
-      "id": "aed67837-b567-43e0-8071-c3ccc24aa496",
-      "name": "Long March 6A | Yaogan 40 Group 04",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Taiyuan Satellite Launch Center, People's Republic of China",
-      "net": "2026-09-24T08:46:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "9e24bef7-c44b-4fdc-ba52-68545ce9457e",
       "name": "Electron | Owlright, Owlright, Owlright (StriX Launch 13)",
