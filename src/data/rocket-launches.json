@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-28T02:52:12.224Z",
+  "fetchedAt": "2026-09-28T12:31:21.424Z",
   "launches": [
     {
       "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
@@ -7,7 +7,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "SpaceX Starbase, TX, USA",
-      "net": "2026-09-28T12:15:00Z",
+      "net": "2026-09-28T12:48:59Z",
       "dayPrecision": true
     },
     {
