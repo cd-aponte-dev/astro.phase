@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-28T12:31:21.424Z",
+  "fetchedAt": "2026-09-28T22:49:09.344Z",
   "launches": [
     {
       "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
@@ -197,6 +197,15 @@
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
       "net": "2026-11-30T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "07e945c1-2ec6-4d29-a500-1afbe920440f",
+      "name": "Atlas V N22 | Starliner-1",
+      "provider": "United Launch Alliance",
+      "providerType": "Commercial",
+      "site": "Cape Canaveral SFS, FL, USA",
+      "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
     {
@@ -403,15 +412,6 @@
       "provider": "Arianespace",
       "providerType": "Commercial",
       "site": "Guiana Space Centre, French Guiana",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "07e945c1-2ec6-4d29-a500-1afbe920440f",
-      "name": "Atlas V N22 | Starliner-1",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
