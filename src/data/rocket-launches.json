@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-29T03:33:02.109Z",
+  "fetchedAt": "2026-09-29T11:53:44.991Z",
   "launches": [
     {
       "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
@@ -79,7 +79,7 @@
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-10-15T00:00:00Z",
+      "net": "2026-10-13T17:00:00Z",
       "dayPrecision": true
     },
     {
