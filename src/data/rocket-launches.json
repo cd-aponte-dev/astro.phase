@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-29T21:43:13.674Z",
+  "fetchedAt": "2026-09-30T03:18:02.161Z",
   "launches": [
     {
       "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
@@ -53,6 +53,15 @@
       "providerType": "Government",
       "site": "Naro Space Center, South Korea",
       "net": "2026-10-07T03:23:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "a1bb0984-19d4-4b47-9bba-706d225573e2",
+      "name": "Long March 12 | Unknown Payload",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Wenchang Space Launch Site, People's Republic of China",
+      "net": "2026-10-09T19:25:00Z",
       "dayPrecision": true
     },
     {
