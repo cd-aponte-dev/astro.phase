@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-01T03:24:35.818Z",
+  "fetchedAt": "2026-10-01T12:09:50.497Z",
   "launches": [
     {
       "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
@@ -26,15 +26,6 @@
       "providerType": "Commercial",
       "site": "Kennedy Space Center, FL, USA",
       "net": "2026-10-02T03:53:00Z",
-      "dayPrecision": true
-    },
-    {
-      "id": "6b89cfc8-8880-4b5b-856c-0e547d45b639",
-      "name": "SR75 | Flight 2",
-      "provider": "HyImpulse",
-      "providerType": "Private",
-      "site": "SaxaVord Spaceport",
-      "net": "2026-10-05T00:00:00Z",
       "dayPrecision": true
     },
     {
