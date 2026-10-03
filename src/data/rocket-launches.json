@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-10-03T03:09:31.876Z",
+  "fetchedAt": "2026-10-03T10:53:44.782Z",
   "launches": [
-    {
-      "id": "4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
-      "name": "Falcon Heavy | NROL-97",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Kennedy Space Center, FL, USA",
-      "net": "2026-10-02T03:54:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
       "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
