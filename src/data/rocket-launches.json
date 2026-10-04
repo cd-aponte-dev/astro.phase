@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-04T11:36:03.682Z",
+  "fetchedAt": "2026-10-04T16:14:26.930Z",
   "launches": [
     {
       "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
@@ -128,6 +128,15 @@
       "dayPrecision": false
     },
     {
+      "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
+      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Cape Canaveral SFS, FL, USA",
+      "net": "2026-11-30T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
       "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
       "name": "LVM-3 | Gaganyaan-1",
       "provider": "Indian Space Research Organization",
@@ -149,15 +158,6 @@
       "id": "07e945c1-2ec6-4d29-a500-1afbe920440f",
       "name": "Atlas V N22 | Starliner-1",
       "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
-      "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-      "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-12-31T00:00:00Z",
