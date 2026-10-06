@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-10-05T23:31:52.173Z",
+  "fetchedAt": "2026-10-06T04:07:55.398Z",
   "launches": [
-    {
-      "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
-      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-06T08:17:44Z",
-      "dayPrecision": true
-    },
     {
       "id": "e0741415-6c63-4236-9736-24a6c04485bc",
       "name": "Nuri | NeonSat-2 to 6",
@@ -17,6 +8,15 @@
       "providerType": "Government",
       "site": "Naro Space Center, South Korea",
       "net": "2026-10-07T03:23:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
+      "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-10-08T07:54:00Z",
       "dayPrecision": true
     },
     {
@@ -44,6 +44,15 @@
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-10-13T10:33:44Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "df88cfbf-f504-4e11-8370-e33dd6280b5b",
+      "name": "Falcon 9 Block 5 | USSF-xxx (\"TH-2\")",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-10-15T23:44:00Z",
       "dayPrecision": true
     },
     {
