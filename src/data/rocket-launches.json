@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-08T12:34:01.287Z",
+  "fetchedAt": "2026-10-08T22:42:22.430Z",
   "launches": [
     {
       "id": "a1bb0984-19d4-4b47-9bba-706d225573e2",
@@ -25,7 +25,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-11T23:00:00Z",
+      "net": "2026-10-12T23:00:00Z",
       "dayPrecision": true
     },
     {
@@ -39,7 +39,7 @@
     },
     {
       "id": "df88cfbf-f504-4e11-8370-e33dd6280b5b",
-      "name": "Falcon 9 Block 5 | USSF-xxx (\"TH-2\")",
+      "name": "Falcon 9 Block 5 | USSF-481",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
@@ -53,6 +53,15 @@
       "providerType": "Commercial",
       "site": "Tanegashima Space Center, Japan",
       "net": "2026-10-19T19:41:03Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+      "provider": "United Launch Alliance",
+      "providerType": "Commercial",
+      "site": "Cape Canaveral SFS, FL, USA",
+      "net": "2026-10-29T00:00:00Z",
       "dayPrecision": true
     },
     {
@@ -97,15 +106,6 @@
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-10-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-10-31T00:00:00Z",
       "dayPrecision": false
     },
@@ -715,24 +715,6 @@
     {
       "id": "ac02da00-6e8b-45a0-b829-09d614891e6a",
       "name": "H3-22 | ETS-9",
-      "provider": "Mitsubishi Heavy Industries",
-      "providerType": "Commercial",
-      "site": "Tanegashima Space Center, Japan",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "a2234679-5efe-4a00-9aff-cf82dbac22b0",
-      "name": "H3-24 | HTV-X2",
-      "provider": "Mitsubishi Heavy Industries",
-      "providerType": "Commercial",
-      "site": "Tanegashima Space Center, Japan",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "be50d3a3-1385-4371-a4dd-d7ab4969be59",
-      "name": "H3-24 | HTV-X3",
       "provider": "Mitsubishi Heavy Industries",
       "providerType": "Commercial",
       "site": "Tanegashima Space Center, Japan",
