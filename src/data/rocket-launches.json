@@ -1,13 +1,13 @@
 {
-  "fetchedAt": "2026-10-07T22:29:31.342Z",
+  "fetchedAt": "2026-10-08T03:49:41.700Z",
   "launches": [
     {
-      "id": "e0741415-6c63-4236-9736-24a6c04485bc",
-      "name": "Nuri | NeonSat-2 to 6",
-      "provider": "Korea Aerospace Research Institute",
+      "id": "a1bb0984-19d4-4b47-9bba-706d225573e2",
+      "name": "Long March 12 | Unknown Payload",
+      "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
-      "site": "Naro Space Center, South Korea",
-      "net": "2026-10-07T03:25:00Z",
+      "site": "Wenchang Space Launch Site, People's Republic of China",
+      "net": "2026-10-09T19:25:00Z",
       "dayPrecision": true
     },
     {
@@ -16,16 +16,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-09T07:36:00Z",
-      "dayPrecision": true
-    },
-    {
-      "id": "a1bb0984-19d4-4b47-9bba-706d225573e2",
-      "name": "Long March 12 | Unknown Payload",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Wenchang Space Launch Site, People's Republic of China",
-      "net": "2026-10-09T19:25:00Z",
+      "net": "2026-10-10T07:29:00Z",
       "dayPrecision": true
     },
     {
