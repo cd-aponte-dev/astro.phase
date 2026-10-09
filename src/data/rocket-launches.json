@@ -1,13 +1,13 @@
 {
-  "fetchedAt": "2026-10-09T12:21:52.532Z",
+  "fetchedAt": "2026-10-09T22:04:32.211Z",
   "launches": [
     {
       "id": "a1bb0984-19d4-4b47-9bba-706d225573e2",
-      "name": "Long March 12 | Unknown Payload",
+      "name": "Long March 12 | SatNet LEO Group 27",
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Wenchang Space Launch Site, People's Republic of China",
-      "net": "2026-10-09T19:25:00Z",
+      "net": "2026-10-09T19:27:00Z",
       "dayPrecision": true
     },
     {
@@ -16,7 +16,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-10T07:29:00Z",
+      "net": "2026-10-10T07:39:00Z",
       "dayPrecision": true
     },
     {
