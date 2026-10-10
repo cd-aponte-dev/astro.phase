@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-10T03:39:32.507Z",
+  "fetchedAt": "2026-10-10T11:40:42.887Z",
   "launches": [
     {
       "id": "a1bb0984-19d4-4b47-9bba-706d225573e2",
@@ -48,7 +48,7 @@
     },
     {
       "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
-      "name": "H3-24 | Martian Moon eXplorer (MMX)",
+      "name": "H3-24 | Martian Moons eXploration (MMX)",
       "provider": "Mitsubishi Heavy Industries",
       "providerType": "Commercial",
       "site": "Tanegashima Space Center, Japan",
