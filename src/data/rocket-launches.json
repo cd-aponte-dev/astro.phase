@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-10T11:40:42.887Z",
+  "fetchedAt": "2026-10-10T16:42:13.646Z",
   "launches": [
     {
       "id": "a1bb0984-19d4-4b47-9bba-706d225573e2",
@@ -196,6 +196,15 @@
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
+      "net": "2026-12-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "a5e81552-ecdd-4d89-b6bd-b594e22ca891",
+      "name": "New Glenn | Blue Ring-1",
+      "provider": "Blue Origin",
+      "providerType": "Commercial",
+      "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
