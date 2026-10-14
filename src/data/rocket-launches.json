@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-10-14T02:56:59.407Z",
+  "fetchedAt": "2026-10-14T10:56:33.636Z",
   "launches": [
-    {
-      "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
-      "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-10-13T10:33:44Z",
-      "dayPrecision": true
-    },
     {
       "id": "dfcabb3c-078b-4f5b-a47c-0161f248cee9",
       "name": "Zhuque-2E | Unknown Payload",
