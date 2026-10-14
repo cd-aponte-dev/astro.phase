@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-10-14T10:56:33.636Z",
+  "fetchedAt": "2026-10-14T16:16:10.152Z",
   "launches": [
     {
       "id": "dfcabb3c-078b-4f5b-a47c-0161f248cee9",
-      "name": "Zhuque-2E | Unknown Payload",
+      "name": "Zhuque-2E Block 2 | 10 satellites",
       "provider": "LandSpace",
       "providerType": "Commercial",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
@@ -119,6 +119,15 @@
       "dayPrecision": true
     },
     {
+      "id": "7bdc412b-c965-4517-a131-f57a01189803",
+      "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+      "provider": "Arianespace",
+      "providerType": "Commercial",
+      "site": "Guiana Space Centre, French Guiana",
+      "net": "2026-11-23T00:00:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "8dd5de11-831b-445f-86f0-bffefe0550d9",
       "name": "Soyuz 2.1b | Progress MS-36 (97P)",
       "provider": "Russian Federal Space Agency (ROSCOSMOS)",
@@ -126,15 +135,6 @@
       "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
       "net": "2026-11-24T05:03:00Z",
       "dayPrecision": true
-    },
-    {
-      "id": "7bdc412b-c965-4517-a131-f57a01189803",
-      "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
-      "provider": "Arianespace",
-      "providerType": "Commercial",
-      "site": "Guiana Space Centre, French Guiana",
-      "net": "2026-11-30T00:00:00Z",
-      "dayPrecision": false
     },
     {
       "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
