@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-10-13T18:42:43.675Z",
+  "fetchedAt": "2026-10-14T02:56:59.407Z",
   "launches": [
-    {
-      "id": "97c6f5e1-299e-4652-b72d-9618ac047076",
-      "name": "Falcon 9 Block 5 | Starlink Group 15-25",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-13T00:28:11Z",
-      "dayPrecision": true
-    },
     {
       "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
       "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
@@ -92,15 +83,6 @@
       "dayPrecision": true
     },
     {
-      "id": "7bdc412b-c965-4517-a131-f57a01189803",
-      "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
-      "provider": "Arianespace",
-      "providerType": "Commercial",
-      "site": "Guiana Space Centre, French Guiana",
-      "net": "2026-10-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
       "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
       "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
       "provider": "Indian Space Research Organization",
@@ -155,8 +137,8 @@
       "dayPrecision": true
     },
     {
-      "id": "22e117bf-041c-49d5-9d09-7b180036e143",
-      "name": "Ariane 62 | Metop-SG B1",
+      "id": "7bdc412b-c965-4517-a131-f57a01189803",
+      "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
       "provider": "Arianespace",
       "providerType": "Commercial",
       "site": "Guiana Space Centre, French Guiana",
@@ -188,6 +170,15 @@
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
       "net": "2026-11-30T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "22e117bf-041c-49d5-9d09-7b180036e143",
+      "name": "Ariane 62 | Metop-SG B1",
+      "provider": "Arianespace",
+      "providerType": "Commercial",
+      "site": "Guiana Space Centre, French Guiana",
+      "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
     {
@@ -241,15 +232,6 @@
       "provider": "Blue Origin",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "0b85fcca-5252-48d7-9ccb-c10b1da9d183",
-      "name": "Ariane 62 | Galileo L15 (FOC FM28 & FM31)",
-      "provider": "Arianespace",
-      "providerType": "Commercial",
-      "site": "Guiana Space Centre, French Guiana",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
@@ -403,15 +385,6 @@
       "provider": "Isar Aerospace",
       "providerType": "Private",
       "site": "Andøya Spaceport",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "b78857c4-3b8d-4462-929e-bc76f39c0e6d",
-      "name": "Ariane 64 | GO-1",
-      "provider": "Arianespace",
-      "providerType": "Commercial",
-      "site": "Guiana Space Centre, French Guiana",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
