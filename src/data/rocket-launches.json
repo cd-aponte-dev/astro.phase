@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-15T20:47:39.792Z",
+  "fetchedAt": "2026-10-16T02:31:35.957Z",
   "launches": [
     {
       "id": "df88cfbf-f504-4e11-8370-e33dd6280b5b",
@@ -7,7 +7,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-15T23:57:05Z",
+      "net": "2026-10-16T00:01:05Z",
       "dayPrecision": true
     },
     {
@@ -38,12 +38,39 @@
       "dayPrecision": true
     },
     {
+      "id": "c6f8b6b0-6bae-460a-99bb-c12a3d29effd",
+      "name": "Ceres-1S | Unknown Payload",
+      "provider": "Galactic Energy",
+      "providerType": "Commercial",
+      "site": "Haiyang Oriental Spaceport",
+      "net": "2026-10-21T03:35:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "7766f3bb-674c-4c71-b986-963bd633fcfe",
       "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
       "net": "2026-10-21T05:00:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "6b95bcc8-1f88-4539-84fe-f63630138766",
+      "name": "Long March 8A | Unknown Payload",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Wenchang Space Launch Site, People's Republic of China",
+      "net": "2026-10-22T02:00:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "3621085f-deae-4f89-bd54-c0f96ee44421",
+      "name": "Long March 4B | Unknown Payload",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "net": "2026-10-23T18:00:00Z",
       "dayPrecision": true
     },
     {
@@ -1003,15 +1030,6 @@
     {
       "id": "06201706-da6b-467e-83b2-ef2ff8596e05",
       "name": "Vulcan | USSF-23",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "f494692f-471c-4a75-b78e-667842fea27f",
-      "name": "Vulcan | USSF-25",
       "provider": "United Launch Alliance",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
