@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T10:25:33.440Z",
+  "fetchedAt": "2026-10-16T15:51:34.748Z",
   "launches": [
     {
       "id": "df88cfbf-f504-4e11-8370-e33dd6280b5b",
@@ -61,7 +61,7 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Wenchang Space Launch Site, People's Republic of China",
-      "net": "2026-10-22T02:00:00Z",
+      "net": "2026-10-22T02:57:00Z",
       "dayPrecision": true
     },
     {
