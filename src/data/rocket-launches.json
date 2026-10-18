@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-17T19:55:34.744Z",
+  "fetchedAt": "2026-10-18T02:24:15.429Z",
   "launches": [
     {
       "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
@@ -1134,6 +1134,15 @@
       "site": "Wallops Flight Facility, Virginia, USA",
       "net": "2027-01-31T00:00:00Z",
       "dayPrecision": false
+    },
+    {
+      "id": "d1a3807e-f304-467c-a095-e08b86924347",
+      "name": "Firefly Alpha Block 2 | QuickSounder",
+      "provider": "Firefly Aerospace",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2027-02-15T00:00:00Z",
+      "dayPrecision": true
     }
   ]
 }
