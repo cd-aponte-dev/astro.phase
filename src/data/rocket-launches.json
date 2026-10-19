@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-10-19T02:38:48.123Z",
+  "fetchedAt": "2026-10-19T11:43:09.314Z",
   "launches": [
-    {
-      "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
-      "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-10-19T10:30:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
       "name": "H3-24 | Martian Moons eXploration (MMX)",
@@ -17,6 +8,15 @@
       "providerType": "Commercial",
       "site": "Tanegashima Space Center, Japan",
       "net": "2026-10-19T19:41:03Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
+      "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Cape Canaveral SFS, FL, USA",
+      "net": "2026-10-20T10:30:00Z",
       "dayPrecision": true
     },
     {
