@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-19T11:43:09.314Z",
+  "fetchedAt": "2026-10-19T18:03:58.986Z",
   "launches": [
     {
       "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
@@ -83,6 +83,15 @@
       "dayPrecision": true
     },
     {
+      "id": "57ce0a39-d035-4f16-a418-bd6108f78199",
+      "name": "Falcon 9 Block 5 | Starlink Group 15-18",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-10-28T04:31:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
       "name": "Vulcan VC6L | Amazon Leo (LV-01)",
       "provider": "United Launch Alliance",
@@ -117,6 +126,15 @@
       "site": "Satish Dhawan Space Centre, India",
       "net": "2026-10-31T00:00:00Z",
       "dayPrecision": false
+    },
+    {
+      "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
+      "name": "Falcon 9 Block 5 | Starlink Group 15-21",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-11-01T05:11:00Z",
+      "dayPrecision": true
     },
     {
       "id": "426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
