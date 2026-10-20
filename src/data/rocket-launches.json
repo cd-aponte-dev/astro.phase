@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-20T02:50:45.837Z",
+  "fetchedAt": "2026-10-20T10:44:24.011Z",
   "launches": [
     {
       "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
@@ -16,7 +16,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-10-20T10:30:00Z",
+      "net": "2026-10-20T11:04:00Z",
       "dayPrecision": true
     },
     {
@@ -25,7 +25,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-20T23:09:23Z",
+      "net": "2026-10-20T23:10:02Z",
       "dayPrecision": true
     },
     {
@@ -128,15 +128,6 @@
       "dayPrecision": false
     },
     {
-      "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
-      "name": "Falcon 9 Block 5 | Starlink Group 15-21",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-01T05:11:00Z",
-      "dayPrecision": true
-    },
-    {
       "id": "426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
       "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
       "provider": "Rocket Lab",
@@ -151,6 +142,15 @@
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+      "net": "2026-11-10T00:00:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
+      "name": "Falcon 9 Block 5 | Starlink Group 15-21",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
       "net": "2026-11-10T00:00:00Z",
       "dayPrecision": true
     },
