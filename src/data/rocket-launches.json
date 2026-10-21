@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-10-21T10:55:41.943Z",
+  "fetchedAt": "2026-10-21T16:22:56.123Z",
   "launches": [
-    {
-      "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
-      "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-10-20T11:04:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "c6f8b6b0-6bae-460a-99bb-c12a3d29effd",
       "name": "Ceres-1S | Xiguang-4 01",
