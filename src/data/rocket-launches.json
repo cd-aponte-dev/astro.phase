@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-22T16:23:22.881Z",
+  "fetchedAt": "2026-10-22T21:02:38.027Z",
   "launches": [
     {
       "id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
@@ -79,8 +79,8 @@
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-10-31T00:00:00Z",
-      "dayPrecision": false
+      "net": "2026-10-30T00:00:00Z",
+      "dayPrecision": true
     },
     {
       "id": "dc570565-4dcf-4ab9-8174-bf88efef477f",
@@ -92,21 +92,21 @@
       "dayPrecision": false
     },
     {
-      "id": "e59ff9a4-f72f-4841-8546-3c94346ecdba",
-      "name": "SSLV | AayulSAT-1A & others",
-      "provider": "Indian Space Research Organization",
-      "providerType": "Government",
-      "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-10-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
       "id": "426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
       "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
       "net": "2026-11-04T00:00:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
+      "name": "Falcon 9 Block 5 | Starlink Group 15-21",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-11-05T05:14:00Z",
       "dayPrecision": true
     },
     {
@@ -124,15 +124,6 @@
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-11-10T00:00:00Z",
-      "dayPrecision": true
-    },
-    {
-      "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
-      "name": "Falcon 9 Block 5 | Starlink Group 15-21",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
       "net": "2026-11-10T00:00:00Z",
       "dayPrecision": true
     },
@@ -853,6 +844,15 @@
       "provider": "Isar Aerospace",
       "providerType": "Private",
       "site": "Andøya Spaceport",
+      "net": "2026-12-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "e59ff9a4-f72f-4841-8546-3c94346ecdba",
+      "name": "SSLV | AayulSAT-1A & others",
+      "provider": "Indian Space Research Organization",
+      "providerType": "Government",
+      "site": "Satish Dhawan Space Centre, India",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
