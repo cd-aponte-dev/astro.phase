@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-10-22T21:02:38.027Z",
+  "fetchedAt": "2026-10-23T02:47:26.982Z",
   "launches": [
-    {
-      "id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
-      "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-22T22:51:18Z",
-      "dayPrecision": true
-    },
     {
       "id": "7766f3bb-674c-4c71-b986-963bd633fcfe",
       "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
@@ -35,6 +26,15 @@
       "providerType": "Government",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
       "net": "2026-10-23T19:25:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
+      "name": "Falcon 9 Block 5 | Starlink Group 15-15",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-10-23T21:30:00Z",
       "dayPrecision": true
     },
     {
