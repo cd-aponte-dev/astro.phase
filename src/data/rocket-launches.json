@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-23T10:47:45.100Z",
+  "fetchedAt": "2026-10-23T16:12:42.556Z",
   "launches": [
     {
       "id": "7766f3bb-674c-4c71-b986-963bd633fcfe",
@@ -12,7 +12,7 @@
     },
     {
       "id": "9648124f-8568-46d2-86d7-4b4d6f12187f",
-      "name": "Long March 6A | Unknown Payload",
+      "name": "Long March 6A | Yaogan 50-03",
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Taiyuan Satellite Launch Center, People's Republic of China",
@@ -34,7 +34,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-23T21:30:00Z",
+      "net": "2026-10-23T22:28:53Z",
       "dayPrecision": true
     },
     {
@@ -52,7 +52,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-26T05:00:00Z",
+      "net": "2026-10-27T04:45:00Z",
       "dayPrecision": true
     },
     {
@@ -70,7 +70,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-29T04:17:00Z",
+      "net": "2026-10-30T04:02:00Z",
       "dayPrecision": true
     },
     {
@@ -709,15 +709,6 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Wenchang Space Launch Site, People's Republic of China",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "a8c191e1-b231-4b2e-aefd-5e8ad55c7a82",
-      "name": "Miura 5 | Maiden Flight",
-      "provider": "Payload Aerospace S.L.",
-      "providerType": "Commercial",
-      "site": "Guiana Space Centre, French Guiana",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
