@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-10-24T10:03:19.344Z",
+  "fetchedAt": "2026-10-24T15:09:15.934Z",
   "launches": [
-    {
-      "id": "9648124f-8568-46d2-86d7-4b4d6f12187f",
-      "name": "Long March 6A | Yaogan 50-03",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Taiyuan Satellite Launch Center, People's Republic of China",
-      "net": "2026-10-23T10:15:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "3621085f-deae-4f89-bd54-c0f96ee44421",
       "name": "Long March 4B | Yaogan 53-07 to 09/56-19 to 21",
@@ -44,15 +35,6 @@
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
       "net": "2026-10-27T04:45:00Z",
-      "dayPrecision": true
-    },
-    {
-      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-10-29T00:00:00Z",
       "dayPrecision": true
     },
     {
@@ -137,6 +119,15 @@
       "dayPrecision": true
     },
     {
+      "id": "c9605b67-8a53-4239-a8ae-577fe3b79799",
+      "name": "Long March 2F/G | Shenzhou 24",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "net": "2026-11-25T00:00:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
       "provider": "SpaceX",
@@ -169,6 +160,15 @@
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
+      "net": "2026-11-30T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+      "provider": "United Launch Alliance",
+      "providerType": "Commercial",
+      "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-11-30T00:00:00Z",
       "dayPrecision": false
     },
@@ -376,15 +376,6 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "c9605b67-8a53-4239-a8ae-577fe3b79799",
-      "name": "Long March 2F/G | Shenzhou 24",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
