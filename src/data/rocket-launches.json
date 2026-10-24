@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-23T20:50:33.335Z",
+  "fetchedAt": "2026-10-24T02:44:27.124Z",
   "launches": [
     {
       "id": "7766f3bb-674c-4c71-b986-963bd633fcfe",
@@ -21,7 +21,7 @@
     },
     {
       "id": "3621085f-deae-4f89-bd54-c0f96ee44421",
-      "name": "Long March 4B | Unknown Payload",
+      "name": "Long March 4B | Yaogan 53-07 to 09/56-19 to 21",
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
@@ -34,7 +34,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-23T22:28:53Z",
+      "net": "2026-10-23T22:48:44Z",
       "dayPrecision": true
     },
     {
