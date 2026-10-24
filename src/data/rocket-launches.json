@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-10-24T15:09:15.934Z",
+  "fetchedAt": "2026-10-24T20:01:43.200Z",
   "launches": [
-    {
-      "id": "3621085f-deae-4f89-bd54-c0f96ee44421",
-      "name": "Long March 4B | Yaogan 53-07 to 09/56-19 to 21",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-10-23T19:25:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
       "name": "Falcon 9 Block 5 | Starlink Group 15-15",
