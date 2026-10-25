@@ -1,22 +1,13 @@
 {
-  "fetchedAt": "2026-10-24T20:01:43.200Z",
+  "fetchedAt": "2026-10-25T02:34:28.985Z",
   "launches": [
-    {
-      "id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
-      "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-23T22:48:44Z",
-      "dayPrecision": true
-    },
     {
       "id": "6b95bcc8-1f88-4539-84fe-f63630138766",
       "name": "Long March 8A | Unknown Payload",
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Wenchang Space Launch Site, People's Republic of China",
-      "net": "2026-10-25T01:50:00Z",
+      "net": "2026-10-25T02:03:00Z",
       "dayPrecision": true
     },
     {
