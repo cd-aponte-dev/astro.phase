@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-10-25T02:34:28.985Z",
+  "fetchedAt": "2026-10-25T10:28:41.432Z",
   "launches": [
     {
       "id": "6b95bcc8-1f88-4539-84fe-f63630138766",
-      "name": "Long March 8A | Unknown Payload",
+      "name": "Long March 8A | SatNet LEO Group 28",
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Wenchang Space Launch Site, People's Republic of China",
@@ -263,8 +263,8 @@
       "dayPrecision": false
     },
     {
-      "id": "fcbc4550-e69e-4458-a9e6-4a5b6b6b15a5",
-      "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer E",
+      "id": "a9ee8337-127d-4f17-9e3a-a07999f80099",
+      "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer D",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
@@ -848,8 +848,8 @@
       "dayPrecision": false
     },
     {
-      "id": "a9ee8337-127d-4f17-9e3a-a07999f80099",
-      "name": "Vulcan | SDA Tranche 1 Tracking Layer D",
+      "id": "fcbc4550-e69e-4458-a9e6-4a5b6b6b15a5",
+      "name": "Vulcan | SDA Tranche 1 Tracking Layer E",
       "provider": "United Launch Alliance",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
@@ -868,15 +868,6 @@
     {
       "id": "eb8cbca7-5ae6-430c-8ff6-0f672cfb5bd0",
       "name": "Vulcan | SILENTBARKER 2/NROL-118",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "0a63b1f5-16e9-44c2-b202-830e86b8e8e7",
-      "name": "Vulcan | USSF-112",
       "provider": "United Launch Alliance",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
