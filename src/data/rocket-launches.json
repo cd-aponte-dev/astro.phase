@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T11:59:35.553Z",
+  "fetchedAt": "2026-10-26T18:29:54.904Z",
   "launches": [
     {
       "id": "e2886a96-5ce9-4f45-872f-4e25a00be837",
@@ -25,17 +25,17 @@
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-10-30T17:00:00Z",
+      "net": "2026-10-30T18:21:00Z",
       "dayPrecision": true
     },
     {
-      "id": "dc570565-4dcf-4ab9-8174-bf88efef477f",
-      "name": "Long March 12A | Flight 2",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-10-31T00:00:00Z",
-      "dayPrecision": false
+      "id": "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae",
+      "name": "Falcon 9 Block 5 | USSF-432",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-11-02T01:56:00Z",
+      "dayPrecision": true
     },
     {
       "id": "426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
@@ -53,15 +53,6 @@
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
       "net": "2026-11-05T05:14:00Z",
-      "dayPrecision": true
-    },
-    {
-      "id": "56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
-      "name": "Falcon 9 Block 5 | NROL-195",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-05T22:34:00Z",
       "dayPrecision": true
     },
     {
@@ -106,6 +97,15 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
+      "net": "2026-11-30T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
+      "name": "Falcon 9 Block 5 | NROL-195",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
       "net": "2026-11-30T00:00:00Z",
       "dayPrecision": false
     },
@@ -664,6 +664,15 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Wenchang Space Launch Site, People's Republic of China",
+      "net": "2026-12-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "dc570565-4dcf-4ab9-8174-bf88efef477f",
+      "name": "Long March 12A | Flight 2",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
