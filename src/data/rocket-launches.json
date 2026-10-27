@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-27T17:08:18.841Z",
+  "fetchedAt": "2026-10-27T21:39:18.278Z",
   "launches": [
     {
       "id": "e2886a96-5ce9-4f45-872f-4e25a00be837",
@@ -52,7 +52,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-05T05:14:00Z",
+      "net": "2026-11-05T02:35:00Z",
       "dayPrecision": true
     },
     {
