@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T12:02:13.401Z",
+  "fetchedAt": "2026-10-29T22:14:31.520Z",
   "launches": [
     {
       "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
@@ -137,13 +137,22 @@
       "dayPrecision": true
     },
     {
+      "id": "dff42a2e-f047-48d7-b260-3888d3a4fe33",
+      "name": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
+      "provider": "Isar Aerospace",
+      "providerType": "Private",
+      "site": "Andøya Spaceport",
+      "net": "2026-11-26T20:00:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-11-30T00:00:00Z",
-      "dayPrecision": false
+      "net": "2026-11-29T16:00:00Z",
+      "dayPrecision": true
     },
     {
       "id": "56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
@@ -214,15 +223,6 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "ce1317de-ec94-4479-9b28-38ebf11f13ae",
-      "name": "Falcon 9 Block 5 | Telesat Lightspeed 1",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
@@ -385,15 +385,6 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "dff42a2e-f047-48d7-b260-3888d3a4fe33",
-      "name": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
-      "provider": "Isar Aerospace",
-      "providerType": "Private",
-      "site": "Andøya Spaceport",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
