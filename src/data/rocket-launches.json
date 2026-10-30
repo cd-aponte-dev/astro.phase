@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T11:55:46.614Z",
+  "fetchedAt": "2026-10-30T17:36:34.723Z",
   "launches": [
     {
       "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
@@ -16,7 +16,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-31T03:48:00Z",
+      "net": "2026-10-31T04:02:22Z",
       "dayPrecision": true
     },
     {
@@ -65,12 +65,21 @@
       "dayPrecision": true
     },
     {
+      "id": "711de6bc-f755-475b-a12f-ec5240da3a11",
+      "name": "Long March 2C | Unknown Payload",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Xichang Satellite Launch Center, People's Republic of China",
+      "net": "2026-11-05T16:00:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "a2423132-f965-423f-8b03-6891b775dc54",
       "name": "Long March 12 | SatNet LEO Group TBD?",
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Wenchang Space Launch Site, People's Republic of China",
-      "net": "2026-11-05T20:00:00Z",
+      "net": "2026-11-05T21:15:00Z",
       "dayPrecision": true
     },
     {
@@ -110,6 +119,15 @@
       "dayPrecision": true
     },
     {
+      "id": "a2975167-7c6f-4403-99e1-b40df17c8140",
+      "name": "Long March 8A | SatNet LEO Group TBD?",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Wenchang Space Launch Site, People's Republic of China",
+      "net": "2026-11-20T11:00:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "7bdc412b-c965-4517-a131-f57a01189803",
       "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
       "provider": "Arianespace",
@@ -125,6 +143,15 @@
       "providerType": "Government",
       "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
       "net": "2026-11-24T05:03:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "5ce59e3a-c343-430f-ae4e-e608ba536754",
+      "name": "Long March 12 | SatNet LEO Group TBD?",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Wenchang Space Launch Site, People's Republic of China",
+      "net": "2026-11-24T07:00:00Z",
       "dayPrecision": true
     },
     {
