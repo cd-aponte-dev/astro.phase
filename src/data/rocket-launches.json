@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T21:50:44.467Z",
+  "fetchedAt": "2026-10-31T03:31:24.299Z",
   "launches": [
     {
       "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
@@ -16,7 +16,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-31T04:02:22Z",
+      "net": "2026-10-31T04:04:34Z",
       "dayPrecision": true
     },
     {
@@ -1062,6 +1062,42 @@
       "site": "Vandenberg SFB, CA, USA",
       "net": "2027-02-15T00:00:00Z",
       "dayPrecision": true
+    },
+    {
+      "id": "3624047e-9891-420b-820f-7db4a7570383",
+      "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer G",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2027-02-28T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "8d066e3a-ed12-4997-a5f4-3bc13cf5c8a2",
+      "name": "Falcon 9 Block 5 | SICRAL 3A",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Cape Canaveral SFS, FL, USA",
+      "net": "2027-02-28T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "22023c17-c196-4b56-bfd4-7fc5e9db84c0",
+      "name": "Falcon 9 Block 5 | Transporter 19 (Dedicated SSO Rideshare)",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2027-02-28T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "c71bc50d-de5f-48ea-8a74-0503871eaaf7",
+      "name": "Firefly Alpha Block 2 | ConnectedCosmos Launch 3",
+      "provider": "Firefly Aerospace",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2027-02-28T00:00:00Z",
+      "dayPrecision": false
     }
   ]
 }
