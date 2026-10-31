@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-10-31T16:37:08.247Z",
+  "fetchedAt": "2026-10-31T20:50:24.252Z",
   "launches": [
-    {
-      "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
-      "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
-      "provider": "Indian Space Research Organization",
-      "providerType": "Government",
-      "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-10-30T18:21:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "57ce0a39-d035-4f16-a418-bd6108f78199",
       "name": "Falcon 9 Block 5 | Starlink Group 15-18",
