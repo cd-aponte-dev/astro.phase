@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-11-01T03:37:36.148Z",
+  "fetchedAt": "2026-11-01T12:26:35.664Z",
   "launches": [
-    {
-      "id": "57ce0a39-d035-4f16-a418-bd6108f78199",
-      "name": "Falcon 9 Block 5 | Starlink Group 15-18",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-10-31T04:04:34Z",
-      "dayPrecision": true
-    },
     {
       "id": "426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
       "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
