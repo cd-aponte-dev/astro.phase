@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-01T21:32:39.336Z",
+  "fetchedAt": "2026-11-02T03:43:15.908Z",
   "launches": [
     {
       "id": "426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
@@ -38,15 +38,6 @@
       "dayPrecision": true
     },
     {
-      "id": "e91d1da2-819b-4523-95bf-39ac7daa871d",
-      "name": "Ceres-2 | Unknown Payload",
-      "provider": "Galactic Energy",
-      "providerType": "Commercial",
-      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-11-04T21:00:00Z",
-      "dayPrecision": true
-    },
-    {
       "id": "711de6bc-f755-475b-a12f-ec5240da3a11",
       "name": "Long March 2C | Unknown Payload",
       "provider": "China Aerospace Science and Technology Corporation",
@@ -65,12 +56,12 @@
       "dayPrecision": true
     },
     {
-      "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
-      "name": "Falcon 9 Block 5 | Starlink Group 15-21",
-      "provider": "SpaceX",
+      "id": "e91d1da2-819b-4523-95bf-39ac7daa871d",
+      "name": "Ceres-2 | Unknown Payload",
+      "provider": "Galactic Energy",
       "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-06T02:21:00Z",
+      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "net": "2026-11-06T23:35:00Z",
       "dayPrecision": true
     },
     {
@@ -175,6 +166,15 @@
     {
       "id": "b0dc988c-ea4a-423f-81b6-6b0fbe7cc17c",
       "name": "Falcon 9 Block 5 | OneWeb 21",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-11-30T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
+      "name": "Falcon 9 Block 5 | Starlink Group 15-21",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
