@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-02T03:43:15.908Z",
+  "fetchedAt": "2026-11-02T14:23:05.266Z",
   "launches": [
     {
       "id": "426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
@@ -65,15 +65,6 @@
       "dayPrecision": true
     },
     {
-      "id": "db3500ac-965b-4ad8-b417-cb8d8d005586",
-      "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
-      "provider": "Rocket Lab",
-      "providerType": "Commercial",
-      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-11-10T00:00:00Z",
-      "dayPrecision": true
-    },
-    {
       "id": "6aa7b90b-e5ed-45d8-a52e-04fbf399d178",
       "name": "Falcon 9 Block 5 | USSF-xxx (\"R-5\")",
       "provider": "SpaceX",
@@ -89,6 +80,15 @@
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-11-13T00:00:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "db3500ac-965b-4ad8-b417-cb8d8d005586",
+      "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
+      "provider": "Rocket Lab",
+      "providerType": "Commercial",
+      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+      "net": "2026-11-14T00:00:00Z",
       "dayPrecision": true
     },
     {
