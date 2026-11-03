@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-02T14:23:05.266Z",
+  "fetchedAt": "2026-11-03T00:14:46.095Z",
   "launches": [
     {
       "id": "426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
@@ -20,21 +20,21 @@
       "dayPrecision": true
     },
     {
-      "id": "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae",
-      "name": "Falcon 9 Block 5 | USSF-432",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-04T01:28:00Z",
-      "dayPrecision": true
-    },
-    {
       "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
       "name": "Mir | Demo Flight",
       "provider": "Agency for Defense Development",
       "providerType": "Government",
       "site": "Sea Launch",
       "net": "2026-11-04T05:00:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae",
+      "name": "Falcon 9 Block 5 | USSF-432",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-11-05T01:14:00Z",
       "dayPrecision": true
     },
     {
@@ -70,7 +70,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-10T03:03:00Z",
+      "net": "2026-11-09T03:17:00Z",
       "dayPrecision": true
     },
     {
@@ -151,7 +151,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-11-29T16:00:00Z",
+      "net": "2026-11-29T15:49:00Z",
       "dayPrecision": true
     },
     {
