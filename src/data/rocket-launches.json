@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-03T00:14:46.095Z",
+  "fetchedAt": "2026-11-03T13:22:42.884Z",
   "launches": [
     {
       "id": "426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
@@ -12,11 +12,11 @@
     },
     {
       "id": "f3f201cd-0ff9-4ff7-9aaa-1d22c399c75a",
-      "name": "Kinetica 2 | SpaceSail Polar Group TBD?",
+      "name": "Kinetica 2 | SpaceSail Polar Group #17",
       "provider": "CAS Space",
       "providerType": "Commercial",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-11-03T00:10:00Z",
+      "net": "2026-11-03T00:15:00Z",
       "dayPrecision": true
     },
     {
@@ -29,30 +29,12 @@
       "dayPrecision": true
     },
     {
-      "id": "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae",
-      "name": "Falcon 9 Block 5 | USSF-432",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-05T01:14:00Z",
-      "dayPrecision": true
-    },
-    {
       "id": "711de6bc-f755-475b-a12f-ec5240da3a11",
       "name": "Long March 2C | Unknown Payload",
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Xichang Satellite Launch Center, People's Republic of China",
       "net": "2026-11-05T16:00:00Z",
-      "dayPrecision": true
-    },
-    {
-      "id": "a2423132-f965-423f-8b03-6891b775dc54",
-      "name": "Long March 12 | SatNet LEO Group TBD?",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Wenchang Space Launch Site, People's Republic of China",
-      "net": "2026-11-05T21:15:00Z",
       "dayPrecision": true
     },
     {
@@ -65,12 +47,30 @@
       "dayPrecision": true
     },
     {
+      "id": "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae",
+      "name": "Falcon 9 Block 5 | USSF-432",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-11-07T00:46:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "a2423132-f965-423f-8b03-6891b775dc54",
+      "name": "Long March 12 | SatNet LEO Group TBD?",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Wenchang Space Launch Site, People's Republic of China",
+      "net": "2026-11-08T20:25:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "6aa7b90b-e5ed-45d8-a52e-04fbf399d178",
       "name": "Falcon 9 Block 5 | USSF-xxx (\"R-5\")",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-09T03:17:00Z",
+      "net": "2026-11-10T03:03:00Z",
       "dayPrecision": true
     },
     {
@@ -80,6 +80,15 @@
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-11-13T00:00:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
+      "name": "Falcon 9 Block 5 | USSF-xxx (\"R-6\")",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-11-13T04:23:00Z",
       "dayPrecision": true
     },
     {
