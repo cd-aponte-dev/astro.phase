@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-11-03T22:44:09.981Z",
+  "fetchedAt": "2026-11-04T04:12:46.489Z",
   "launches": [
-    {
-      "id": "f3f201cd-0ff9-4ff7-9aaa-1d22c399c75a",
-      "name": "Kinetica 2 | SpaceSail Polar Group #17",
-      "provider": "CAS Space",
-      "providerType": "Commercial",
-      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-11-03T00:15:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "711de6bc-f755-475b-a12f-ec5240da3a11",
       "name": "Long March 2C | Unknown Payload",
@@ -57,7 +48,7 @@
     },
     {
       "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
-      "name": "Falcon 9 Block 5 | USSF-xxx (\"R-6\")",
+      "name": "Falcon 9 Block 5 | USSF-317",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
