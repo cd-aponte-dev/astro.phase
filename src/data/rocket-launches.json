@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T04:31:10.187Z",
+  "fetchedAt": "2026-11-05T13:47:50.198Z",
   "launches": [
     {
       "id": "711de6bc-f755-475b-a12f-ec5240da3a11",
@@ -53,6 +53,15 @@
       "providerType": "Government",
       "site": "Sea Launch",
       "net": "2026-11-10T06:00:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "d66590ab-b273-47ff-b85a-608b62851b4b",
+      "name": "Long March 2D | Unknown Payload",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "net": "2026-11-11T11:40:00Z",
       "dayPrecision": true
     },
     {
