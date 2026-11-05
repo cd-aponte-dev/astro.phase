@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-04T23:02:04.044Z",
+  "fetchedAt": "2026-11-05T04:31:10.187Z",
   "launches": [
     {
       "id": "711de6bc-f755-475b-a12f-ec5240da3a11",
@@ -44,6 +44,15 @@
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
       "net": "2026-11-10T03:03:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
+      "name": "Mir | Demo Flight",
+      "provider": "Agency for Defense Development",
+      "providerType": "Government",
+      "site": "Sea Launch",
+      "net": "2026-11-10T06:00:00Z",
       "dayPrecision": true
     },
     {
@@ -169,15 +178,6 @@
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-11-30T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
-      "name": "Mir | Demo Flight",
-      "provider": "Agency for Defense Development",
-      "providerType": "Government",
-      "site": "Sea Launch",
       "net": "2026-11-30T00:00:00Z",
       "dayPrecision": false
     },
