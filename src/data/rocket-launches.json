@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-11-06T13:31:08.650Z",
+  "fetchedAt": "2026-11-06T22:36:04.305Z",
   "launches": [
-    {
-      "id": "711de6bc-f755-475b-a12f-ec5240da3a11",
-      "name": "Long March 2C | Yaogan 51-07 to 09",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Xichang Satellite Launch Center, People's Republic of China",
-      "net": "2026-11-05T15:58:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "e91d1da2-819b-4523-95bf-39ac7daa871d",
       "name": "Ceres-2 | Unknown Payload",
@@ -52,7 +43,7 @@
       "provider": "Agency for Defense Development",
       "providerType": "Government",
       "site": "Sea Launch",
-      "net": "2026-11-10T06:00:00Z",
+      "net": "2026-11-11T05:00:00Z",
       "dayPrecision": true
     },
     {
