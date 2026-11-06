@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T23:06:20.480Z",
+  "fetchedAt": "2026-11-06T04:29:46.398Z",
   "launches": [
     {
       "id": "711de6bc-f755-475b-a12f-ec5240da3a11",
@@ -97,7 +97,7 @@
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-11-14T00:00:00Z",
+      "net": "2026-11-14T05:30:00Z",
       "dayPrecision": true
     },
     {
