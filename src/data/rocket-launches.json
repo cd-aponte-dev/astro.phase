@@ -1,13 +1,13 @@
 {
-  "fetchedAt": "2026-11-06T22:36:04.305Z",
+  "fetchedAt": "2026-11-07T03:56:34.728Z",
   "launches": [
     {
       "id": "e91d1da2-819b-4523-95bf-39ac7daa871d",
-      "name": "Ceres-2 | Unknown Payload",
+      "name": "Ceres-2 | 4 satellites",
       "provider": "Galactic Energy",
       "providerType": "Commercial",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-11-06T23:35:00Z",
+      "net": "2026-11-06T23:37:00Z",
       "dayPrecision": true
     },
     {
