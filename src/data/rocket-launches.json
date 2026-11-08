@@ -1,24 +1,6 @@
 {
-  "fetchedAt": "2026-11-07T21:16:11.439Z",
+  "fetchedAt": "2026-11-08T03:41:40.395Z",
   "launches": [
-    {
-      "id": "e91d1da2-819b-4523-95bf-39ac7daa871d",
-      "name": "Ceres-2 | 4 satellites",
-      "provider": "Galactic Energy",
-      "providerType": "Commercial",
-      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-11-06T23:37:00Z",
-      "dayPrecision": true
-    },
-    {
-      "id": "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae",
-      "name": "Falcon 9 Block 5 | USSF-432",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-07T00:48:42Z",
-      "dayPrecision": true
-    },
     {
       "id": "c476fea7-7814-4adb-91d1-98918bc2cc57",
       "name": "Soyuz 2.1b/Fregat | Glonass-K1? (Kosmos 2621?)",
