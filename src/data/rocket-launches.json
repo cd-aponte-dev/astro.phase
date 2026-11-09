@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-09T03:54:15.504Z",
+  "fetchedAt": "2026-11-09T14:50:03.947Z",
   "launches": [
     {
       "id": "a2423132-f965-423f-8b03-6891b775dc54",
@@ -16,7 +16,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-10T03:03:00Z",
+      "net": "2026-11-10T03:07:15Z",
       "dayPrecision": true
     },
     {
@@ -380,15 +380,6 @@
       "dayPrecision": false
     },
     {
-      "id": "cb0c27fd-496c-4f74-aa04-9c0e5af33e3c",
-      "name": "Epsilon S | JV-LOTUSat-1",
-      "provider": "Japan Aerospace Exploration Agency",
-      "providerType": "Government",
-      "site": "Uchinoura Space Center, Japan",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
       "id": "dfd444f9-ddda-4b35-8f51-cda7cd801809",
       "name": "Falcon 9 Block 5 | Rivada 1",
       "provider": "SpaceX",
@@ -664,15 +655,6 @@
       "provider": "Blue Origin",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "91b13c6c-4525-496d-997b-3521bb6a4cd8",
-      "name": "RFA One | Maiden Flight",
-      "provider": "Rocket Factory Augsburg",
-      "providerType": "Private",
-      "site": "SaxaVord Spaceport",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
