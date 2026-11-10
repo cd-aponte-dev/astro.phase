@@ -1,22 +1,13 @@
 {
-  "fetchedAt": "2026-11-09T14:50:03.947Z",
+  "fetchedAt": "2026-11-10T14:01:57.861Z",
   "launches": [
-    {
-      "id": "a2423132-f965-423f-8b03-6891b775dc54",
-      "name": "Long March 12 | SatNet LEO Group 29",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Wenchang Space Launch Site, People's Republic of China",
-      "net": "2026-11-08T20:24:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "6aa7b90b-e5ed-45d8-a52e-04fbf399d178",
       "name": "Falcon 9 Block 5 | USSF-627",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-10T03:07:15Z",
+      "net": "2026-11-11T02:49:00Z",
       "dayPrecision": true
     },
     {
@@ -38,12 +29,12 @@
       "dayPrecision": true
     },
     {
-      "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
-      "name": "Falcon 9 Block 5 | USSF-317",
-      "provider": "SpaceX",
+      "id": "e2523821-9760-4cb4-ad1f-7ce2e30419bd",
+      "name": "Kuaizhou 11 | Unknown Payload",
+      "provider": "ExPace",
       "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-13T04:23:00Z",
+      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "net": "2026-11-12T19:50:00Z",
       "dayPrecision": true
     },
     {
@@ -65,12 +56,30 @@
       "dayPrecision": true
     },
     {
+      "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
+      "name": "Falcon 9 Block 5 | USSF-317",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-11-14T04:09:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "db3500ac-965b-4ad8-b417-cb8d8d005586",
       "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
       "provider": "Rocket Lab",
       "providerType": "Commercial",
       "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
       "net": "2026-11-14T05:30:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "460d9db7-eaf6-4cd9-b095-cff433534c09",
+      "name": "Falcon 9 Block 5 | USSF-266",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-11-17T16:58:00Z",
       "dayPrecision": true
     },
     {
@@ -349,15 +358,6 @@
       "provider": "European Space Agency",
       "providerType": "Multinational",
       "site": "Esrange Space Center",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "a67b40f9-cfcc-4614-a355-a156280b4bb3",
-      "name": "Vulcan VC4L | Dream Chaser CRS 2 Flight 1",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
@@ -884,6 +884,15 @@
       "dayPrecision": false
     },
     {
+      "id": "d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
+      "name": "Falcon Heavy | Griffin Mission One",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Kennedy Space Center, FL, USA",
+      "net": "2027-01-06T00:00:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "07e945c1-2ec6-4d29-a500-1afbe920440f",
       "name": "Atlas V N22 | Starliner-1",
       "provider": "United Launch Alliance",
@@ -925,15 +934,6 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2027-01-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
-      "name": "Falcon Heavy | Griffin Mission One",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Kennedy Space Center, FL, USA",
       "net": "2027-01-31T00:00:00Z",
       "dayPrecision": false
     },
