@@ -1,24 +1,6 @@
 {
-  "fetchedAt": "2026-11-10T14:01:57.861Z",
+  "fetchedAt": "2026-11-10T22:41:23.262Z",
   "launches": [
-    {
-      "id": "6aa7b90b-e5ed-45d8-a52e-04fbf399d178",
-      "name": "Falcon 9 Block 5 | USSF-627",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-11T02:49:00Z",
-      "dayPrecision": true
-    },
-    {
-      "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
-      "name": "Mir | Demo Flight",
-      "provider": "Agency for Defense Development",
-      "providerType": "Government",
-      "site": "Sea Launch",
-      "net": "2026-11-11T05:00:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "d66590ab-b273-47ff-b85a-608b62851b4b",
       "name": "Long March 2D | Unknown Payload",
@@ -29,12 +11,30 @@
       "dayPrecision": true
     },
     {
+      "id": "6aa7b90b-e5ed-45d8-a52e-04fbf399d178",
+      "name": "Falcon 9 Block 5 | USSF-627",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-11-12T02:35:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "e2523821-9760-4cb4-ad1f-7ce2e30419bd",
       "name": "Kuaizhou 11 | Unknown Payload",
       "provider": "ExPace",
       "providerType": "Commercial",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
       "net": "2026-11-12T19:50:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
+      "name": "Mir | Demo Flight",
+      "provider": "Agency for Defense Development",
+      "providerType": "Government",
+      "site": "Sea Launch",
+      "net": "2026-11-13T05:00:00Z",
       "dayPrecision": true
     },
     {
@@ -56,15 +56,6 @@
       "dayPrecision": true
     },
     {
-      "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
-      "name": "Falcon 9 Block 5 | USSF-317",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-14T04:09:00Z",
-      "dayPrecision": true
-    },
-    {
       "id": "db3500ac-965b-4ad8-b417-cb8d8d005586",
       "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
       "provider": "Rocket Lab",
@@ -74,12 +65,21 @@
       "dayPrecision": true
     },
     {
+      "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
+      "name": "Falcon 9 Block 5 | USSF-317",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-11-15T03:55:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "460d9db7-eaf6-4cd9-b095-cff433534c09",
       "name": "Falcon 9 Block 5 | USSF-266",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-17T16:58:00Z",
+      "net": "2026-11-18T16:49:00Z",
       "dayPrecision": true
     },
     {
