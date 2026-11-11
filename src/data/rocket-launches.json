@@ -1,13 +1,13 @@
 {
-  "fetchedAt": "2026-11-11T03:58:43.223Z",
+  "fetchedAt": "2026-11-11T13:18:54.790Z",
   "launches": [
     {
       "id": "d66590ab-b273-47ff-b85a-608b62851b4b",
-      "name": "Long March 2D | Unknown Payload",
+      "name": "Long March 2D | CAS Pathfinder-1",
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-11-11T11:40:00Z",
+      "net": "2026-11-11T11:41:00Z",
       "dayPrecision": true
     },
     {
