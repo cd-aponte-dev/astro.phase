@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T13:18:54.790Z",
+  "fetchedAt": "2026-11-11T23:54:09.764Z",
   "launches": [
     {
       "id": "d66590ab-b273-47ff-b85a-608b62851b4b",
@@ -16,7 +16,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-12T02:35:00Z",
+      "net": "2026-11-12T04:36:30Z",
       "dayPrecision": true
     },
     {
@@ -317,24 +317,6 @@
       "dayPrecision": false
     },
     {
-      "id": "875ba957-be5f-42bd-8a6e-ed98254f572a",
-      "name": "Firefly Alpha Block 2 | ConnectedCosmos Launch 1",
-      "provider": "Firefly Aerospace",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "d47cbca4-48c1-455a-b357-f156833b189e",
-      "name": "Firefly Alpha Block 2 | ConnectedCosmos Launch 2",
-      "provider": "Firefly Aerospace",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
       "id": "60f4ba6c-4201-4727-94aa-0015a5a0023f",
       "name": "Spectrum | 1 x Pelican satellite",
       "provider": "Isar Aerospace",
@@ -538,15 +520,6 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Kennedy Space Center, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "b94b49fc-5784-4dfd-92e7-07e57f50edcd",
-      "name": "Firefly Alpha Block 2 | TacSat",
-      "provider": "Firefly Aerospace",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
@@ -995,15 +968,6 @@
       "id": "22023c17-c196-4b56-bfd4-7fc5e9db84c0",
       "name": "Falcon 9 Block 5 | Transporter 19 (Dedicated SSO Rideshare)",
       "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2027-02-28T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "c71bc50d-de5f-48ea-8a74-0503871eaaf7",
-      "name": "Firefly Alpha Block 2 | ConnectedCosmos Launch 3",
-      "provider": "Firefly Aerospace",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
       "net": "2027-02-28T00:00:00Z",
