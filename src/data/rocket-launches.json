@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-11-12T05:09:30.862Z",
+  "fetchedAt": "2026-11-12T14:23:43.364Z",
   "launches": [
-    {
-      "id": "d66590ab-b273-47ff-b85a-608b62851b4b",
-      "name": "Long March 2D | CAS Pathfinder-1",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-11-11T11:41:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "6aa7b90b-e5ed-45d8-a52e-04fbf399d178",
       "name": "Falcon 9 Block 5 | USSF-627",
