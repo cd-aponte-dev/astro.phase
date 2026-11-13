@@ -1,22 +1,13 @@
 {
-  "fetchedAt": "2026-11-13T13:43:07.341Z",
+  "fetchedAt": "2026-11-13T23:05:07.395Z",
   "launches": [
-    {
-      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-11-13T17:54:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "0f867f0c-5422-4d44-93b8-d7faaae7019b",
       "name": "Starship | Starlink Group 31-2 (Starship Flight 15)",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "SpaceX Starbase, TX, USA",
-      "net": "2026-11-13T22:45:00Z",
+      "net": "2026-11-13T22:47:36Z",
       "dayPrecision": true
     },
     {
@@ -25,7 +16,7 @@
       "provider": "Russian Federal Space Agency (ROSCOSMOS)",
       "providerType": "Government",
       "site": "Vostochny Cosmodrome, Siberia, Russian Federation",
-      "net": "2026-11-14T00:50:00Z",
+      "net": "2026-11-14T01:16:00Z",
       "dayPrecision": true
     },
     {
@@ -38,21 +29,21 @@
       "dayPrecision": true
     },
     {
+      "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+      "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+      "provider": "United Launch Alliance",
+      "providerType": "Commercial",
+      "site": "Cape Canaveral SFS, FL, USA",
+      "net": "2026-11-14T17:32:30Z",
+      "dayPrecision": true
+    },
+    {
       "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
       "name": "Falcon 9 Block 5 | USSF-317",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
       "net": "2026-11-18T03:14:00Z",
-      "dayPrecision": true
-    },
-    {
-      "id": "460d9db7-eaf6-4cd9-b095-cff433534c09",
-      "name": "Falcon 9 Block 5 | USSF-266",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-18T16:49:00Z",
       "dayPrecision": true
     },
     {
@@ -89,6 +80,15 @@
       "providerType": "Commercial",
       "site": "Guiana Space Centre, French Guiana",
       "net": "2026-11-23T00:00:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "460d9db7-eaf6-4cd9-b095-cff433534c09",
+      "name": "Falcon 9 Block 5 | USSF-266",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-11-23T16:04:00Z",
       "dayPrecision": true
     },
     {
