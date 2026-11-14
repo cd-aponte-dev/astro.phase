@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-14T12:47:32.179Z",
+  "fetchedAt": "2026-11-14T21:51:46.184Z",
   "launches": [
     {
       "id": "0f867f0c-5422-4d44-93b8-d7faaae7019b",
@@ -34,7 +34,7 @@
       "provider": "United Launch Alliance",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-11-14T17:32:30Z",
+      "net": "2026-11-15T17:11:30Z",
       "dayPrecision": true
     },
     {
