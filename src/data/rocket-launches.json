@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-11-15T04:05:48.587Z",
+  "fetchedAt": "2026-11-15T13:14:24.023Z",
   "launches": [
-    {
-      "id": "db3500ac-965b-4ad8-b417-cb8d8d005586",
-      "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
-      "provider": "Rocket Lab",
-      "providerType": "Commercial",
-      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-11-14T05:30:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
       "name": "Vulcan VC6L | Amazon Leo (LV-01)",
