@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T04:05:24.964Z",
+  "fetchedAt": "2026-11-16T14:25:52.684Z",
   "launches": [
     {
       "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
@@ -232,6 +232,15 @@
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
+      "net": "2026-12-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
+      "id": "912a8aee-8fc2-47b4-81a5-040fa0e0a36f",
+      "name": "Vega-C | IRIDE 1",
+      "provider": "Avio S.p.A",
+      "providerType": "Commercial",
+      "site": "Guiana Space Centre, French Guiana",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
@@ -673,24 +682,6 @@
       "provider": "Unknown",
       "providerType": "Unknown",
       "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "912a8aee-8fc2-47b4-81a5-040fa0e0a36f",
-      "name": "Vega-C | IRIDE 1",
-      "provider": "Avio S.p.A",
-      "providerType": "Commercial",
-      "site": "Guiana Space Centre, French Guiana",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "eaff0f48-04b7-49fc-bee6-9afd9ec8cc5f",
-      "name": "Vega-C | IRIDE 2",
-      "provider": "Avio S.p.A",
-      "providerType": "Commercial",
-      "site": "Guiana Space Centre, French Guiana",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
