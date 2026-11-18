@@ -1,13 +1,13 @@
 {
-  "fetchedAt": "2026-11-18T14:53:13.356Z",
+  "fetchedAt": "2026-11-18T23:45:00.088Z",
   "launches": [
     {
       "id": "e0a11eb1-0bda-4872-b36b-140247fd5c60",
-      "name": "Long March 2D | Unknown Payload",
+      "name": "Long March 2D | Shijian 24",
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Taiyuan Satellite Launch Center, People's Republic of China",
-      "net": "2026-11-18T22:50:00Z",
+      "net": "2026-11-18T22:51:00Z",
       "dayPrecision": true
     },
     {
@@ -98,6 +98,15 @@
       "providerType": "Private",
       "site": "Andøya Spaceport",
       "net": "2026-11-26T20:00:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "b0d27def-0a88-44c3-a947-1fd5b8503e2c",
+      "name": "Falcon 9 Block 5 | USSF-380",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-11-28T04:53:00Z",
       "dayPrecision": true
     },
     {
