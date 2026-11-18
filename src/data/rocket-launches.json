@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-17T15:17:46.249Z",
+  "fetchedAt": "2026-11-18T00:17:52.413Z",
   "launches": [
     {
       "id": "e0a11eb1-0bda-4872-b36b-140247fd5c60",
@@ -16,7 +16,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-19T03:00:00Z",
+      "net": "2026-11-20T02:46:00Z",
       "dayPrecision": true
     },
     {
@@ -43,7 +43,7 @@
       "provider": "Arianespace",
       "providerType": "Commercial",
       "site": "Guiana Space Centre, French Guiana",
-      "net": "2026-11-23T00:00:00Z",
+      "net": "2026-11-23T11:09:00Z",
       "dayPrecision": true
     },
     {
