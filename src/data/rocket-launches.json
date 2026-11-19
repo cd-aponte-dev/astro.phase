@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T05:19:32.614Z",
+  "fetchedAt": "2026-11-19T14:59:09.597Z",
   "launches": [
     {
       "id": "e0a11eb1-0bda-4872-b36b-140247fd5c60",
@@ -16,7 +16,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-20T04:28:55Z",
+      "net": "2026-11-20T04:32:55Z",
       "dayPrecision": true
     },
     {
@@ -196,8 +196,8 @@
       "provider": "Arianespace",
       "providerType": "Commercial",
       "site": "Guiana Space Centre, French Guiana",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
+      "net": "2026-12-17T00:00:00Z",
+      "dayPrecision": true
     },
     {
       "id": "8bf5f61e-a7e1-41e6-aede-7b87e4beebab",
@@ -936,6 +936,15 @@
       "site": "Vandenberg SFB, CA, USA",
       "net": "2027-02-15T00:00:00Z",
       "dayPrecision": true
+    },
+    {
+      "id": "0b85fcca-5252-48d7-9ccb-c10b1da9d183",
+      "name": "Ariane 62 | Galileo L15 (FOC FM28 & FM31)",
+      "provider": "Arianespace",
+      "providerType": "Commercial",
+      "site": "Guiana Space Centre, French Guiana",
+      "net": "2027-02-28T00:00:00Z",
+      "dayPrecision": false
     },
     {
       "id": "3624047e-9891-420b-820f-7db4a7570383",
