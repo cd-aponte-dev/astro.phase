@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-11-20T00:05:19.832Z",
+  "fetchedAt": "2026-11-20T14:41:27.701Z",
   "launches": [
-    {
-      "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
-      "name": "Falcon 9 Block 5 | USSF-317",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-20T04:32:55Z",
-      "dayPrecision": true
-    },
     {
       "id": "a2975167-7c6f-4403-99e1-b40df17c8140",
       "name": "Long March 8A | SatNet LEO Group TBD?",
@@ -17,6 +8,15 @@
       "providerType": "Government",
       "site": "Wenchang Space Launch Site, People's Republic of China",
       "net": "2026-11-20T11:59:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
+      "name": "Falcon 9 Block 5 | USSF-317",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Vandenberg SFB, CA, USA",
+      "net": "2026-11-21T02:32:00Z",
       "dayPrecision": true
     },
     {
@@ -65,21 +65,21 @@
       "dayPrecision": true
     },
     {
-      "id": "5ce59e3a-c343-430f-ae4e-e608ba536754",
-      "name": "Long March 12 | SatNet LEO Group TBD?",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Wenchang Space Launch Site, People's Republic of China",
-      "net": "2026-11-24T07:00:00Z",
-      "dayPrecision": true
-    },
-    {
       "id": "c9605b67-8a53-4239-a8ae-577fe3b79799",
       "name": "Long March 2F/G | Shenzhou 24",
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-11-25T00:00:00Z",
+      "net": "2026-11-25T00:18:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4",
+      "name": "Long March 2D | Unknown Payload",
+      "provider": "China Aerospace Science and Technology Corporation",
+      "providerType": "Government",
+      "site": "Xichang Satellite Launch Center, People's Republic of China",
+      "net": "2026-11-26T09:35:00Z",
       "dayPrecision": true
     },
     {
@@ -92,12 +92,30 @@
       "dayPrecision": true
     },
     {
+      "id": "2093e4fc-ac8c-4296-a1b5-deececee6a72",
+      "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
+      "provider": "Rocket Lab",
+      "providerType": "Commercial",
+      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+      "net": "2026-11-27T00:05:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "b0d27def-0a88-44c3-a947-1fd5b8503e2c",
       "name": "Falcon 9 Block 5 | USSF-380",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
       "net": "2026-11-28T04:53:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "8b46d360-6b3b-423f-9036-d5568e485624",
+      "name": "Kinetica 1 | Unknown Payload",
+      "provider": "CAS Space",
+      "providerType": "Commercial",
+      "site": "Haiyang Oriental Spaceport",
+      "net": "2026-11-29T01:00:00Z",
       "dayPrecision": true
     },
     {
@@ -108,15 +126,6 @@
       "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-11-29T15:47:00Z",
       "dayPrecision": true
-    },
-    {
-      "id": "2093e4fc-ac8c-4296-a1b5-deececee6a72",
-      "name": "Electron | StriX Launch 14",
-      "provider": "Rocket Lab",
-      "providerType": "Commercial",
-      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-11-30T00:00:00Z",
-      "dayPrecision": false
     },
     {
       "id": "56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
@@ -155,15 +164,6 @@
       "dayPrecision": false
     },
     {
-      "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
-      "name": "LVM-3 | Gaganyaan-1",
-      "provider": "Indian Space Research Organization",
-      "providerType": "Government",
-      "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-11-30T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
       "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
       "name": "Mir | Demo Flight",
       "provider": "Agency for Defense Development",
@@ -173,13 +173,13 @@
       "dayPrecision": false
     },
     {
-      "id": "b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
-      "name": "PSLV-XL | TDS-01",
-      "provider": "Indian Space Research Organization",
+      "id": "5ce59e3a-c343-430f-ae4e-e608ba536754",
+      "name": "Long March 12 | SatNet LEO Group TBD?",
+      "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
-      "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-11-30T00:00:00Z",
-      "dayPrecision": false
+      "site": "Wenchang Space Launch Site, People's Republic of China",
+      "net": "2026-12-10T07:00:00Z",
+      "dayPrecision": true
     },
     {
       "id": "22e117bf-041c-49d5-9d09-7b180036e143",
@@ -227,8 +227,8 @@
       "dayPrecision": false
     },
     {
-      "id": "0cf92611-82a8-4095-a0b4-dda2e74b1fff",
-      "name": "LVM-3 | GSAT-32 (GSAT-N3)",
+      "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
+      "name": "LVM-3 | Gaganyaan-1",
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
@@ -542,15 +542,6 @@
       "dayPrecision": false
     },
     {
-      "id": "ac02da00-6e8b-45a0-b829-09d614891e6a",
-      "name": "H3-22 | ETS-9",
-      "provider": "Mitsubishi Heavy Industries",
-      "providerType": "Commercial",
-      "site": "Tanegashima Space Center, Japan",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
       "id": "04522dea-1450-48f5-bc9d-2d7f1e637f9b",
       "name": "HASTE | Leidos-3",
       "provider": "Rocket Lab",
@@ -605,6 +596,15 @@
       "dayPrecision": false
     },
     {
+      "id": "0cf92611-82a8-4095-a0b4-dda2e74b1fff",
+      "name": "LVM-3 | GSAT-32 (GSAT-N3)",
+      "provider": "Indian Space Research Organization",
+      "providerType": "Government",
+      "site": "Satish Dhawan Space Centre, India",
+      "net": "2026-12-31T00:00:00Z",
+      "dayPrecision": false
+    },
+    {
       "id": "a8d8d683-3ab0-40ab-beb0-e66bb55afd91",
       "name": "Nebula-1 | Demo Flight",
       "provider": "Deep Blue Aerospace",
@@ -614,20 +614,11 @@
       "dayPrecision": false
     },
     {
-      "id": "ca3d56b7-2175-48e4-9a6a-2ecc9996d96b",
-      "name": "New Glenn | Amazon Leo (LN-01)",
-      "provider": "Blue Origin",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "f0460950-3cb6-4889-8cbe-707f063d0565",
-      "name": "New Glenn | BlueBird Block 2",
-      "provider": "Blue Origin",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
+      "id": "b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
+      "name": "PSLV-XL | TDS-01",
+      "provider": "Indian Space Research Organization",
+      "providerType": "Government",
+      "site": "Satish Dhawan Space Centre, India",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
@@ -848,12 +839,30 @@
       "dayPrecision": true
     },
     {
+      "id": "21561fba-dc41-41b3-9d18-e13339fc3396",
+      "name": "H3-30 | IGS Optical Diversification 1",
+      "provider": "Mitsubishi Heavy Industries",
+      "providerType": "Commercial",
+      "site": "Tanegashima Space Center, Japan",
+      "net": "2027-01-10T23:00:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "07e945c1-2ec6-4d29-a500-1afbe920440f",
       "name": "Atlas V N22 | Starliner-1",
       "provider": "United Launch Alliance",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
       "net": "2027-01-14T00:00:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "7149bbf6-bf27-4115-bb19-8c7c7b93fad9",
+      "name": "KAIROS | Flight 4",
+      "provider": "Space One",
+      "providerType": "Commercial",
+      "site": "Spaceport Kii, Japan",
+      "net": "2027-01-22T00:00:00Z",
       "dayPrecision": true
     },
     {
