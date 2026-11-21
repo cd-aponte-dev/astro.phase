@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-11-21T04:59:41.292Z",
+  "fetchedAt": "2026-11-21T13:57:55.734Z",
   "launches": [
-    {
-      "id": "a2975167-7c6f-4403-99e1-b40df17c8140",
-      "name": "Long March 8A | SatNet LEO Group 30",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Wenchang Space Launch Site, People's Republic of China",
-      "net": "2026-11-20T11:59:00Z",
-      "dayPrecision": true
-    },
     {
       "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
       "name": "Falcon 9 Block 5 | USSF-317",
