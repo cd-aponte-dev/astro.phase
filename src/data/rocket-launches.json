@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-11-21T22:38:55.992Z",
+  "fetchedAt": "2026-11-22T04:23:28.995Z",
   "launches": [
-    {
-      "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
-      "name": "Falcon 9 Block 5 | USSF-317",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-21T04:20:35Z",
-      "dayPrecision": true
-    },
     {
       "id": "951a341f-236b-42fe-a667-4ab2fcf36eac",
       "name": "Falcon 9 Block 5 | NROL-136",
