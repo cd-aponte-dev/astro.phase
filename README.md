@@ -6,7 +6,10 @@ coming up over the next three months.
 
 **Live demo:** https://cd-aponte-dev.github.io/astro.phase/
 
-![Screenshot of astro.phase showing tonight's sky for New York, New York, USA](screenshot.png)
+<p>
+  <img src="screenshot.png" width="49%" alt="Sky Tonight tab for New York: the Moon and five planets with rise, set and transit times">
+  <img src="screenshot-calendar.png" width="49%" alt="Events Calendar tab for New York showing December, with the Geminids meteor shower selected on December 14">
+</p>
 
 ## Features
 
