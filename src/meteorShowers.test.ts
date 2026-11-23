@@ -32,6 +32,12 @@ describe('computeUpcomingMeteorShowers', () => {
     expect(showers.some((s) => s.name === 'Leonids')).toBe(false)
   })
 
+  it('still includes a shower later on its own peak day', () => {
+    const from = new Date('2026-10-21T15:00:00Z')
+    const showers = computeUpcomingMeteorShowers(from, 90)
+    expect(showers[0].name).toBe('Orionids')
+  })
+
   it('returns no showers for a window with zero duration', () => {
     const from = new Date('2026-08-15T00:00:00Z')
     expect(computeUpcomingMeteorShowers(from, 0)).toEqual([])

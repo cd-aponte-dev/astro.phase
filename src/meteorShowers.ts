@@ -8,6 +8,11 @@ export interface MeteorShower {
 
 export interface UpcomingMeteorShower {
   name: string
+  /**
+   * The peak's calendar date, stored as UTC midnight. It has no time of day,
+   * so read it with UTC getters or `timeZone: 'UTC'`. Converting it to another
+   * zone moves it to the wrong day.
+   */
   peak: Date
   zhr: number
 }
@@ -29,12 +34,20 @@ export const METEOR_SHOWERS: MeteorShower[] = [
   { name: 'Geminids', peakMonth: 12, peakDay: 14, zhr: 150 },
 ]
 
-/** Major meteor showers whose peak falls in the next `days` days, in UTC. */
+/**
+ * Major meteor showers whose peak date falls in the next `days` days, counting
+ * `from`'s own date. Peaks are whole dates, so the window starts at the
+ * beginning of that date. Otherwise a shower would drop off partway through
+ * its own peak day.
+ */
 export function computeUpcomingMeteorShowers(
   from: Date,
   days: number = WINDOW_DAYS,
 ): UpcomingMeteorShower[] {
   const end = new Date(from.getTime() + days * 86_400_000)
+  const startOfFromDate = new Date(
+    Date.UTC(from.getUTCFullYear(), from.getUTCMonth(), from.getUTCDate()),
+  )
   const startYear = from.getUTCFullYear()
   const endYear = end.getUTCFullYear()
 
@@ -42,7 +55,7 @@ export function computeUpcomingMeteorShowers(
   for (const shower of METEOR_SHOWERS) {
     for (let year = startYear; year <= endYear; year++) {
       const peak = new Date(Date.UTC(year, shower.peakMonth - 1, shower.peakDay))
-      if (peak >= from && peak <= end) {
+      if (peak >= startOfFromDate && peak <= end) {
         upcoming.push({ name: shower.name, peak, zhr: shower.zhr })
       }
     }

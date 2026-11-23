@@ -161,7 +161,9 @@ export function computeCalendarEvents(
       id: `meteor-shower-${shower.name}-${shower.peak.toISOString()}`,
       type: 'meteor-shower',
       date: shower.peak,
-      dayKey: dayKeyInTimeZone(shower.peak, timeZone),
+      // The peak is a calendar date, not a moment in time. Read it in UTC so
+      // it stays on its published date in every zone.
+      dayKey: dayKeyInTimeZone(shower.peak, 'UTC'),
       timeLabel: '',
       title: `${shower.name} meteor shower`,
       description: `Peak activity, ZHR ~${shower.zhr}`,
