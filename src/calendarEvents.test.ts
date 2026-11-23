@@ -94,4 +94,13 @@ describe('computeCalendarEvents', () => {
     expect(issEvents.length).toBeGreaterThan(0)
     expect(issEvents.every((event) => event.visibility?.visible)).toBe(true)
   })
+
+  it('places a meteor shower on its published peak date in a time zone behind UTC', () => {
+    const events = computeCalendarEvents(nyc, tle, noLaunches, 'America/New_York', from, 90)
+    const orionids = events.find((event) => event.title === 'Orionids meteor shower')
+
+    // Orionids peak Oct 21. Converting the date's UTC midnight to New York
+    // time would land it on the evening of Oct 20.
+    expect(orionids?.dayKey).toBe('2026-10-21')
+  })
 })
