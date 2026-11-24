@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-24T03:40:29.464Z",
+  "fetchedAt": "2026-11-24T16:47:14.899Z",
   "launches": [
     {
       "id": "8dd5de11-831b-445f-86f0-bffefe0550d9",
@@ -7,7 +7,7 @@
       "provider": "Russian Federal Space Agency (ROSCOSMOS)",
       "providerType": "Government",
       "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
-      "net": "2026-11-24T10:17:00Z",
+      "net": "2026-11-24T10:17:46Z",
       "dayPrecision": true
     },
     {
@@ -16,7 +16,7 @@
       "provider": "Arianespace",
       "providerType": "Commercial",
       "site": "Guiana Space Centre, French Guiana",
-      "net": "2026-11-24T10:45:00Z",
+      "net": "2026-11-24T11:14:52Z",
       "dayPrecision": true
     },
     {
@@ -92,15 +92,6 @@
       "dayPrecision": true
     },
     {
-      "id": "e2523821-9760-4cb4-ad1f-7ce2e30419bd",
-      "name": "Kuaizhou 11 | Unknown Payload",
-      "provider": "ExPace",
-      "providerType": "Commercial",
-      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-11-30T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
       "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
       "name": "Mir | Demo Flight",
       "provider": "Agency for Defense Development",
@@ -116,6 +107,15 @@
       "providerType": "Commercial",
       "site": "Haiyang Oriental Spaceport",
       "net": "2026-12-01T01:45:00Z",
+      "dayPrecision": true
+    },
+    {
+      "id": "e2523821-9760-4cb4-ad1f-7ce2e30419bd",
+      "name": "Kuaizhou 11 | Unknown Payload",
+      "provider": "ExPace",
+      "providerType": "Commercial",
+      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
+      "net": "2026-12-01T08:00:00Z",
       "dayPrecision": true
     },
     {
@@ -353,114 +353,6 @@
       "dayPrecision": false
     },
     {
-      "id": "dfd444f9-ddda-4b35-8f51-cda7cd801809",
-      "name": "Falcon 9 Block 5 | Rivada 1",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "511a3ef8-799e-4723-9293-b954d9d2eb83",
-      "name": "Falcon 9 Block 5 | Rivada 10",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "d08d8b46-353b-4eee-ab5e-e1385b329008",
-      "name": "Falcon 9 Block 5 | Rivada 11",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "bf5c6fa2-3add-49ff-aad6-c6450148cd89",
-      "name": "Falcon 9 Block 5 | Rivada 12",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "20fa8dc4-8cab-41cf-b452-98a2620f7e86",
-      "name": "Falcon 9 Block 5 | Rivada 2",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "ab932c60-d808-4825-ab71-b6fe0a745f15",
-      "name": "Falcon 9 Block 5 | Rivada 3",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "2f31a7f0-968a-448d-b447-333bf0341078",
-      "name": "Falcon 9 Block 5 | Rivada 4",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "fa895702-687b-4ba3-95fb-9462a2c9844b",
-      "name": "Falcon 9 Block 5 | Rivada 5",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "46d6822b-82aa-452c-aa34-80b6f052de84",
-      "name": "Falcon 9 Block 5 | Rivada 6",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "1fa3741c-3339-4954-a026-2cd9d36161c0",
-      "name": "Falcon 9 Block 5 | Rivada 7",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "7d77bd89-af23-4a5a-b632-de0034003a64",
-      "name": "Falcon 9 Block 5 | Rivada 8",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "5ce7e9b6-b471-4a88-891f-2a6f21cb369f",
-      "name": "Falcon 9 Block 5 | Rivada 9",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
       "id": "0a07a23e-606a-4589-bf3e-c3e41bd4de51",
       "name": "Falcon 9 Block 5 | SDA Tranche 2 Tracking Layer A",
       "provider": "SpaceX",
@@ -628,42 +520,6 @@
       "provider": "Indian Space Research Organization",
       "providerType": "Government",
       "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "2e37a196-f5f8-4496-96ae-63f4b6b27912",
-      "name": "Terran R | Intelsat-1",
-      "provider": "Relativity Space",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "b97a54e5-5c6f-4f85-bcf3-69da17fa9682",
-      "name": "Terran R | Mars Lander",
-      "provider": "Relativity Space",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "b3a7aacd-4f23-45a8-aa6c-da9f34804452",
-      "name": "Unknown | Owlet-01",
-      "provider": "Unknown",
-      "providerType": "Unknown",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "581d1d85-bbe8-48f1-9dac-5b4e63503896",
-      "name": "Unknown | VCLS Demo 2 Mission One",
-      "provider": "Unknown",
-      "providerType": "Unknown",
-      "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
@@ -858,11 +714,11 @@
     },
     {
       "id": "7149bbf6-bf27-4115-bb19-8c7c7b93fad9",
-      "name": "KAIROS | Flight 4",
+      "name": "KAIROS | JSDF SDA Demonstration satellite",
       "provider": "Space One",
       "providerType": "Commercial",
       "site": "Spaceport Kii, Japan",
-      "net": "2027-01-22T00:00:00Z",
+      "net": "2027-01-22T06:00:00Z",
       "dayPrecision": true
     },
     {
