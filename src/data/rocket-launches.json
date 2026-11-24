@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-23T16:58:34.809Z",
+  "fetchedAt": "2026-11-24T03:40:29.464Z",
   "launches": [
     {
       "id": "8dd5de11-831b-445f-86f0-bffefe0550d9",
@@ -7,7 +7,7 @@
       "provider": "Russian Federal Space Agency (ROSCOSMOS)",
       "providerType": "Government",
       "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
-      "net": "2026-11-24T10:13:00Z",
+      "net": "2026-11-24T10:17:00Z",
       "dayPrecision": true
     },
     {
@@ -25,7 +25,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-24T15:55:00Z",
+      "net": "2026-11-24T16:08:59Z",
       "dayPrecision": true
     },
     {
