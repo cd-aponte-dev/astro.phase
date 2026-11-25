@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-24T16:47:14.899Z",
+  "fetchedAt": "2026-11-25T01:47:40.011Z",
   "launches": [
     {
       "id": "8dd5de11-831b-445f-86f0-bffefe0550d9",
@@ -34,7 +34,7 @@
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-11-25T00:18:00Z",
+      "net": "2026-11-25T00:18:52Z",
       "dayPrecision": true
     },
     {
@@ -88,7 +88,7 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-11-29T15:50:00Z",
+      "net": "2026-11-29T15:47:00Z",
       "dayPrecision": true
     },
     {
@@ -144,6 +144,15 @@
       "site": "Guiana Space Centre, French Guiana",
       "net": "2026-12-17T00:00:00Z",
       "dayPrecision": true
+    },
+    {
+      "id": "9b9db235-8ffb-4569-b09b-0e852ad231a0",
+      "name": "Falcon 9 Block 5 | Amazon Leo (LF-04)",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Cape Canaveral SFS, FL, USA",
+      "net": "2026-12-31T00:00:00Z",
+      "dayPrecision": false
     },
     {
       "id": "8bf5f61e-a7e1-41e6-aede-7b87e4beebab",
@@ -205,15 +214,6 @@
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
-      "name": "LVM-3 | Gaganyaan-1",
-      "provider": "Indian Space Research Organization",
-      "providerType": "Government",
-      "site": "Satish Dhawan Space Centre, India",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
@@ -407,15 +407,6 @@
       "dayPrecision": false
     },
     {
-      "id": "05864985-e660-4723-b489-32a78d4b53fc",
-      "name": "Gaganyaan Abort Test Booster | TV-D2",
-      "provider": "Indian Space Research Organization",
-      "providerType": "Government",
-      "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
       "id": "4ca86de3-2ff8-4fd3-a22c-35b7fc618610",
       "name": "Gravity-2 | Demo Flight",
       "provider": "Orienspace Technology",
@@ -479,29 +470,11 @@
       "dayPrecision": false
     },
     {
-      "id": "0cf92611-82a8-4095-a0b4-dda2e74b1fff",
-      "name": "LVM-3 | GSAT-32 (GSAT-N3)",
-      "provider": "Indian Space Research Organization",
-      "providerType": "Government",
-      "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
       "id": "a8d8d683-3ab0-40ab-beb0-e66bb55afd91",
       "name": "Nebula-1 | Demo Flight",
       "provider": "Deep Blue Aerospace",
       "providerType": "Commercial",
       "site": "Haiyang Oriental Spaceport",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
-      "name": "PSLV-XL | TDS-01",
-      "provider": "Indian Space Research Organization",
-      "providerType": "Government",
-      "site": "Satish Dhawan Space Centre, India",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
@@ -529,150 +502,6 @@
       "provider": "Skyroot Aerospace",
       "providerType": "Private",
       "site": "Satish Dhawan Space Centre, India",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "6f7eb79a-e288-494c-b122-730048df3440",
-      "name": "Vulcan | NROL-100",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "36570751-7492-4b06-81e6-4ac720071216",
-      "name": "Vulcan | NROL-109",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "0a8cb805-3004-468e-bea6-743368af3253",
-      "name": "Vulcan | NROL-56",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "ac92d963-ebfb-4d18-b48c-04102d8dce8e",
-      "name": "Vulcan | NROL-64",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "57109ff0-a70b-4ee0-a86f-b64505d6bd92",
-      "name": "Vulcan | NROL-73",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "be192717-7a53-4dd6-8977-2200a4fe9773",
-      "name": "Vulcan | NROL-83",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "317a2749-46be-45e3-93f7-fbaecba04ac6",
-      "name": "Vulcan | SDA Tranche 1 Tracking Layer B",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "fcbc4550-e69e-4458-a9e6-4a5b6b6b15a5",
-      "name": "Vulcan | SDA Tranche 1 Tracking Layer E",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "1e74ee8f-c0fe-4ad6-9db3-26ae953d8a2e",
-      "name": "Vulcan | SDA Tranche 2 Transport Layer B",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "eb8cbca7-5ae6-430c-8ff6-0f672cfb5bd0",
-      "name": "Vulcan | SILENTBARKER 2/NROL-118",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "0a399395-31f6-424f-9718-4958f7d3867c",
-      "name": "Vulcan | USSF-114",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "d40b57ec-e294-4aa2-9822-33eb222105cb",
-      "name": "Vulcan | USSF-16",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "06201706-da6b-467e-83b2-ef2ff8596e05",
-      "name": "Vulcan | USSF-23",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "d055f3cc-ef83-4229-98df-73bf68e67581",
-      "name": "Vulcan | USSF-43",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "b32689fe-b156-4ccd-b824-fd555d12ba24",
-      "name": "Vulcan | USSF-57",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "649bf8ed-f2a6-4923-aaf0-6086ad0227f5",
-      "name": "Vulcan | WGS-11",
-      "provider": "United Launch Alliance",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
       "net": "2026-12-31T00:00:00Z",
       "dayPrecision": false
     },
@@ -763,15 +592,6 @@
       "provider": "Blue Origin",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2027-01-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "90232cff-15ff-4755-8a56-4ed544767665",
-      "name": "PSLV-XL | EOS-10 (Oceansat-3A)",
-      "provider": "Indian Space Research Organization",
-      "providerType": "Government",
-      "site": "Satish Dhawan Space Centre, India",
       "net": "2027-01-31T00:00:00Z",
       "dayPrecision": false
     },
