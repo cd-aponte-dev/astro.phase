@@ -1,33 +1,6 @@
 {
-  "fetchedAt": "2026-11-25T01:47:40.011Z",
+  "fetchedAt": "2026-11-25T16:34:43.689Z",
   "launches": [
-    {
-      "id": "8dd5de11-831b-445f-86f0-bffefe0550d9",
-      "name": "Soyuz 2.1b | Progress MS-36 (97P)",
-      "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-      "providerType": "Government",
-      "site": "Baikonur Cosmodrome, Republic of Kazakhstan",
-      "net": "2026-11-24T10:17:46Z",
-      "dayPrecision": true
-    },
-    {
-      "id": "7bdc412b-c965-4517-a131-f57a01189803",
-      "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
-      "provider": "Arianespace",
-      "providerType": "Commercial",
-      "site": "Guiana Space Centre, French Guiana",
-      "net": "2026-11-24T11:14:52Z",
-      "dayPrecision": true
-    },
-    {
-      "id": "460d9db7-eaf6-4cd9-b095-cff433534c09",
-      "name": "Falcon 9 Block 5 | USSF-266",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Vandenberg SFB, CA, USA",
-      "net": "2026-11-24T16:08:59Z",
-      "dayPrecision": true
-    },
     {
       "id": "c9605b67-8a53-4239-a8ae-577fe3b79799",
       "name": "Long March 2F/G | Shenzhou 24",
@@ -142,7 +115,7 @@
       "provider": "Arianespace",
       "providerType": "Commercial",
       "site": "Guiana Space Centre, French Guiana",
-      "net": "2026-12-17T00:00:00Z",
+      "net": "2026-12-18T00:36:00Z",
       "dayPrecision": true
     },
     {
