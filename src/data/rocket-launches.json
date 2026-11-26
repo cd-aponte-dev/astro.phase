@@ -1,15 +1,6 @@
 {
-  "fetchedAt": "2026-11-25T16:34:43.689Z",
+  "fetchedAt": "2026-11-26T01:23:08.300Z",
   "launches": [
-    {
-      "id": "c9605b67-8a53-4239-a8ae-577fe3b79799",
-      "name": "Long March 2F/G | Shenzhou 24",
-      "provider": "China Aerospace Science and Technology Corporation",
-      "providerType": "Government",
-      "site": "Jiuquan Satellite Launch Center, People's Republic of China",
-      "net": "2026-11-25T00:18:52Z",
-      "dayPrecision": true
-    },
     {
       "id": "b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4",
       "name": "Long March 2D | Unknown Payload",
@@ -101,6 +92,15 @@
       "dayPrecision": true
     },
     {
+      "id": "8bf5f61e-a7e1-41e6-aede-7b87e4beebab",
+      "name": "Falcon 9 Block 5 | CHORUS",
+      "provider": "SpaceX",
+      "providerType": "Commercial",
+      "site": "Cape Canaveral SFS, FL, USA",
+      "net": "2026-12-04T12:55:00Z",
+      "dayPrecision": true
+    },
+    {
       "id": "5ce59e3a-c343-430f-ae4e-e608ba536754",
       "name": "Long March 12 | SatNet LEO Group TBD?",
       "provider": "China Aerospace Science and Technology Corporation",
@@ -121,15 +121,6 @@
     {
       "id": "9b9db235-8ffb-4569-b09b-0e852ad231a0",
       "name": "Falcon 9 Block 5 | Amazon Leo (LF-04)",
-      "provider": "SpaceX",
-      "providerType": "Commercial",
-      "site": "Cape Canaveral SFS, FL, USA",
-      "net": "2026-12-31T00:00:00Z",
-      "dayPrecision": false
-    },
-    {
-      "id": "8bf5f61e-a7e1-41e6-aede-7b87e4beebab",
-      "name": "Falcon 9 Block 5 | CHORUS",
       "provider": "SpaceX",
       "providerType": "Commercial",
       "site": "Cape Canaveral SFS, FL, USA",
