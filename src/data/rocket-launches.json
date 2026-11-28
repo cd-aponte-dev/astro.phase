@@ -1,22 +1,13 @@
 {
-  "fetchedAt": "2026-11-27T15:55:03.823Z",
+  "fetchedAt": "2026-11-28T00:55:19.291Z",
   "launches": [
     {
-      "id": "2093e4fc-ac8c-4296-a1b5-deececee6a72",
-      "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
-      "provider": "Rocket Lab",
-      "providerType": "Commercial",
-      "site": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-      "net": "2026-11-27T00:15:00Z",
-      "dayPrecision": true
-    },
-    {
       "id": "a6421db3-7c8a-4cf7-a659-cec195140f7f",
-      "name": "Long March 6A | Unknown Payload",
+      "name": "Long March 6A | Yaogan 50-04",
       "provider": "China Aerospace Science and Technology Corporation",
       "providerType": "Government",
       "site": "Taiyuan Satellite Launch Center, People's Republic of China",
-      "net": "2026-11-27T13:00:00Z",
+      "net": "2026-11-27T13:05:00Z",
       "dayPrecision": true
     },
     {
